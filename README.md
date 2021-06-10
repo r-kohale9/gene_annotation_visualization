@@ -1,6 +1,6 @@
 <p align="center"><a href="#"><img width="150" src="https://rawgit.com/sysgears/apollo-universal-starter-kit/master/logo.svg"></a></p>
 
-# Apollo Universal Starter Kit
+# Apollo 
 
 [![Backers on Open Collective](https://opencollective.com/apollo-universal-starter-kit/backers/badge.svg)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/apollo-universal-starter-kit/sponsors/badge.svg)](#sponsors)
@@ -35,22 +35,28 @@ to provide great possibilities for styling for your web and mobile applications.
 
 ## Table of Contents
 
-* [Overview](#overview)
-    * [Why Use Apollo Universal Starter Kit](#why-use-apollo-universal-starter-kit)
-    * [Concept](#concept)
-    * [Architecture and Implemented Modules](#architecture-and-implemented-modules)
-* [Demo](#demo)
-* [Branches](#branches)
-* [First Run of Apollo Universal Starter Kit](#first-run-of-apollo-universal-starter-kit)
-* [Project Structure](#project-structure)
-* [Apollo Universal Starter Kit Documentation](#apollo-universal-starter-kit-documentation)
-* [Support](#support)
-    * [Community Support](#community-support)
-    * [Commercial Support](#commercial-support)
-* [Contributors](#contributors)
-* [Backers](#backers)
-* [Sponsors](#sponsors)
-* [License Info](#license)
+- [Apollo](#apollo)
+  - [Official Website](#official-website)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Why Use Apollo Universal Starter Kit](#why-use-apollo-universal-starter-kit)
+      - [I am a Developer](#i-am-a-developer)
+      - [I am a Project Manager](#i-am-a-project-manager)
+    - [Concept](#concept)
+    - [Architecture and Implemented Modules](#architecture-and-implemented-modules)
+  - [Demo](#demo)
+  - [Branches](#branches)
+  - [First Run of Apollo Universal Starter Kit](#first-run-of-apollo-universal-starter-kit)
+  - [Project Structure](#project-structure)
+  - [Apollo Universal Starter Kit Documentation](#apollo-universal-starter-kit-documentation)
+  - [Support](#support)
+    - [Community Support](#community-support)
+    - [Commercial Support](#commercial-support)
+  - [Contributors](#contributors)
+  - [Backers](#backers)
+  - [Sponsors](#sponsors)
+  - [License](#license)
 
 ## Overview
 
