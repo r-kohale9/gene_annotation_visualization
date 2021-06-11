@@ -71,6 +71,8 @@
     "error-stack-parser": "^2.0.1",
     "extract-files": "^5.0.0",
     "filesize": "^3.5.11",
+    "react-cytoscapejs":"1.2.1",
+    "cytoscape":"3.19.0",
     "formik": "^1.5.8",
     "graphql": "^14.3.1",
     "graphql-iso-date": "^3.5.0",
