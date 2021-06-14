@@ -43,7 +43,7 @@
     "__TEST__": true,
     "__CLIENT__": true,
     "__SERVER__": true,
-    "__SSR__": true,
+    "__SSR__": false,
     "__PERSIST_GQL__": true,
     "__API_URL__": true,
     "__WEBSITE_URL__": true,

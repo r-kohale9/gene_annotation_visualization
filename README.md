@@ -1,4 +1,3 @@
-<p align="center"><a href="#"><img width="150" src="https://rawgit.com/sysgears/apollo-universal-starter-kit/master/logo.svg"></a></p>
 
 # Apollo 
 <!-- 
@@ -125,8 +124,8 @@ If you don't need the ready-made modules, you can also remove them using the [cu
 yarn
 ```
 
-You can use NPM instead of Yarn to handle the starter kit dependencies and to run scripts. Throughout the Apollo
-Universal Starter Kit documentation, we'll always use Yarn.
+You can use NPM instead of Yarn to handle the project dependencies and to run scripts. Throughout the Apollo
+Universal project documentation, we'll always use Yarn.
 
 3. Seed sample data to the database. The command below will create new tables with sample data in SQLite:
 
@@ -137,7 +136,7 @@ yarn seed
 SQLite is a typical default relational database installed in most Linux distributions including Mac OS X; otherwise,
 consult [SQLite installation guide].
 
-4. Run the starter kit in development mode:
+4. Run the project in development mode:
 
 ```
 yarn watch
@@ -146,7 +145,7 @@ yarn watch
 The server application will be running on [http://localhost:3000], while the client application will be running on
 [http://localhost:8080]. The terminal will tell your the exact ports.
 
-For more information about running this starter kit for mobile development or Docker, consult the [Getting Started]
+For more information about running this project for mobile development or Docker, consult the [Getting Started]
 guide.
 
 ## Project Structure
@@ -158,36 +157,28 @@ The structure is _fractal_ meaning the available functionality is grouped primar
 But the current structure isn't prescriptive, and you can change it however you like.
 
 ```
-apollo-universal-starter-kit
+gene_annotation_visualization
 ├── config                      # Various application configurations
 ├── docs                        # Documentation
 ├── node_modules                # Global Node.js modules
 ├── modules                     # All the prebuilt project modules
 ├── packages                    # Available packages
 │   ├── client                  # React client
-│   ├── client-angular          # Angular client
-│   ├── client-vue              # Vue client
 │   ├── common                  # Common code
-│   ├── mobile                  # React Native mobile client
 │   ├── server                  # Node.js and Express server
-│   └── server-scala            # Scala server
 └── tools                       # All build and CLI-related files
 ```
 
-Inside `modules`, you'll find all the prebuilt modules that Apollo Universal Starter Kit comes with. Each module under
+Inside `modules`, you'll find all the prebuilt modules that this project comes with. Each module under
 `modules` contains sub-directories with module implementations for different technologies. For example, if you look up
 the module `modules/core`, you'll see the following sub-modules:
 
 ```
-apollo-universal-starter-kit
+gene_annotation_visualization
 ├── modules                       # Available packages
 │   ├── core                      # The core module
-│       ├── client-angular        # Core functionality for Angular app
 │       ├── client-react          # Core functionality for React app
-│       ├── client-react-native   # Core functionality for React Native app
-│       ├── client-vue            # Core functionality for Vue app
 │       ├── common                # React Native mobile client
-│       ├── server-scala          # Core functionality for Scala server
 │       └── server-ts             # Core functionality for Express server
 └── tools                         # All build and CLI-related files
 ```
