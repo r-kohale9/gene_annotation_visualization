@@ -1,7 +1,7 @@
 <p align="center"><a href="#"><img width="150" src="https://rawgit.com/sysgears/apollo-universal-starter-kit/master/logo.svg"></a></p>
 
 # Apollo 
-
+<!-- 
 [![Backers on Open Collective](https://opencollective.com/apollo-universal-starter-kit/backers/badge.svg)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/apollo-universal-starter-kit/sponsors/badge.svg)](#sponsors)
 [![Join the chat at https://gitter.im/sysgears/apollo-fullstack-starter-kit](https://badges.gitter.im/sysgears/apollo-fullstack-starter-kit.svg)](https://gitter.im/sysgears/apollo-fullstack-starter-kit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -9,7 +9,7 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Twitter Follow](https://img.shields.io/twitter/follow/sysgears.svg?style=social)](https://twitter.com/sysgears)
 
-**Use [our chat] to get help or discuss general topics about Apollo Universal Starter Kit.**
+**Use [our chat] to get help or discuss general topics about Apollo Universal Starter Kit.** -->
 
 ## Official Website
 
@@ -40,65 +40,16 @@ to provide great possibilities for styling for your web and mobile applications.
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
-    - [Why Use Apollo Universal Starter Kit](#why-use-apollo-universal-starter-kit)
-      - [I am a Developer](#i-am-a-developer)
-      - [I am a Project Manager](#i-am-a-project-manager)
-    - [Concept](#concept)
     - [Architecture and Implemented Modules](#architecture-and-implemented-modules)
-  - [Demo](#demo)
   - [Branches](#branches)
   - [First Run of Apollo Universal Starter Kit](#first-run-of-apollo-universal-starter-kit)
   - [Project Structure](#project-structure)
   - [Apollo Universal Starter Kit Documentation](#apollo-universal-starter-kit-documentation)
   - [Support](#support)
     - [Community Support](#community-support)
-    - [Commercial Support](#commercial-support)
-  - [Contributors](#contributors)
-  - [Backers](#backers)
-  - [Sponsors](#sponsors)
   - [License](#license)
 
 ## Overview
-
-### Why Use Apollo Universal Starter Kit
-
-#### I am a Developer
-
-* Great productivity thanks to live reload and (partial) hot code reload
-* Fractal modular architecture that's easy to support and extend
-* The possibility to create modules in TypeScript _and_ JavaScript at the same time
-* No need to develop [typical features](#architecture-and-implemented-modules) for your applications
-
-#### I am a Project Manager
-
-* Your application will work faster thanks to GraphQL
-* Your team will be able to reuse the code for all the platforms
-* Your team can create client, server, and mobile JavaScript applications
-* Your application will be easier to support and evolve thanks to the fractal modular architecture
-* Your application will be based on a widely-used JavaScript ecosystem (it's easy to find JS developers)
-* Your team can develop new features straightaway instead of creating the basic features
-* Your application will be integrated with Stripe, one of the top payment processors
-
-### Concept
-
-Developing client-server-mobile projects in JavaScript never was a trivial task. Not only do you have to spend time
-installing the application dependencies and configuring them, but you're also constrained to implement many basic
-functionalities over and over again. And you never have time to develop a starter codebase that you can reuse across
-all of your projects.
-
-To relieve you from the burden of configuring the project, developing the application structure, and implementing
-typical features, we created Apollo Universal Starter Kit.
-
-Apollo Universal Starter Kit provides you with a client-server-mobile application that you can employ as a foundation
-for developing new web or mobile projects using popular tools from the JavaScript ecosystem. But our starter kit does so
-much more than just creating a mix of popular JS technologies &mdash; it's powered by a few **custom** libraries and
-solutions to simplify managing project configurations, creating new modules, building GraphQL queries, and perform many
-other tasks.
-
-The starter kit also consists of many modules that you can augment and adapt to develop your specific application. Also,
-you can use those prebuilt modules as a reference when implementing basic features for your applications even if you
-create them using other technologies.
-
 ### Architecture and Implemented Modules
 
 Among all the approaches to building the application architecture, we opt for the _disposable fractal-based modular
@@ -126,20 +77,10 @@ names, see the names of directories under `modules`.
 To learn more about the features and modules available in Apollo Universal Starter Kit, follow to the dedicated section
 [Features and Modules].
 
-## Demo
-
-Here's a demo of Apollo Universal Starter Kit in action:
-
-![screencast](https://user-images.githubusercontent.com/1259926/27387579-c6799ada-56a1-11e7-93fc-d08e9970640d.gif)
-
-You can try out the latest version of Apollo Universal Starter Kit [deployed on Heroku]. If you want to see the mobile
-React Native application in action, check out [this demo on Expo.io].
-
 ## Branches
 
 | Branch       | Description                                                         |
 | ------------ | ------------------------------------------------------------------- |
-| [stable]     | The latest stable version of the kit (recommended)                  |
 | [master]     | The kit version with the latest features. May not work consistently |
 | [single]     | A single-package Apollo v2 version of the kit                       |
 | [apollo1]    | The Apollo v1 version of the kit                                    |
@@ -285,46 +226,9 @@ Modules
 
 ### Community Support
 
-* [Gitter channel] &ndash; ask questions, find answers, and participate in general discussions
-* [GitHub issues] &ndash; submit issues and send feature requests
+<!-- * [Gitter channel] &ndash; ask questions, find answers, and participate in general discussions -->
 * [Wiki] &ndash; read documentation for the usage scenarios of the starter kit; edit the documentation
 * [FAQ] &ndash; consult the Frequently Asked Questions section
-
-### Commercial Support
-
-The [SysGears] team provides comprehensive support for commercial partners. Our team can guide you when you're using
-Apollo Universal Starter Kit to build your application.
-
-You can contact us via [Skype] or email [info@sysgears.com](mailto:info@sysgears.com).
-
-## Contributors
-
-Thanks a lot to all the wonderful people who contributed to Apollo Universal Starter Kit!
-
-<a href="https://github.com/sysgears/apollo-universal-starter-kit/graphs/contributors">
-    <img src="https://opencollective.com/apollo-universal-starter-kit/contributors.svg?width=890" />
-</a>
-
-## Backers
-
-Thanks a lot to all our backers!
-
-<a href="https://opencollective.com/apollo-universal-starter-kit#backers" target="_blank"><img src="https://opencollective.com/apollo-universal-starter-kit/backers.svg?width=890"></a>
-
-## Sponsors
-
-You can support this project by becoming a sponsor! Your logo will show up here with a link to your website.
-
-<a href="https://opencollective.com/apollo-universal-starter-kit/sponsor/0/website" target="_blank"><img src="https://opencollective.com/apollo-universal-starter-kit/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/apollo-universal-starter-kit/sponsor/1/website" target="_blank"><img src="https://opencollective.com/apollo-universal-starter-kit/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/apollo-universal-starter-kit/sponsor/2/website" target="_blank"><img src="https://opencollective.com/apollo-universal-starter-kit/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/apollo-universal-starter-kit/sponsor/3/website" target="_blank"><img src="https://opencollective.com/apollo-universal-starter-kit/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/apollo-universal-starter-kit/sponsor/4/website" target="_blank"><img src="https://opencollective.com/apollo-universal-starter-kit/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/apollo-universal-starter-kit/sponsor/5/website" target="_blank"><img src="https://opencollective.com/apollo-universal-starter-kit/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/apollo-universal-starter-kit/sponsor/6/website" target="_blank"><img src="https://opencollective.com/apollo-universal-starter-kit/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/apollo-universal-starter-kit/sponsor/7/website" target="_blank"><img src="https://opencollective.com/apollo-universal-starter-kit/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/apollo-universal-starter-kit/sponsor/8/website" target="_blank"><img src="https://opencollective.com/apollo-universal-starter-kit/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/apollo-universal-starter-kit/sponsor/9/website" target="_blank"><img src="https://opencollective.com/apollo-universal-starter-kit/sponsor/9/avatar.svg"></a>
 
 ## License
 
