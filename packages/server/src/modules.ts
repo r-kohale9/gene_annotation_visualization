@@ -1,3 +1,4 @@
+import cell from '@gqlapp/cell-server-ts';
 import gene from '@gqlapp/gene-server-ts';
 import home from '@gqlapp/home-server-ts';
 import core from '@gqlapp/core-server-ts';
@@ -22,6 +23,7 @@ import ServerModule from '@gqlapp/module-server-ts';
 const user = require('@gqlapp/user-server-ts').default;
 
 const modules: ServerModule = new ServerModule(
+  cell,
   gene,
   home,
   authentication,
