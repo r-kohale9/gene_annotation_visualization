@@ -1,0 +1,200 @@
+export default [
+  {
+    gene_id: 'HGNC:5',
+    status: 'Approved',
+    gene_symbol: 'A1BG',
+    gene_name: 'alpha-1-B glycoprotein',
+    cosmic_symbol: undefined,
+    ref_seq_accession: 'NM_130786',
+    ensembl_id: 'ENSG00000121410',
+    chromosome_location: '19q13.43',
+    omim_id: '138670'
+  },
+  {
+    gene_id: 'HGNC:37133',
+    status: 'Approved',
+    gene_symbol: 'A1BG-AS1',
+    gene_name: 'A1BG antisense RNA 1',
+    cosmic_symbol: undefined,
+    ref_seq_accession: 'NR_015380',
+    ensembl_id: 'ENSG00000268895',
+    chromosome_location: '19q13.43',
+    omim_id: undefined
+  },
+  {
+    gene_id: 'HGNC:24086',
+    status: 'Approved',
+    gene_symbol: 'A1CF',
+    gene_name: 'APOBEC1 complementation factor',
+    cosmic_symbol: undefined,
+    ref_seq_accession: 'NM_014576',
+    ensembl_id: 'ENSG00000148584',
+    chromosome_location: '10q11.23',
+    omim_id: '618199'
+  },
+  {
+    gene_id: 'HGNC:7',
+    status: 'Approved',
+    gene_symbol: 'A2M',
+    gene_name: 'alpha-2-macroglobulin',
+    cosmic_symbol: undefined,
+    ref_seq_accession: 'NM_000014',
+    ensembl_id: 'ENSG00000175899',
+    chromosome_location: '12p13.31',
+    omim_id: '103950'
+  },
+  {
+    gene_id: 'HGNC:27057',
+    status: 'Approved',
+    gene_symbol: 'A2M-AS1',
+    gene_name: 'A2M antisense RNA 1',
+    cosmic_symbol: undefined,
+    ref_seq_accession: 'NR_026971',
+    ensembl_id: 'ENSG00000245105',
+    chromosome_location: '12p13.31',
+    omim_id: undefined
+  },
+  {
+    gene_id: 'HGNC:23336',
+    status: 'Approved',
+    gene_symbol: 'A2ML1',
+    gene_name: 'alpha-2-macroglobulin like 1',
+    cosmic_symbol: undefined,
+    ref_seq_accession: 'NM_144670',
+    ensembl_id: 'ENSG00000166535',
+    chromosome_location: '12p13.31',
+    omim_id: '610627'
+  },
+  {
+    gene_id: 'HGNC:41022',
+    status: 'Approved',
+    gene_symbol: 'A2ML1-AS1',
+    gene_name: 'A2ML1 antisense RNA 1',
+    cosmic_symbol: undefined,
+    ref_seq_accession: undefined,
+    ensembl_id: 'ENSG00000256661',
+    chromosome_location: '12p13.31',
+    omim_id: undefined
+  },
+  {
+    gene_id: 'HGNC:41523',
+    status: 'Approved',
+    gene_symbol: 'A2ML1-AS2',
+    gene_name: 'A2ML1 antisense RNA 2',
+    cosmic_symbol: undefined,
+    ref_seq_accession: undefined,
+    ensembl_id: 'ENSG00000256904',
+    chromosome_location: '12p13.31',
+    omim_id: undefined
+  },
+  {
+    gene_id: 'HGNC:8',
+    status: 'Approved',
+    gene_symbol: 'A2MP1',
+    gene_name: 'alpha-2-macroglobulin pseudogene 1',
+    cosmic_symbol: undefined,
+    ref_seq_accession: 'NG_001067',
+    ensembl_id: 'ENSG00000256069',
+    chromosome_location: '12p13.31',
+    omim_id: undefined
+  },
+  {
+    gene_id: 'HGNC:30005',
+    status: 'Approved',
+    gene_symbol: 'A3GALT2',
+    gene_name: '"alpha 1',
+    cosmic_symbol: '3-galactosyltransferase 2"',
+    ref_seq_accession: undefined,
+    ensembl_id: 'NM_001080438',
+    chromosome_location: 'ENSG00000184389',
+    omim_id: '1p35.1'
+  },
+  {
+    gene_id: 'HGNC:18149',
+    status: 'Approved',
+    gene_symbol: 'A4GALT',
+    gene_name: '"alpha 1',
+    cosmic_symbol: '4-galactosyltransferase (P blood group)"',
+    ref_seq_accession: undefined,
+    ensembl_id: 'NM_017436',
+    chromosome_location: 'ENSG00000128274',
+    omim_id: '22q13.2'
+  },
+  {
+    gene_id: 'HGNC:17968',
+    status: 'Approved',
+    gene_symbol: 'A4GNT',
+    gene_name: '"alpha-1',
+    cosmic_symbol: '4-N-acetylglucosaminyltransferase',
+    ref_seq_accession: undefined,
+    ensembl_id: 'NM_016161',
+    chromosome_location: 'ENSG00000118017',
+    omim_id: '3q22.3'
+  },
+  {
+    gene_id: 'HGNC:1',
+    status: 'Entry Withdrawn',
+    gene_symbol: 'A12M1',
+    gene_name: 'adenovirus-12 chromosome modification site 1C',
+    cosmic_symbol: undefined,
+    ref_seq_accession: undefined,
+    ensembl_id: undefined,
+    chromosome_location: undefined,
+    omim_id: undefined
+  },
+  {
+    gene_id: 'HGNC:2',
+    status: 'Entry Withdrawn',
+    gene_symbol: 'A12M2',
+    gene_name: 'adenovirus-12 chromosome modification site 1A',
+    cosmic_symbol: null,
+    ref_seq_accession: null,
+    ensembl_id: null,
+    chromosome_location: null,
+    omim_id: null
+  },
+  {
+    gene_id: 'HGNC:3',
+    status: 'Entry Withdrawn',
+    gene_symbol: 'A12M3',
+    gene_name: 'adenovirus-12 chromosome modification site 1B',
+    cosmic_symbol: null,
+    ref_seq_accession: null,
+    ensembl_id: null,
+    chromosome_location: null,
+    omim_id: null
+  },
+  {
+    gene_id: 'HGNC:4',
+    status: 'Entry Withdrawn',
+    gene_symbol: 'A12M4',
+    gene_name: 'adenovirus-12 chromosome modification site 17',
+    cosmic_symbol: null,
+    ref_seq_accession: null,
+    ensembl_id: null,
+    chromosome_location: null,
+    omim_id: null
+  },
+  {
+    gene_id: 'HGNC:13666',
+    status: 'Approved',
+    gene_symbol: 'AAAS',
+    gene_name: 'aladin WD repeat nucleoporin',
+    cosmic_symbol: undefined,
+    ref_seq_accession: 'NM_001173466',
+    ensembl_id: 'ENSG00000094914',
+    chromosome_location: '12q13.13',
+    omim_id: '605378'
+  },
+  {
+    gene_id: 'HGNC:12',
+    status: 'Entry Withdrawn',
+    gene_symbol: 'AABT',
+    gene_name: 'amino acid transport',
+    cosmic_symbol: undefined,
+    ref_seq_accession: undefined,
+    ensembl_id: undefined,
+    chromosome_location: undefined,
+    omim_id: undefined
+  }
+];
