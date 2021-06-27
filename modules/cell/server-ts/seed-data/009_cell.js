@@ -6,15 +6,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Proximal tubular cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'Intestinal Alkaline Phosphatase',
     gene_symbol: 'ALPI',
     gene_id: '248',
     protein_name: 'PPBI',
     protein_id: 'P09923',
     marker_resource: 'Experiment',
-    pmid: '9263997',
-    company: 'NA'
+    pmid: '9263997'
   },
   {
     species_type: 'Human',
@@ -30,8 +28,7 @@ export default [
     protein_name: 'SYPH',
     protein_id: 'P08247',
     marker_resource: 'Experiment',
-    pmid: '10595912',
-    company: 'NA'
+    pmid: '10595912'
   },
   {
     species_type: 'Human',
@@ -47,8 +44,7 @@ export default [
     protein_name: 'CEAM1',
     protein_id: 'P13688',
     marker_resource: 'Experiment',
-    pmid: '10751340',
-    company: 'NA'
+    pmid: '10751340'
   },
   {
     species_type: 'Human',
@@ -64,8 +60,7 @@ export default [
     protein_name: 'DDX4',
     protein_id: 'Q9NQI0',
     marker_resource: 'Experiment',
-    pmid: '10920202',
-    company: 'NA'
+    pmid: '10920202'
   },
   {
     species_type: 'Human',
@@ -81,8 +76,7 @@ export default [
     protein_name: 'KLF6',
     protein_id: 'Q99612',
     marker_resource: 'Experiment',
-    pmid: '12407152',
-    company: 'NA'
+    pmid: '12407152'
   },
   {
     species_type: 'Human',
@@ -98,8 +92,7 @@ export default [
     protein_name: 'FGF10',
     protein_id: 'O15520',
     marker_resource: 'Experiment',
-    pmid: '15950061',
-    company: 'NA'
+    pmid: '15950061'
   },
   {
     species_type: 'Human',
@@ -108,15 +101,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Periosteum-derived progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD166, CD45, CD9, CD90',
     gene_symbol: 'ALCAM, PTPRC, CD9, THY1',
     gene_id: '214, 5788, 928, 7070',
     protein_name: 'CD166, PTPRC, CD9, THY1',
     protein_id: 'Q13740, P08575, P21926, P04216',
     marker_resource: 'Experiment',
-    pmid: '15977065',
-    company: 'NA'
+    pmid: '15977065'
   },
   {
     species_type: 'Human',
@@ -132,8 +123,7 @@ export default [
     protein_name: 'NANOG, PO5F1',
     protein_id: 'Q9H9S0, Q01860',
     marker_resource: 'Experiment',
-    pmid: '16081662',
-    company: 'NA'
+    pmid: '16081662'
   },
   {
     species_type: 'Human',
@@ -142,15 +132,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Primitive streak cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'LHX1, MIXL1',
     gene_symbol: 'LHX1, MIXL1',
     gene_id: '3975, 83881',
     protein_name: 'LHX1, MIXL1',
     protein_id: 'P48742, Q9H2W2',
     marker_resource: 'Experiment',
-    pmid: '16258519',
-    company: 'NA'
+    pmid: '16258519'
   },
   {
     species_type: 'Human',
@@ -166,8 +154,7 @@ export default [
     protein_name: 'CD34',
     protein_id: 'P28906',
     marker_resource: 'Experiment',
-    pmid: '16322640',
-    company: 'NA'
+    pmid: '16322640'
   },
   {
     species_type: 'Human',
@@ -183,8 +170,7 @@ export default [
     protein_name: 'OX2G',
     protein_id: 'P41217',
     marker_resource: 'Experiment',
-    pmid: '16395407',
-    company: 'NA'
+    pmid: '16395407'
   },
   {
     species_type: 'Human',
@@ -193,15 +179,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Semilunar valve cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'MMP-13',
     gene_symbol: 'MMP13',
     gene_id: '4322',
     protein_name: 'MMP13',
     protein_id: 'P45452',
     marker_resource: 'Experiment',
-    pmid: '16534030',
-    company: 'NA'
+    pmid: '16534030'
   },
   {
     species_type: 'Human',
@@ -210,15 +194,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Villous stromal cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'NOV, CYR61',
     gene_symbol: 'NOV, CYR61',
     gene_id: '4856, 3491',
     protein_name: 'NOV, CYR61',
     protein_id: 'P48745, O00622',
     marker_resource: 'Experiment',
-    pmid: '16675545',
-    company: 'NA'
+    pmid: '16675545'
   },
   {
     species_type: 'Human',
@@ -234,8 +216,7 @@ export default [
     protein_name: 'ITAM, CD14, ITB2, [FCG2A, FCG2B, FCG2C], CD68',
     protein_id: 'P11215, P08571, P05107, [P12318, P31994, P31995], P34810',
     marker_resource: 'Experiment',
-    pmid: '17692868',
-    company: 'NA'
+    pmid: '17692868'
   },
   {
     species_type: 'Human',
@@ -251,8 +232,7 @@ export default [
     protein_name: 'CADH5, PECA1, CD34',
     protein_id: 'P33151, P16284, P28906',
     marker_resource: 'Experiment',
-    pmid: '17967785',
-    company: 'NA'
+    pmid: '17967785'
   },
   {
     species_type: 'Human',
@@ -268,8 +248,7 @@ export default [
     protein_name: 'RTN4',
     protein_id: 'Q9NQC3',
     marker_resource: 'Experiment',
-    pmid: '18515322',
-    company: 'NA'
+    pmid: '18515322'
   },
   {
     species_type: 'Human',
@@ -285,8 +264,7 @@ export default [
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '28017358',
-    company: 'NA'
+    pmid: '28017358'
   },
   {
     species_type: 'Human',
@@ -302,8 +280,7 @@ export default [
     protein_name: 'MUC18, COL2A1',
     protein_id: 'P43121, P02458',
     marker_resource: 'Experiment',
-    pmid: '27130221',
-    company: 'NA'
+    pmid: '27130221'
   },
   {
     species_type: 'Human',
@@ -319,8 +296,7 @@ export default [
     protein_name: 'DMP1, NA, MEPE, PHEX, SOST',
     protein_id: 'Q13316, NA, Q9NQ76, P78562, Q9BQB4',
     marker_resource: 'Experiment',
-    pmid: '27109824',
-    company: 'NA'
+    pmid: '27109824'
   },
   {
     species_type: 'Human',
@@ -336,8 +312,7 @@ export default [
     protein_name: 'NCAM1, RUNX2',
     protein_id: 'P13591, Q13950',
     marker_resource: 'Experiment',
-    pmid: '26860863',
-    company: 'NA'
+    pmid: '26860863'
   },
   {
     species_type: 'Human',
@@ -346,15 +321,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Bipolar cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'Aquaporin-0, Go-alpha, ISLET-1',
     gene_symbol: 'MIP, GNAS, ISL1',
     gene_id: '4282, 2778, 3670',
     protein_name: 'MIP, GNAS2, ISL1',
     protein_id: 'P30301, P63092, P61371',
     marker_resource: 'Experiment',
-    pmid: '26769220',
-    company: 'NA'
+    pmid: '26769220'
   },
   {
     species_type: 'Human',
@@ -370,8 +343,7 @@ export default [
     protein_name: 'GLNA',
     protein_id: 'P15104',
     marker_resource: 'Experiment',
-    pmid: '26769220',
-    company: 'NA'
+    pmid: '26769220'
   },
   {
     species_type: 'Human',
@@ -387,8 +359,7 @@ export default [
     protein_name: 'ITAM, [FCG3A, FCG3B], CD19, CD2, [CD3D, CD3E, CD3G], NCAM1, KLRD1, NKG2A',
     protein_id: 'P11215, [P08637, O75015], P15391, P06729, [P04234, P07766, P09693], P13591, Q13241, P26715',
     marker_resource: 'Experiment',
-    pmid: '29610856',
-    company: 'NA'
+    pmid: '29610856'
   },
   {
     species_type: 'Human',
@@ -404,8 +375,7 @@ export default [
     protein_name: 'ITAM, [FCG3A, FCG3B], CD19, CD2, [CD3D, CD3E, CD3G], NCAM1, KLRD1, NKG2A',
     protein_id: 'P11215, [P08637, O75015], P15391, P06729, [P04234, P07766, P09693], P13591, Q13241, P26715',
     marker_resource: 'Experiment',
-    pmid: '29610856',
-    company: 'NA'
+    pmid: '29610856'
   },
   {
     species_type: 'Human',
@@ -414,15 +384,13 @@ export default [
     cancer_type: 'Tongue Squamous Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'BMI1, CD44, NANOG, OCT4',
     gene_symbol: 'BMI1, CD44, NANOG, POU5F1',
     gene_id: '648, 960, 79923, 5460',
     protein_name: 'BMI1, CD44, NANOG, PO5F1',
     protein_id: 'P35226, P16070, Q9H9S0, Q01860',
     marker_resource: 'Experiment',
-    pmid: '29607565',
-    company: 'NA'
+    pmid: '29607565'
   },
   {
     species_type: 'Human',
@@ -438,30 +406,25 @@ export default [
     protein_name: 'EGLN, CD166, ITB1, CD44, ITA5, 5NTD, THY1',
     protein_id: 'P17813, Q13740, P05556, P16070, P08648, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '29604386',
-    company: 'NA'
+    pmid: '29604386'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Esophageal Adenocarcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ALDH, ALDH1, CD44',
     gene_symbol: 'ALDH family, ALDH1A1, CD44',
     gene_id: 'ALDH family, 216, 960',
     protein_name: 'ALDH family, AL1A1, CD44',
     protein_id: 'ALDH family, P00352, P16070',
     marker_resource: 'Experiment',
-    pmid: '29600369',
-    company: 'NA'
+    pmid: '29600369'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Glioblastoma',
     cell_type: 'Cancer cell',
     cell_name: 'Mesenchymal stem cell',
@@ -472,8 +435,7 @@ export default [
     protein_name: 'EGLN, CD14, PECA1, CD34, CD44, 5NTD, THY1',
     protein_id: 'P17813, P08571, P16284, P28906, P16070, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '29590646',
-    company: 'NA'
+    pmid: '29590646'
   },
   {
     species_type: 'Human',
@@ -489,8 +451,7 @@ export default [
     protein_name: 'CD14, CD19, CD20, CD27, [CD3D, CD3E, CD3G], CD38, CD79A, IgG family',
     protein_id: 'P08571, P15391, P11836, P26842, [P04234, P07766, P09693], P28907, P11912, IgG family',
     marker_resource: 'Experiment',
-    pmid: '29579044',
-    company: 'NA'
+    pmid: '29579044'
   },
   {
     species_type: 'Human',
@@ -506,8 +467,7 @@ export default [
     protein_name: 'ICAM1, SUSD2',
     protein_id: 'P05362, Q9UGT4',
     marker_resource: 'Experiment',
-    pmid: '29575998',
-    company: 'NA'
+    pmid: '29575998'
   },
   {
     species_type: 'Human',
@@ -516,15 +476,13 @@ export default [
     cancer_type: 'Hepatocellular Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'SOX9',
     gene_symbol: 'SOX9',
     gene_id: '6662',
     protein_name: 'SOX9',
     protein_id: 'P48436',
     marker_resource: 'Experiment',
-    pmid: '27457505',
-    company: 'NA'
+    pmid: '27457505'
   },
   {
     species_type: 'Human',
@@ -540,8 +498,7 @@ export default [
     protein_name: 'EGLN, NA',
     protein_id: 'P17813, NA',
     marker_resource: 'Experiment',
-    pmid: '28781092',
-    company: 'NA'
+    pmid: '28781092'
   },
   {
     species_type: 'Human',
@@ -557,8 +514,7 @@ export default [
     protein_name: 'NCAM1',
     protein_id: 'P13591',
     marker_resource: 'Experiment',
-    pmid: '29090365',
-    company: 'NA'
+    pmid: '29090365'
   },
   {
     species_type: 'Human',
@@ -574,8 +530,7 @@ export default [
     protein_name: 'EGLN, ITB1, CD44, 5NTD',
     protein_id: 'P17813, P05556, P16070, P21589',
     marker_resource: 'Experiment',
-    pmid: '24837475',
-    company: 'NA'
+    pmid: '24837475'
   },
   {
     species_type: 'Human',
@@ -584,15 +539,13 @@ export default [
     cancer_type: 'Liver Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'KIAA1114',
     gene_symbol: 'TRO',
     gene_id: '7216',
     protein_name: 'TROP',
     protein_id: 'Q12816',
     marker_resource: 'Experiment',
-    pmid: '24713374',
-    company: 'NA'
+    pmid: '24713374'
   },
   {
     species_type: 'Human',
@@ -608,8 +561,7 @@ export default [
     protein_name: 'CD19, CD27, CD38, PTPRC, IgD family, ZAP70',
     protein_id: 'P15391, P26842, P28907, P08575, IgD family, P43403',
     marker_resource: 'Experiment',
-    pmid: '25187226',
-    company: 'NA'
+    pmid: '25187226'
   },
   {
     species_type: 'Human',
@@ -625,8 +577,7 @@ export default [
     protein_name: 'MUC18, THY1, KLF4, NANOG, NEST, PO5F1, PGFRB, SOX2',
     protein_id: 'P43121, P04216, O43474, Q9H9S0, P48681, Q01860, P09619, P48431',
     marker_resource: 'Experiment',
-    pmid: '29214313',
-    company: 'NA'
+    pmid: '29214313'
   },
   {
     species_type: 'Human',
@@ -635,37 +586,31 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Preadipocyte progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD34, PDGFR-alpha',
     gene_symbol: 'CD34, PDGFRA',
     gene_id: '947, 5156',
     protein_name: 'CD34, PGFRA',
     protein_id: 'P28906, P16234',
     marker_resource: 'Experiment',
-    pmid: '28715395',
-    company: 'NA'
+    pmid: '28715395'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Osteosarcoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD271',
     gene_symbol: 'NGFR',
     gene_id: '4804',
     protein_name: 'TNR16',
     protein_id: 'P08138',
     marker_resource: 'Experiment',
-    pmid: '24893164',
-    company: 'NA'
+    pmid: '24893164'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Regulatory T (Treg) cell',
@@ -676,8 +621,7 @@ export default [
     protein_name: 'ITA2, LAG3',
     protein_id: 'P17301, P18627',
     marker_resource: 'Experiment',
-    pmid: '28929191',
-    company: 'NA'
+    pmid: '28929191'
   },
   {
     species_type: 'Human',
@@ -686,15 +630,13 @@ export default [
     cancer_type: 'Gastric Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD49f',
     gene_symbol: 'ITGA6',
     gene_id: '3655',
     protein_name: 'ITA6',
     protein_id: 'P23229',
     marker_resource: 'Experiment',
-    pmid: '24015244',
-    company: 'NA'
+    pmid: '24015244'
   },
   {
     species_type: 'Human',
@@ -710,8 +652,7 @@ export default [
     protein_name: 'CAH12, CD24, FOXF1, K1C19, PAX1, PTN',
     protein_id: 'O43570, P25063, Q12946, P08727, P15863, P21246',
     marker_resource: 'Experiment',
-    pmid: '24972717',
-    company: 'NA'
+    pmid: '24972717'
   },
   {
     species_type: 'Human',
@@ -720,15 +661,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Urine-derived stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD105, CD146, CD34, CD45, CD73, CD90, OCT3/4, STRO-1',
     gene_symbol: 'ENG, MCAM, CD34, PTPRC, NT5E, THY1, POU5F1, NA',
     gene_id: '2022, 4162, 947, 5788, 4907, 7070, 5460, NA',
     protein_name: 'EGLN, MUC18, CD34, PTPRC, 5NTD, THY1, PO5F1, NA',
     protein_id: 'P17813, P43121, P28906, P08575, P21589, P04216, Q01860, NA',
     marker_resource: 'Experiment',
-    pmid: '28409292',
-    company: 'NA'
+    pmid: '28409292'
   },
   {
     species_type: 'Human',
@@ -744,13 +683,11 @@ export default [
     protein_name: 'COBA1',
     protein_id: 'P12107',
     marker_resource: 'Experiment',
-    pmid: '24194920',
-    company: 'NA'
+    pmid: '24194920'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Serous Ovarian Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Fibroblast',
@@ -761,13 +698,11 @@ export default [
     protein_name: 'THY1',
     protein_id: 'P04216',
     marker_resource: 'Experiment',
-    pmid: '25170899',
-    company: 'NA'
+    pmid: '25170899'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Renal Clear Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Immune cell',
@@ -783,13 +718,11 @@ export default [
     protein_id:
       'P20701, P11215, O15389, Q9P1W8, P05107, P51681, P06729, Q9HBG7, P10747, [P04234, P07766, P09693], Q6GTX8, Q9NQ25, [P12318, P31994, P31995], Q96DU3, P01730, P16150, P08575, NA, P08575, P09326, P06127, P32942, P31358, P19397, P30203, P30203, Q07108, P09564, O75022, P42081, P40200, P51685, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25170899',
-    company: 'NA'
+    pmid: '25170899'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Renal Clear Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Endothelial cell',
@@ -803,13 +736,11 @@ export default [
     protein_id:
       'P26951, P33151, Q9UNN8, Q02763, P06213, P41732, Q02223, P36894, P35968, P21802, CEA family, P40198, P21589, Q9NPC4, NA',
     marker_resource: 'Experiment',
-    pmid: '25170899',
-    company: 'NA'
+    pmid: '25170899'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Renal Clear Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Fibroblast',
@@ -820,13 +751,11 @@ export default [
     protein_name: 'NECT1, PGFRB, ADA17, TNR16',
     protein_id: 'Q15223, P09619, P78536, P08138',
     marker_resource: 'Experiment',
-    pmid: '25170899',
-    company: 'NA'
+    pmid: '25170899'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Endothelial cell',
@@ -837,13 +766,11 @@ export default [
     protein_name: 'CD209',
     protein_id: 'Q9NNX6',
     marker_resource: 'Experiment',
-    pmid: '25170899',
-    company: 'NA'
+    pmid: '25170899'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'T cell',
@@ -854,13 +781,11 @@ export default [
     protein_name: 'SLAF1',
     protein_id: 'Q13291',
     marker_resource: 'Experiment',
-    pmid: '25170899',
-    company: 'NA'
+    pmid: '25170899'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'B cell',
@@ -871,13 +796,11 @@ export default [
     protein_name: 'SLAF1',
     protein_id: 'Q13291',
     marker_resource: 'Experiment',
-    pmid: '25170899',
-    company: 'NA'
+    pmid: '25170899'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Thymocyte',
@@ -888,13 +811,11 @@ export default [
     protein_name: 'SLAF1',
     protein_id: 'Q13291',
     marker_resource: 'Experiment',
-    pmid: '25170899',
-    company: 'NA'
+    pmid: '25170899'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Dendritic cell',
@@ -905,13 +826,11 @@ export default [
     protein_name: 'SLAF1',
     protein_id: 'Q13291',
     marker_resource: 'Experiment',
-    pmid: '25170899',
-    company: 'NA'
+    pmid: '25170899'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Neutrophil',
@@ -922,13 +841,11 @@ export default [
     protein_name: 'FCG3B',
     protein_id: 'O75015',
     marker_resource: 'Experiment',
-    pmid: '25170899',
-    company: 'NA'
+    pmid: '25170899'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'B cell',
@@ -939,13 +856,11 @@ export default [
     protein_name: 'CD20',
     protein_id: 'P11836',
     marker_resource: 'Experiment',
-    pmid: '25170899',
-    company: 'NA'
+    pmid: '25170899'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Lymphocyte',
@@ -956,8 +871,7 @@ export default [
     protein_name: 'CCR7',
     protein_id: 'P32248',
     marker_resource: 'Experiment',
-    pmid: '25170899',
-    company: 'NA'
+    pmid: '25170899'
   },
   {
     species_type: 'Human',
@@ -966,15 +880,13 @@ export default [
     cancer_type: 'Glioblastoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133',
     gene_symbol: 'PROM1',
     gene_id: '8842',
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '29492900',
-    company: 'NA'
+    pmid: '29492900'
   },
   {
     species_type: 'Human',
@@ -990,8 +902,7 @@ export default [
     protein_name: 'CD34, PTPRC, VGFR2',
     protein_id: 'P28906, P08575, P35968',
     marker_resource: 'Experiment',
-    pmid: '27561827',
-    company: 'NA'
+    pmid: '27561827'
   },
   {
     species_type: 'Human',
@@ -1007,8 +918,7 @@ export default [
     protein_name: 'PROM1, CADH5, CD34, PTPRC',
     protein_id: 'O43490, P33151, P28906, P08575',
     marker_resource: 'Experiment',
-    pmid: '27561827',
-    company: 'NA'
+    pmid: '27561827'
   },
   {
     species_type: 'Human',
@@ -1024,8 +934,7 @@ export default [
     protein_name: 'SBSN',
     protein_id: 'Q6UWP8',
     marker_resource: 'Experiment',
-    pmid: '25283635',
-    company: 'NA'
+    pmid: '25283635'
   },
   {
     species_type: 'Human',
@@ -1041,8 +950,7 @@ export default [
     protein_name: 'SBSN',
     protein_id: 'Q6UWP8',
     marker_resource: 'Experiment',
-    pmid: '25283635',
-    company: 'NA'
+    pmid: '25283635'
   },
   {
     species_type: 'Human',
@@ -1058,8 +966,7 @@ export default [
     protein_name: 'MAGA4',
     protein_id: 'P43358',
     marker_resource: 'Experiment',
-    pmid: '29393262',
-    company: 'NA'
+    pmid: '29393262'
   },
   {
     species_type: 'Human',
@@ -1075,8 +982,7 @@ export default [
     protein_name: 'PO5F1',
     protein_id: 'Q01860',
     marker_resource: 'Experiment',
-    pmid: '29393262',
-    company: 'NA'
+    pmid: '29393262'
   },
   {
     species_type: 'Human',
@@ -1092,8 +998,7 @@ export default [
     protein_name: 'PECA1, CD34, CD44, PTPRC, 5NTD, THY1, EGLN',
     protein_id: 'P16284, P28906, P16070, P08575, P21589, P04216, P17813',
     marker_resource: 'Experiment',
-    pmid: '24978442',
-    company: 'NA'
+    pmid: '24978442'
   },
   {
     species_type: 'Human',
@@ -1104,13 +1009,8 @@ export default [
     cell_name: 'Gonocyte',
     cell_ontology_id: 'CL_0000670',
     cell_marker: 'SSEA-4',
-    gene_symbol: 'NA',
-    gene_id: 'NA',
-    protein_name: 'NA',
-    protein_id: 'NA',
     marker_resource: 'Experiment',
-    pmid: '25030892',
-    company: 'NA'
+    pmid: '25030892'
   },
   {
     species_type: 'Human',
@@ -1121,13 +1021,8 @@ export default [
     cell_name: 'Spermatogonial stem cell',
     cell_ontology_id: 'CL_0000089',
     cell_marker: 'SSEA-4',
-    gene_symbol: 'NA',
-    gene_id: 'NA',
-    protein_name: 'NA',
-    protein_id: 'NA',
     marker_resource: 'Experiment',
-    pmid: '25030892',
-    company: 'NA'
+    pmid: '25030892'
   },
   {
     species_type: 'Human',
@@ -1138,13 +1033,8 @@ export default [
     cell_name: 'Sertoli cell',
     cell_ontology_id: 'CL_0000216',
     cell_marker: 'SSEA-4',
-    gene_symbol: 'NA',
-    gene_id: 'NA',
-    protein_name: 'NA',
-    protein_id: 'NA',
     marker_resource: 'Experiment',
-    pmid: '25030892',
-    company: 'NA'
+    pmid: '25030892'
   },
   {
     species_type: 'Human',
@@ -1160,8 +1050,7 @@ export default [
     protein_name: 'THY1',
     protein_id: 'P04216',
     marker_resource: 'Experiment',
-    pmid: '25030892',
-    company: 'NA'
+    pmid: '25030892'
   },
   {
     species_type: 'Human',
@@ -1177,8 +1066,7 @@ export default [
     protein_name: 'KIT',
     protein_id: 'P10721',
     marker_resource: 'Experiment',
-    pmid: '25030892',
-    company: 'NA'
+    pmid: '25030892'
   },
   {
     species_type: 'Human',
@@ -1198,8 +1086,7 @@ export default [
     protein_id:
       'P61769, P17813, P15144, P35613, P48509, Q5ZPR3, P05556, P16070, Q08722, P13987, P21589, P60033, P04216, P08195, HLA-ABC family, P08670',
     marker_resource: 'Experiment',
-    pmid: '29338788',
-    company: 'NA'
+    pmid: '29338788'
   },
   {
     species_type: 'Human',
@@ -1215,8 +1102,7 @@ export default [
     protein_name: 'KIT',
     protein_id: 'P10721',
     marker_resource: 'Experiment',
-    pmid: '23978330',
-    company: 'NA'
+    pmid: '23978330'
   },
   {
     species_type: 'Human',
@@ -1232,8 +1118,7 @@ export default [
     protein_name: 'ITAM, CD33, ENTP1',
     protein_id: 'P11215, P20138, P49961',
     marker_resource: 'Experiment',
-    pmid: '29108995',
-    company: 'NA'
+    pmid: '29108995'
   },
   {
     species_type: 'Human',
@@ -1254,8 +1139,7 @@ export default [
     protein_id:
       'P11215, P20702, P08571, P15813, P06213, Q15762, P25063, Q9BZW8, Q9Y286, P20138, P49961, P07359, P15529, P56199, P13612, P08648, P23229, P31358, P19397, P05362, P13591, P14151, P16109, P13688, P40199, P06731, Q07108, P02786, P60033, Q9UIB8, Q8N423, Q8N149, Q8NHL6, Q8NHJ6',
     marker_resource: 'Experiment',
-    pmid: '29108995',
-    company: 'NA'
+    pmid: '29108995'
   },
   {
     species_type: 'Human',
@@ -1264,20 +1148,17 @@ export default [
     cancer_type: 'Glioblastoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CADM1, CLCC1, HMOX1, SCAMP3, SLC16A1',
     gene_symbol: 'CADM1, CLCC1, HMOX1, SCAMP3, SLC16A1',
     gene_id: '23705, 23155, 3162, 10067, 6566',
     protein_name: 'CADM1, CLCC1, HMOX1, SCAM3, MOT1',
     protein_id: 'Q9BY67, Q96S66, P09601, O14828, P53985',
     marker_resource: 'Experiment',
-    pmid: '27354342',
-    company: 'NA'
+    pmid: '27354342'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Mesenchymal stem cell',
@@ -1288,8 +1169,7 @@ export default [
     protein_name: 'ITB1, 5NTD, THY1, EGLN',
     protein_id: 'P05556, P21589, P04216, P17813',
     marker_resource: 'Experiment',
-    pmid: '28096632',
-    company: 'NA'
+    pmid: '28096632'
   },
   {
     species_type: 'Human',
@@ -1298,15 +1178,13 @@ export default [
     cancer_type: 'Breast Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ALDH1',
     gene_symbol: 'ALDH1A1',
     gene_id: '216',
     protein_name: 'AL1A1',
     protein_id: 'P00352',
     marker_resource: 'Experiment',
-    pmid: '24461456',
-    company: 'NA'
+    pmid: '24461456'
   },
   {
     species_type: 'Human',
@@ -1322,8 +1200,7 @@ export default [
     protein_name: 'CCR6',
     protein_id: 'P51684',
     marker_resource: 'Experiment',
-    pmid: '27835617',
-    company: 'NA'
+    pmid: '27835617'
   },
   {
     species_type: 'Human',
@@ -1339,8 +1216,7 @@ export default [
     protein_name: 'CCR6',
     protein_id: 'P51684',
     marker_resource: 'Experiment',
-    pmid: '27835617',
-    company: 'NA'
+    pmid: '27835617'
   },
   {
     species_type: 'Human',
@@ -1356,8 +1232,7 @@ export default [
     protein_name: 'CBPM',
     protein_id: 'P14384',
     marker_resource: 'Experiment',
-    pmid: '25241738',
-    company: 'NA'
+    pmid: '25241738'
   },
   {
     species_type: 'Human',
@@ -1366,15 +1241,13 @@ export default [
     cancer_type: 'Breast Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD24, CD44',
     gene_symbol: 'CD24, CD44',
     gene_id: '100133941, 960',
     protein_name: 'CD24, CD44',
     protein_id: 'P25063, P16070',
     marker_resource: 'Experiment',
-    pmid: '24099815',
-    company: 'NA'
+    pmid: '24099815'
   },
   {
     species_type: 'Human',
@@ -1390,8 +1263,7 @@ export default [
     protein_name: 'TNR5, CD80, CD86, MHC class II',
     protein_id: 'P25942, P33681, P42081, MHC class II',
     marker_resource: 'Experiment',
-    pmid: '27809931',
-    company: 'NA'
+    pmid: '27809931'
   },
   {
     species_type: 'Human',
@@ -1400,15 +1272,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Endoderm progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133, CD31, CD34',
     gene_symbol: 'PROM1, PECAM1, CD34',
     gene_id: '8842, 5175, 947',
     protein_name: 'PROM1, PECA1, CD34',
     protein_id: 'O43490, P16284, P28906',
     marker_resource: 'Experiment',
-    pmid: '24094492',
-    company: 'NA'
+    pmid: '24094492'
   },
   {
     species_type: 'Human',
@@ -1424,8 +1294,7 @@ export default [
     protein_name: 'KLRD1',
     protein_id: 'Q13241',
     marker_resource: 'Experiment',
-    pmid: '29123958',
-    company: 'NA'
+    pmid: '29123958'
   },
   {
     species_type: 'Human',
@@ -1434,7 +1303,6 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Circulating fetal cell',
-    cell_ontology_id: 'NA',
     cell_marker:
       'ACTB, ATF4, CD33, CD68, CD9, CDC42_1, CLDN6, COL1A2, CRABP1, CRIP1, CRYL1, CTNNB1, DLX5, EN1, F11R, FIGD, FOXA2, GATA5, HAMP, HMGA1, IL7R, JUN, JUNB, KCNQ4, MCAM, MMP9, NCAM1, OLIG2, PBLD, PDGFC, PF4, PUM2, SELE, SELPLG, SMAD3, SMC3, SOX13, TCF3, TNC',
     gene_symbol:
@@ -1446,8 +1314,7 @@ export default [
     protein_id:
       'P60709, P18848, P20138, P34810, P21926, P60953, P56747, P08123, P29762, P50238, Q9Y2S2, P56178, Q05925, Q9Y624, Q9Y261, NA, Q9BWX5, P81172, P17096, P16871, P05412, P17275, P56696, P43121, P14780, P13591, Q13516, P30039, Q9NRA1, P02776, Q8TB72, P16581, Q14242, P84022, Q9UQE7, Q9UN79, P15923, P24821, P24821',
     marker_resource: 'Experiment',
-    pmid: '24217417',
-    company: 'NA'
+    pmid: '24217417'
   },
   {
     species_type: 'Human',
@@ -1456,15 +1323,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Neural progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD271, GFAPdelta',
     gene_symbol: 'NGFR, GFAP',
     gene_id: '4804, 2670',
     protein_name: 'TNR16, GFAP',
     protein_id: 'P08138, P14136',
     marker_resource: 'Experiment',
-    pmid: '24604282',
-    company: 'NA'
+    pmid: '24604282'
   },
   {
     species_type: 'Human',
@@ -1473,32 +1338,27 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Astroglial progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'PBXIP1',
     gene_symbol: 'PBXIP1',
     gene_id: '57326',
     protein_name: 'PBIP1',
     protein_id: 'Q96AQ6',
     marker_resource: 'Experiment',
-    pmid: '24470547',
-    company: 'NA'
+    pmid: '24470547'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Colorectal Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'FLT1',
     gene_symbol: 'FLT1',
     gene_id: '2321',
     protein_name: 'VGFR1',
     protein_id: 'P17948',
     marker_resource: 'Experiment',
-    pmid: '29100318',
-    company: 'NA'
+    pmid: '29100318'
   },
   {
     species_type: 'Human',
@@ -1514,47 +1374,39 @@ export default [
     protein_name: 'PECA1, VWF',
     protein_id: 'P16284, P04275',
     marker_resource: 'Experiment',
-    pmid: '28135608',
-    company: 'NA'
+    pmid: '28135608'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Leukemia',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD34, CD38',
     gene_symbol: 'CD34, CD38',
     gene_id: '947, 952',
     protein_name: 'CD34, CD38',
     protein_id: 'P28906, P28907',
     marker_resource: 'Experiment',
-    pmid: '24689055',
-    company: 'NA'
+    pmid: '24689055'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Pancreatic Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133, CD24, CD44',
     gene_symbol: 'PROM1, CD24, CD44',
     gene_id: '8842, 100133941, 960',
     protein_name: 'PROM1, CD24, CD44',
     protein_id: 'O43490, P25063, P16070',
     marker_resource: 'Experiment',
-    pmid: '24689055',
-    company: 'NA'
+    pmid: '24689055'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Endothelial cell',
@@ -1565,8 +1417,7 @@ export default [
     protein_name: 'PECA1',
     protein_id: 'P16284',
     marker_resource: 'Experiment',
-    pmid: '25001945',
-    company: 'NA'
+    pmid: '25001945'
   },
   {
     species_type: 'Human',
@@ -1582,13 +1433,11 @@ export default [
     protein_name: 'ITA1, CXCR6',
     protein_id: 'P56199, O00574',
     marker_resource: 'Experiment',
-    pmid: '28952190',
-    company: 'NA'
+    pmid: '28952190'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Prostate Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Paneth cell',
@@ -1599,25 +1448,21 @@ export default [
     protein_name: 'AMACR',
     protein_id: 'Q9UHK6',
     marker_resource: 'Experiment',
-    pmid: '25031776',
-    company: 'NA'
+    pmid: '25031776'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Glioblastoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133',
     gene_symbol: 'PROM1',
     gene_id: '8842',
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '29392691',
-    company: 'NA'
+    pmid: '29392691'
   },
   {
     species_type: 'Human',
@@ -1633,8 +1478,7 @@ export default [
     protein_name: 'EPCAM, FZD4, K2C8, WNT4',
     protein_id: 'P16422, Q9ULV1, P05787, P56705',
     marker_resource: 'Experiment',
-    pmid: '24768153',
-    company: 'NA'
+    pmid: '24768153'
   },
   {
     species_type: 'Human',
@@ -1650,8 +1494,7 @@ export default [
     protein_name: 'THY1',
     protein_id: 'P04216',
     marker_resource: 'Experiment',
-    pmid: '25244528',
-    company: 'NA'
+    pmid: '25244528'
   },
   {
     species_type: 'Human',
@@ -1667,8 +1510,7 @@ export default [
     protein_name: 'PTPRC, TFR1, DLK1, PGFRA, NA',
     protein_id: 'P08575, P02786, P80370, P16234, NA',
     marker_resource: 'Experiment',
-    pmid: '24238062',
-    company: 'NA'
+    pmid: '24238062'
   },
   {
     species_type: 'Human',
@@ -1684,8 +1526,7 @@ export default [
     protein_name: 'PTPRC, TFR1, DLK1, PGFRA, NA',
     protein_id: 'P08575, P02786, P80370, P16234, NA',
     marker_resource: 'Experiment',
-    pmid: '24238062',
-    company: 'NA'
+    pmid: '24238062'
   },
   {
     species_type: 'Human',
@@ -1701,8 +1542,7 @@ export default [
     protein_name: 'PTPRC, TFR1, DLK1, VGFR2, NA',
     protein_id: 'P08575, P02786, P80370, P35968, NA',
     marker_resource: 'Experiment',
-    pmid: '24238062',
-    company: 'NA'
+    pmid: '24238062'
   },
   {
     species_type: 'Human',
@@ -1718,8 +1558,7 @@ export default [
     protein_name: 'PTPRC',
     protein_id: 'P08575',
     marker_resource: 'Experiment',
-    pmid: '24238062',
-    company: 'NA'
+    pmid: '24238062'
   },
   {
     species_type: 'Human',
@@ -1735,8 +1574,7 @@ export default [
     protein_name: 'TFR1',
     protein_id: 'P02786',
     marker_resource: 'Experiment',
-    pmid: '24238062',
-    company: 'NA'
+    pmid: '24238062'
   },
   {
     species_type: 'Human',
@@ -1747,13 +1585,8 @@ export default [
     cell_name: 'Hematopoietic cell',
     cell_ontology_id: 'CL_0000988',
     cell_marker: 'TER119',
-    gene_symbol: 'NA',
-    gene_id: 'NA',
-    protein_name: 'NA',
-    protein_id: 'NA',
     marker_resource: 'Experiment',
-    pmid: '24238062',
-    company: 'NA'
+    pmid: '24238062'
   },
   {
     species_type: 'Human',
@@ -1762,32 +1595,27 @@ export default [
     cancer_type: 'Hepatocellular Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133',
     gene_symbol: 'PROM1',
     gene_id: '8842',
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '28034805',
-    company: 'NA'
+    pmid: '28034805'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Hepatocellular Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CXCR4',
     gene_symbol: 'CXCR4',
     gene_id: '7852',
     protein_name: 'CXCR4',
     protein_id: 'P61073',
     marker_resource: 'Experiment',
-    pmid: '28789425',
-    company: 'NA'
+    pmid: '28789425'
   },
   {
     species_type: 'Human',
@@ -1803,8 +1631,7 @@ export default [
     protein_name: 'THY1',
     protein_id: 'P04216',
     marker_resource: 'Experiment',
-    pmid: '29068101',
-    company: 'NA'
+    pmid: '29068101'
   },
   {
     species_type: 'Human',
@@ -1820,8 +1647,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], CD4',
     protein_id: '[P04234, P07766, P09693], P01730',
     marker_resource: 'Experiment',
-    pmid: '27781378',
-    company: 'NA'
+    pmid: '27781378'
   },
   {
     species_type: 'Human',
@@ -1837,8 +1663,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], CD8A',
     protein_id: '[P04234, P07766, P09693], P01732',
     marker_resource: 'Experiment',
-    pmid: '27781378',
-    company: 'NA'
+    pmid: '27781378'
   },
   {
     species_type: 'Human',
@@ -1854,8 +1679,7 @@ export default [
     protein_name: 'CD14',
     protein_id: 'P08571',
     marker_resource: 'Experiment',
-    pmid: '27781378',
-    company: 'NA'
+    pmid: '27781378'
   },
   {
     species_type: 'Human',
@@ -1871,8 +1695,7 @@ export default [
     protein_name: 'ITAX, HLA-DR family',
     protein_id: 'P20702, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '27781378',
-    company: 'NA'
+    pmid: '27781378'
   },
   {
     species_type: 'Human',
@@ -1888,8 +1711,7 @@ export default [
     protein_name: '[FCG3A, FCG3B]',
     protein_id: '[P08637, O75015]',
     marker_resource: 'Experiment',
-    pmid: '27781378',
-    company: 'NA'
+    pmid: '27781378'
   },
   {
     species_type: 'Human',
@@ -1905,8 +1727,7 @@ export default [
     protein_name: 'CD19, CD20',
     protein_id: 'P15391, P11836',
     marker_resource: 'Experiment',
-    pmid: '27781378',
-    company: 'NA'
+    pmid: '27781378'
   },
   {
     species_type: 'Human',
@@ -1915,15 +1736,13 @@ export default [
     cancer_type: 'Gastric Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD44v8-10',
     gene_symbol: 'CD44',
     gene_id: '960',
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '24618343',
-    company: 'NA'
+    pmid: '24618343'
   },
   {
     species_type: 'Human',
@@ -1939,8 +1758,7 @@ export default [
     protein_name: 'NA, NA',
     protein_id: 'NA, NA',
     marker_resource: 'Experiment',
-    pmid: '24370188',
-    company: 'NA'
+    pmid: '24370188'
   },
   {
     species_type: 'Human',
@@ -1956,8 +1774,7 @@ export default [
     protein_name: 'CD6',
     protein_id: 'P30203',
     marker_resource: 'Experiment',
-    pmid: '25088497',
-    company: 'NA'
+    pmid: '25088497'
   },
   {
     species_type: 'Human',
@@ -1973,8 +1790,7 @@ export default [
     protein_name: 'IL2RA, CD68, CD4',
     protein_id: 'P01589, P30203, P01730',
     marker_resource: 'Experiment',
-    pmid: '25088497',
-    company: 'NA'
+    pmid: '25088497'
   },
   {
     species_type: 'Human',
@@ -1983,15 +1799,13 @@ export default [
     cancer_type: 'Gastric Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133',
     gene_symbol: 'PROM1',
     gene_id: '8842',
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '24062002',
-    company: 'NA'
+    pmid: '24062002'
   },
   {
     species_type: 'Human',
@@ -2007,8 +1821,7 @@ export default [
     protein_name: 'CD83',
     protein_id: 'Q01151',
     marker_resource: 'Experiment',
-    pmid: '29112895',
-    company: 'NA'
+    pmid: '29112895'
   },
   {
     species_type: 'Human',
@@ -2017,15 +1830,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Beige adipogenic precursor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'EBF2',
     gene_symbol: 'EBF2',
     gene_id: '64641',
     protein_name: 'COE2',
     protein_id: 'Q9HAK2',
     marker_resource: 'Experiment',
-    pmid: '25197048',
-    company: 'NA'
+    pmid: '25197048'
   },
   {
     species_type: 'Human',
@@ -2034,15 +1845,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Brown adipogenic precursor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'EBF2',
     gene_symbol: 'EBF2',
     gene_id: '64641',
     protein_name: 'COE2',
     protein_id: 'Q9HAK2',
     marker_resource: 'Experiment',
-    pmid: '25197048',
-    company: 'NA'
+    pmid: '25197048'
   },
   {
     species_type: 'Human',
@@ -2058,8 +1867,7 @@ export default [
     protein_name: 'CD14',
     protein_id: 'P08571',
     marker_resource: 'Experiment',
-    pmid: '27720831',
-    company: 'NA'
+    pmid: '27720831'
   },
   {
     species_type: 'Human',
@@ -2075,8 +1883,7 @@ export default [
     protein_name: 'GP1BA',
     protein_id: 'P07359',
     marker_resource: 'Experiment',
-    pmid: '27720831',
-    company: 'NA'
+    pmid: '27720831'
   },
   {
     species_type: 'Human',
@@ -2092,8 +1899,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], CD8A',
     protein_id: '[P04234, P07766, P09693], P01732',
     marker_resource: 'Experiment',
-    pmid: '29117436',
-    company: 'NA'
+    pmid: '29117436'
   },
   {
     species_type: 'Human',
@@ -2109,8 +1915,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], NCAM1',
     protein_id: '[P04234, P07766, P09693], P13591',
     marker_resource: 'Experiment',
-    pmid: '29117436',
-    company: 'NA'
+    pmid: '29117436'
   },
   {
     species_type: 'Human',
@@ -2126,8 +1931,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], CD4',
     protein_id: '[P04234, P07766, P09693], P01730',
     marker_resource: 'Experiment',
-    pmid: '29117436',
-    company: 'NA'
+    pmid: '29117436'
   },
   {
     species_type: 'Human',
@@ -2143,8 +1947,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G]',
     protein_id: '[P04234, P07766, P09693]',
     marker_resource: 'Experiment',
-    pmid: '29117436',
-    company: 'NA'
+    pmid: '29117436'
   },
   {
     species_type: 'Human',
@@ -2160,8 +1963,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], PTPRC',
     protein_id: '[P04234, P07766, P09693], P08575',
     marker_resource: 'Experiment',
-    pmid: '29117436',
-    company: 'NA'
+    pmid: '29117436'
   },
   {
     species_type: 'Human',
@@ -2177,8 +1979,7 @@ export default [
     protein_name: 'CD19',
     protein_id: 'P15391',
     marker_resource: 'Experiment',
-    pmid: '29117436',
-    company: 'NA'
+    pmid: '29117436'
   },
   {
     species_type: 'Human',
@@ -2194,8 +1995,7 @@ export default [
     protein_name: 'CD14, [FCG3A, FCG3B]',
     protein_id: 'P08571, [P08637, O75015]',
     marker_resource: 'Experiment',
-    pmid: '29117436',
-    company: 'NA'
+    pmid: '29117436'
   },
   {
     species_type: 'Human',
@@ -2211,8 +2011,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], CD4',
     protein_id: '[P04234, P07766, P09693], P01730',
     marker_resource: 'Experiment',
-    pmid: '28777444',
-    company: 'NA'
+    pmid: '28777444'
   },
   {
     species_type: 'Human',
@@ -2228,8 +2027,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], PTPRC',
     protein_id: '[P04234, P07766, P09693], P08575',
     marker_resource: 'Experiment',
-    pmid: '28777444',
-    company: 'NA'
+    pmid: '28777444'
   },
   {
     species_type: 'Human',
@@ -2245,8 +2043,7 @@ export default [
     protein_name: 'IL2RA, [CD3D, CD3E, CD3G], CD4, FOXP3',
     protein_id: 'P01589, [P04234, P07766, P09693], P01730, Q9BZS1',
     marker_resource: 'Experiment',
-    pmid: '28777444',
-    company: 'NA'
+    pmid: '28777444'
   },
   {
     species_type: 'Human',
@@ -2262,8 +2059,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], CD4, IFNG',
     protein_id: '[P04234, P07766, P09693], P01730, P01579',
     marker_resource: 'Experiment',
-    pmid: '28777444',
-    company: 'NA'
+    pmid: '28777444'
   },
   {
     species_type: 'Human',
@@ -2279,8 +2075,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], CD4, IL4',
     protein_id: '[P04234, P07766, P09693], P01730, P05112',
     marker_resource: 'Experiment',
-    pmid: '28777444',
-    company: 'NA'
+    pmid: '28777444'
   },
   {
     species_type: 'Human',
@@ -2296,8 +2091,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], CD4, I17RA',
     protein_id: '[P04234, P07766, P09693], P01730, Q96F46',
     marker_resource: 'Experiment',
-    pmid: '28777444',
-    company: 'NA'
+    pmid: '28777444'
   },
   {
     species_type: 'Human',
@@ -2313,8 +2107,7 @@ export default [
     protein_name: 'PROM1, PECA1, CD34, PTPRC',
     protein_id: 'O43490, P16284, P28906, P08575',
     marker_resource: 'Experiment',
-    pmid: '29391882',
-    company: 'NA'
+    pmid: '29391882'
   },
   {
     species_type: 'Human',
@@ -2330,13 +2123,11 @@ export default [
     protein_name: 'PROM1, PECA1, CD34, PTPRC',
     protein_id: 'O43490, P16284, P28906, P08575',
     marker_resource: 'Experiment',
-    pmid: '29391882',
-    company: 'NA'
+    pmid: '29391882'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Mesenchymal stromal cell',
@@ -2347,25 +2138,21 @@ export default [
     protein_name: 'EGLN, CD34, PTPRC, 5NTD, THY1',
     protein_id: 'P17813, P28906, P08575, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '27989346',
-    company: 'NA'
+    pmid: '27989346'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Colorectal Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD44, EpCAM',
     gene_symbol: 'CD44, EPCAM',
     gene_id: '960, 4072',
     protein_name: 'CD44, EPCAM',
     protein_id: 'P16070, P16422',
     marker_resource: 'Experiment',
-    pmid: '24765173',
-    company: 'NA'
+    pmid: '24765173'
   },
   {
     species_type: 'Human',
@@ -2374,15 +2161,13 @@ export default [
     cancer_type: 'Lung Adenocarcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133',
     gene_symbol: 'PROM1',
     gene_id: '8842',
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '24502949',
-    company: 'NA'
+    pmid: '24502949'
   },
   {
     species_type: 'Human',
@@ -2398,8 +2183,7 @@ export default [
     protein_name: 'CD14',
     protein_id: 'P08571',
     marker_resource: 'Experiment',
-    pmid: '29105205',
-    company: 'NA'
+    pmid: '29105205'
   },
   {
     species_type: 'Human',
@@ -2415,8 +2199,7 @@ export default [
     protein_name: 'NRP1',
     protein_id: 'O14786',
     marker_resource: 'Experiment',
-    pmid: '29105205',
-    company: 'NA'
+    pmid: '29105205'
   },
   {
     species_type: 'Human',
@@ -2432,8 +2215,7 @@ export default [
     protein_name: 'GP1BA',
     protein_id: 'P07359',
     marker_resource: 'Experiment',
-    pmid: '29105205',
-    company: 'NA'
+    pmid: '29105205'
   },
   {
     species_type: 'Human',
@@ -2449,8 +2231,7 @@ export default [
     protein_name: 'CD14',
     protein_id: 'P08571',
     marker_resource: 'Experiment',
-    pmid: '29105205',
-    company: 'NA'
+    pmid: '29105205'
   },
   {
     species_type: 'Human',
@@ -2466,8 +2247,7 @@ export default [
     protein_name: 'NRP1',
     protein_id: 'O14786',
     marker_resource: 'Experiment',
-    pmid: '29105205',
-    company: 'NA'
+    pmid: '29105205'
   },
   {
     species_type: 'Human',
@@ -2483,25 +2263,21 @@ export default [
     protein_name: 'GP1BA',
     protein_id: 'P07359',
     marker_resource: 'Experiment',
-    pmid: '29105205',
-    company: 'NA'
+    pmid: '29105205'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Cervical Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'PIWIL1',
     gene_symbol: 'PIWIL1',
     gene_id: '9271',
     protein_name: 'PIWL1',
     protein_id: 'Q96J94',
     marker_resource: 'Experiment',
-    pmid: '25119492',
-    company: 'NA'
+    pmid: '25119492'
   },
   {
     species_type: 'Human',
@@ -2517,13 +2293,11 @@ export default [
     protein_name: 'PECA1, CD34, PDPN, PROX1, VGFR3',
     protein_id: 'P16284, P28906, Q86YL7, Q92786, P35916',
     marker_resource: 'Experiment',
-    pmid: '27172947',
-    company: 'NA'
+    pmid: '27172947'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Fibroblast',
@@ -2534,8 +2308,7 @@ export default [
     protein_name: 'EGLN, ITAM, CD19, CD34, CD44, PTPRC, 5NTD, THY1, HLA-DR family',
     protein_id: 'P17813, P11215, P15391, P28906, P16070, P08575, P21589, P04216, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25112013',
-    company: 'NA'
+    pmid: '25112013'
   },
   {
     species_type: 'Human',
@@ -2551,8 +2324,7 @@ export default [
     protein_name: 'ITA2B',
     protein_id: 'P08514',
     marker_resource: 'Experiment',
-    pmid: '25251668',
-    company: 'NA'
+    pmid: '25251668'
   },
   {
     species_type: 'Human',
@@ -2568,8 +2340,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G]',
     protein_id: '[P04234, P07766, P09693]',
     marker_resource: 'Experiment',
-    pmid: '23981607',
-    company: 'NA'
+    pmid: '23981607'
   },
   {
     species_type: 'Human',
@@ -2585,8 +2356,7 @@ export default [
     protein_name: 'PROM1, CD34, PTPRC',
     protein_id: 'O43490, P28906, P08575',
     marker_resource: 'Experiment',
-    pmid: '24641802',
-    company: 'NA'
+    pmid: '24641802'
   },
   {
     species_type: 'Human',
@@ -2602,8 +2372,7 @@ export default [
     protein_name: 'CD99',
     protein_id: 'P14209',
     marker_resource: 'Experiment',
-    pmid: '27687889',
-    company: 'NA'
+    pmid: '27687889'
   },
   {
     species_type: 'Human',
@@ -2619,8 +2388,7 @@ export default [
     protein_name: 'EGLN, CD34, PTPRC, THY1, HLA-DR family',
     protein_id: 'P17813, P28906, P08575, P04216, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '29108631',
-    company: 'NA'
+    pmid: '29108631'
   },
   {
     species_type: 'Human',
@@ -2636,8 +2404,7 @@ export default [
     protein_name: 'IL2RA, CD4, LRC32',
     protein_id: 'P01589, P01730, Q14392',
     marker_resource: 'Experiment',
-    pmid: '24603196',
-    company: 'NA'
+    pmid: '24603196'
   },
   {
     species_type: 'Human',
@@ -2653,25 +2420,21 @@ export default [
     protein_name: 'LRC32',
     protein_id: 'Q14392',
     marker_resource: 'Experiment',
-    pmid: '24603196',
-    company: 'NA'
+    pmid: '24603196'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Breast Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ALDH, CD24, CD44',
     gene_symbol: 'ALDH family, CD24, CD44',
     gene_id: 'ALDH family, 100133941, 960',
     protein_name: 'ALDH family, CD24, CD44',
     protein_id: 'ALDH family, P25063, P16070',
     marker_resource: 'Experiment',
-    pmid: '24041801',
-    company: 'NA'
+    pmid: '24041801'
   },
   {
     species_type: 'Human',
@@ -2687,8 +2450,7 @@ export default [
     protein_name: 'CD34, PTPRC, 5NTD, THY1',
     protein_id: 'P28906, P08575, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '29552046',
-    company: 'NA'
+    pmid: '29552046'
   },
   {
     species_type: 'Human',
@@ -2697,32 +2459,27 @@ export default [
     cancer_type: 'Gastric Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD44',
     gene_symbol: 'CD44',
     gene_id: '960',
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '28123556',
-    company: 'NA'
+    pmid: '28123556'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Colorectal Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem-like cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133',
     gene_symbol: 'PROM1',
     gene_id: '8842',
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '24905352',
-    company: 'NA'
+    pmid: '24905352'
   },
   {
     species_type: 'Human',
@@ -2738,25 +2495,21 @@ export default [
     protein_name: 'EGLN, CD14, ITB1, CD34, CD44, PTPRC, 5NTD, THY1',
     protein_id: 'P17813, P08571, P05556, P28906, P16070, P08575, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '28334693',
-    company: 'NA'
+    pmid: '28334693'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Head And Neck Squamous Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD44',
     gene_symbol: 'CD44',
     gene_id: '960',
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '25280025',
-    company: 'NA'
+    pmid: '25280025'
   },
   {
     species_type: 'Human',
@@ -2772,8 +2525,7 @@ export default [
     protein_name: 'VCAM1, ITB1, PECA1, CD34, PTPRC, THY1',
     protein_id: 'P19320, P05556, P16284, P28906, P08575, P04216',
     marker_resource: 'Experiment',
-    pmid: '29188405',
-    company: 'NA'
+    pmid: '29188405'
   },
   {
     species_type: 'Human',
@@ -2789,8 +2541,7 @@ export default [
     protein_name: 'EGLN, CD34, PTPRC, 5NTD, THY1',
     protein_id: 'P17813, P28906, P08575, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '29118937',
-    company: 'NA'
+    pmid: '29118937'
   },
   {
     species_type: 'Human',
@@ -2799,15 +2550,13 @@ export default [
     cancer_type: 'Breast Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD24, CD44',
     gene_symbol: 'CD24, CD44',
     gene_id: '100133941, 960',
     protein_name: 'CD24, CD44',
     protein_id: 'P25063, P16070',
     marker_resource: 'Experiment',
-    pmid: '28986882',
-    company: 'NA'
+    pmid: '28986882'
   },
   {
     species_type: 'Human',
@@ -2816,15 +2565,13 @@ export default [
     cancer_type: 'Lung Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ALDH1, CD133, CD166, CD44, CD90',
     gene_symbol: 'ALDH1A1, PROM1, ALCAM, CD44, THY1',
     gene_id: '216, 8842, 214, 960, 7070',
     protein_name: 'AL1A1, PROM1, CD166, CD44, THY1',
     protein_id: 'P00352, O43490, Q13740, P16070, P04216',
     marker_resource: 'Experiment',
-    pmid: '28986882',
-    company: 'NA'
+    pmid: '28986882'
   },
   {
     species_type: 'Human',
@@ -2833,15 +2580,13 @@ export default [
     cancer_type: 'Colorectal Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133, CD166, CD24, CD44',
     gene_symbol: 'PROM1, ALCAM, CD24, CD44',
     gene_id: '8842, 214, 100133941, 960',
     protein_name: 'PROM1, CD166, CD24, CD44',
     protein_id: 'O43490, Q13740, P25063, P16070',
     marker_resource: 'Experiment',
-    pmid: '28986882',
-    company: 'NA'
+    pmid: '28986882'
   },
   {
     species_type: 'Human',
@@ -2850,15 +2595,13 @@ export default [
     cancer_type: 'Cutaneous Squamous Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'SOX2',
     gene_symbol: 'SOX2',
     gene_id: '6657',
     protein_name: 'SOX2',
     protein_id: 'P48431',
     marker_resource: 'Experiment',
-    pmid: '25061226',
-    company: 'NA'
+    pmid: '25061226'
   },
   {
     species_type: 'Human',
@@ -2874,8 +2617,7 @@ export default [
     protein_name: 'CD68',
     protein_id: 'P34810',
     marker_resource: 'Experiment',
-    pmid: '25109449',
-    company: 'NA'
+    pmid: '25109449'
   },
   {
     species_type: 'Human',
@@ -2891,8 +2633,7 @@ export default [
     protein_name: 'THY1',
     protein_id: 'P04216',
     marker_resource: 'Experiment',
-    pmid: '25109449',
-    company: 'NA'
+    pmid: '25109449'
   },
   {
     species_type: 'Human',
@@ -2908,8 +2649,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G]',
     protein_id: '[P04234, P07766, P09693]',
     marker_resource: 'Experiment',
-    pmid: '25109449',
-    company: 'NA'
+    pmid: '25109449'
   },
   {
     species_type: 'Human',
@@ -2925,8 +2665,7 @@ export default [
     protein_name: 'CD20',
     protein_id: 'P11836',
     marker_resource: 'Experiment',
-    pmid: '25109449',
-    company: 'NA'
+    pmid: '25109449'
   },
   {
     species_type: 'Human',
@@ -2942,8 +2681,7 @@ export default [
     protein_name: 'CD19, CD27, IgD family',
     protein_id: 'P15391, P26842, IgD family',
     marker_resource: 'Experiment',
-    pmid: '27780620',
-    company: 'NA'
+    pmid: '27780620'
   },
   {
     species_type: 'Human',
@@ -2959,8 +2697,7 @@ export default [
     protein_name: 'CD19, CD27, IgD family',
     protein_id: 'P15391, P26842, IgD family',
     marker_resource: 'Experiment',
-    pmid: '27780620',
-    company: 'NA'
+    pmid: '27780620'
   },
   {
     species_type: 'Human',
@@ -2976,8 +2713,7 @@ export default [
     protein_name: 'CD19, CD27, IgD family',
     protein_id: 'P15391, P26842, IgD family',
     marker_resource: 'Experiment',
-    pmid: '27780620',
-    company: 'NA'
+    pmid: '27780620'
   },
   {
     species_type: 'Human',
@@ -2993,8 +2729,7 @@ export default [
     protein_name: 'CD19, CD27, IgD family',
     protein_id: 'P15391, P26842, IgD family',
     marker_resource: 'Experiment',
-    pmid: '27780620',
-    company: 'NA'
+    pmid: '27780620'
   },
   {
     species_type: 'Human',
@@ -3010,8 +2745,7 @@ export default [
     protein_name: 'CD19, CD24, CD38',
     protein_id: 'P15391, P25063, P28907',
     marker_resource: 'Experiment',
-    pmid: '27780620',
-    company: 'NA'
+    pmid: '27780620'
   },
   {
     species_type: 'Human',
@@ -3027,8 +2761,7 @@ export default [
     protein_name: 'CD19, CD24, CD38',
     protein_id: 'P15391, P25063, P28907',
     marker_resource: 'Experiment',
-    pmid: '27780620',
-    company: 'NA'
+    pmid: '27780620'
   },
   {
     species_type: 'Human',
@@ -3044,8 +2777,7 @@ export default [
     protein_name: 'EGLN, KIT',
     protein_id: 'P17813, P10721',
     marker_resource: 'Experiment',
-    pmid: '24713343',
-    company: 'NA'
+    pmid: '24713343'
   },
   {
     species_type: 'Human',
@@ -3054,15 +2786,13 @@ export default [
     cancer_type: 'Malignant Insulinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD90',
     gene_symbol: 'THY1',
     gene_id: '7070',
     protein_name: 'THY1',
     protein_id: 'P04216',
     marker_resource: 'Experiment',
-    pmid: '27049037',
-    company: 'NA'
+    pmid: '27049037'
   },
   {
     species_type: 'Human',
@@ -3071,15 +2801,13 @@ export default [
     cancer_type: 'Liver Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133, CD24',
     gene_symbol: 'PROM1, CD24',
     gene_id: '8842, 100133941',
     protein_name: 'PROM1, CD24',
     protein_id: 'O43490, P25063',
     marker_resource: 'Experiment',
-    pmid: '28671046',
-    company: 'NA'
+    pmid: '28671046'
   },
   {
     species_type: 'Human',
@@ -3095,8 +2823,7 @@ export default [
     protein_name: 'TFR1, [ITA6, ITB4]',
     protein_id: 'P02786, [P23229, P16144]',
     marker_resource: 'Experiment',
-    pmid: '24329011',
-    company: 'NA'
+    pmid: '24329011'
   },
   {
     species_type: 'Human',
@@ -3112,8 +2839,7 @@ export default [
     protein_name: 'EGLN, CD44, 5NTD, THY1',
     protein_id: 'P17813, P16070, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '27515308',
-    company: 'NA'
+    pmid: '27515308'
   },
   {
     species_type: 'Human',
@@ -3122,7 +2848,6 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Urine-derived stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD105, CD117, CD133, CD14, CD146, CD24, CD29, CD31, CD34, CD44, CD45, CD73, CD90, SSEA-4, STRO-1',
     gene_symbol: 'ENG, KIT, PROM1, CD14, MCAM, CD24, ITGB1, PECAM1, CD34, CD44, PTPRC, NT5E, THY1, NA, NA',
     gene_id: '2022, 3815, 8842, 929, 4162, 100133941, 3688, 5175, 947, 960, 5788, 4907, 7070, NA, NA',
@@ -3130,8 +2855,7 @@ export default [
     protein_id:
       'P17813, P10721, O43490, P08571, P43121, P25063, P05556, P16284, P28906, P16070, P08575, P21589, P04216, NA, NA',
     marker_resource: 'Experiment',
-    pmid: '24945524',
-    company: 'NA'
+    pmid: '24945524'
   },
   {
     species_type: 'Human',
@@ -3147,8 +2871,7 @@ export default [
     protein_name: 'CADH5, CD34, PTPRC, NCAM1',
     protein_id: 'P33151, P28906, P08575, P13591',
     marker_resource: 'Experiment',
-    pmid: '25177794',
-    company: 'NA'
+    pmid: '25177794'
   },
   {
     species_type: 'Human',
@@ -3164,8 +2887,7 @@ export default [
     protein_name: 'MUC18, CD34, PTPRC, NCAM1',
     protein_id: 'P43121, P28906, P08575, P13591',
     marker_resource: 'Experiment',
-    pmid: '25177794',
-    company: 'NA'
+    pmid: '25177794'
   },
   {
     species_type: 'Human',
@@ -3181,8 +2903,7 @@ export default [
     protein_name: 'PECA1, CD34, PTPRC, NCAM1',
     protein_id: 'P16284, P28906, P08575, P13591',
     marker_resource: 'Experiment',
-    pmid: '25177794',
-    company: 'NA'
+    pmid: '25177794'
   },
   {
     species_type: 'Human',
@@ -3198,25 +2919,21 @@ export default [
     protein_name: 'PTPRC',
     protein_id: 'P08575',
     marker_resource: 'Experiment',
-    pmid: '29336105',
-    company: 'NA'
+    pmid: '29336105'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Hepatocellular Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'LIN28B',
     gene_symbol: 'LIN28B',
     gene_id: '389421',
     protein_name: 'LN28B',
     protein_id: 'Q6ZN17',
     marker_resource: 'Experiment',
-    pmid: '24244607',
-    company: 'NA'
+    pmid: '24244607'
   },
   {
     species_type: 'Human',
@@ -3232,42 +2949,35 @@ export default [
     protein_name: 'EGLN, CD14, CD166, CD34, PTPRC, 5NTD, THY1, HLA-ABC family, HLA-DR family, MHC class I',
     protein_id: 'P17813, P08571, Q13740, P28906, P08575, P21589, P04216, HLA-ABC family, HLA-DR family, MHC class I',
     marker_resource: 'Experiment',
-    pmid: '28761446',
-    company: 'NA'
+    pmid: '28761446'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Ovarian Teratocarcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133',
     gene_symbol: 'PROM1',
     gene_id: '8842',
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '24793306',
-    company: 'NA'
+    pmid: '24793306'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Astroblastoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD105, CD14, CD29, CD31, CD34, CD44, CD45, CD73, CD90',
     gene_symbol: 'ENG, CD14, ITGB1, PECAM1, CD34, CD44, PTPRC, NT5E, THY1',
     gene_id: '2022, 929, 3688, 5175, 947, 960, 5788, 4907, 7070',
     protein_name: 'EGLN, CD14, ITB1, PECA1, CD34, CD44, PTPRC, 5NTD, THY1',
     protein_id: 'P17813, P08571, P05556, P16284, P28906, P16070, P08575, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '28232116',
-    company: 'NA'
+    pmid: '28232116'
   },
   {
     species_type: 'Human',
@@ -3283,8 +2993,7 @@ export default [
     protein_name: 'RPE65',
     protein_id: 'Q16518',
     marker_resource: 'Experiment',
-    pmid: '24265548',
-    company: 'NA'
+    pmid: '24265548'
   },
   {
     species_type: 'Human',
@@ -3293,15 +3002,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Bipolar cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'PKC-alpha',
     gene_symbol: 'PRKCA',
     gene_id: '5578',
     protein_name: 'KPCA',
     protein_id: 'P17252',
     marker_resource: 'Experiment',
-    pmid: '24265548',
-    company: 'NA'
+    pmid: '24265548'
   },
   {
     species_type: 'Human',
@@ -3317,8 +3024,7 @@ export default [
     protein_name: 'RABP1',
     protein_id: 'P29762',
     marker_resource: 'Experiment',
-    pmid: '24265548',
-    company: 'NA'
+    pmid: '24265548'
   },
   {
     species_type: 'Human',
@@ -3327,15 +3033,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Neural progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'Nestin',
     gene_symbol: 'NES',
     gene_id: '10763',
     protein_name: 'NEST',
     protein_id: 'P48681',
     marker_resource: 'Experiment',
-    pmid: '24265548',
-    company: 'NA'
+    pmid: '24265548'
   },
   {
     species_type: 'Human',
@@ -3351,8 +3055,7 @@ export default [
     protein_name: 'CD19, CD24, CD38',
     protein_id: 'P15391, P25063, P28907',
     marker_resource: 'Experiment',
-    pmid: '25015272',
-    company: 'NA'
+    pmid: '25015272'
   },
   {
     species_type: 'Human',
@@ -3368,8 +3071,7 @@ export default [
     protein_name: 'CD19, CD24, CD38',
     protein_id: 'P15391, P25063, P28907',
     marker_resource: 'Experiment',
-    pmid: '25015272',
-    company: 'NA'
+    pmid: '25015272'
   },
   {
     species_type: 'Human',
@@ -3385,8 +3087,7 @@ export default [
     protein_name: 'CD19, CD27',
     protein_id: 'P15391, P26842',
     marker_resource: 'Experiment',
-    pmid: '25015272',
-    company: 'NA'
+    pmid: '25015272'
   },
   {
     species_type: 'Human',
@@ -3402,8 +3103,7 @@ export default [
     protein_name: 'D27, IgD family',
     protein_id: 'P26842, IgD family',
     marker_resource: 'Experiment',
-    pmid: '28929596',
-    company: 'NA'
+    pmid: '28929596'
   },
   {
     species_type: 'Human',
@@ -3419,8 +3119,7 @@ export default [
     protein_name: 'D27, IgD family',
     protein_id: 'P26842, IgD family',
     marker_resource: 'Experiment',
-    pmid: '28929596',
-    company: 'NA'
+    pmid: '28929596'
   },
   {
     species_type: 'Human',
@@ -3436,8 +3135,7 @@ export default [
     protein_name: 'D27, IgD family',
     protein_id: 'P26842, IgD family',
     marker_resource: 'Experiment',
-    pmid: '28929596',
-    company: 'NA'
+    pmid: '28929596'
   },
   {
     species_type: 'Human',
@@ -3453,8 +3151,7 @@ export default [
     protein_name: 'CD24, CD38',
     protein_id: 'P25063, P28907',
     marker_resource: 'Experiment',
-    pmid: '28929596',
-    company: 'NA'
+    pmid: '28929596'
   },
   {
     species_type: 'Human',
@@ -3470,8 +3167,7 @@ export default [
     protein_name: 'CD38, CD40L',
     protein_id: 'P28907, P29965',
     marker_resource: 'Experiment',
-    pmid: '28929596',
-    company: 'NA'
+    pmid: '28929596'
   },
   {
     species_type: 'Human',
@@ -3487,8 +3183,7 @@ export default [
     protein_name: 'CCR7, PTPRC',
     protein_id: 'P32248, P08575',
     marker_resource: 'Experiment',
-    pmid: '28929596',
-    company: 'NA'
+    pmid: '28929596'
   },
   {
     species_type: 'Human',
@@ -3504,8 +3199,7 @@ export default [
     protein_name: 'PROM1, VGFR2',
     protein_id: 'O43490, P35968',
     marker_resource: 'Experiment',
-    pmid: '29147957',
-    company: 'NA'
+    pmid: '29147957'
   },
   {
     species_type: 'Human',
@@ -3514,15 +3208,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Esophageal mucosal cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'DCLK1',
     gene_symbol: 'DCLK1',
     gene_id: '9201',
     protein_name: 'DCLK1',
     protein_id: 'O15075',
     marker_resource: 'Experiment',
-    pmid: '25283374',
-    company: 'NA'
+    pmid: '25283374'
   },
   {
     species_type: 'Human',
@@ -3538,8 +3230,7 @@ export default [
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '25181353',
-    company: 'NA'
+    pmid: '25181353'
   },
   {
     species_type: 'Human',
@@ -3555,13 +3246,11 @@ export default [
     protein_name: 'CD34',
     protein_id: 'P28906',
     marker_resource: 'Experiment',
-    pmid: '25181353',
-    company: 'NA'
+    pmid: '25181353'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Prostate Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'B cell',
@@ -3572,8 +3261,7 @@ export default [
     protein_name: 'CD20',
     protein_id: 'P11836',
     marker_resource: 'Experiment',
-    pmid: '24475900',
-    company: 'NA'
+    pmid: '24475900'
   },
   {
     species_type: 'Human',
@@ -3589,8 +3277,7 @@ export default [
     protein_name: 'EGLN, CD34, CD44, PTPRC, THY1',
     protein_id: 'P17813, P28906, P16070, P08575, P04216',
     marker_resource: 'Experiment',
-    pmid: '28301220',
-    company: 'NA'
+    pmid: '28301220'
   },
   {
     species_type: 'Human',
@@ -3599,15 +3286,13 @@ export default [
     cancer_type: 'Liver Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'EpCAM',
     gene_symbol: 'EPCAM',
     gene_id: '4072',
     protein_name: 'EPCAM',
     protein_id: 'P16422',
     marker_resource: 'Experiment',
-    pmid: '28522194',
-    company: 'NA'
+    pmid: '28522194'
   },
   {
     species_type: 'Human',
@@ -3623,25 +3308,21 @@ export default [
     protein_name: 'EGLN, CD166, 5NTD, THY1',
     protein_id: 'P17813, Q13740, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '24907728',
-    company: 'NA'
+    pmid: '24907728'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Nasopharyngeal Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD24',
     gene_symbol: 'CD24',
     gene_id: '100133941',
     protein_name: 'CD24',
     protein_id: 'P25063',
     marker_resource: 'Experiment',
-    pmid: '24955581',
-    company: 'NA'
+    pmid: '24955581'
   },
   {
     species_type: 'Human',
@@ -3657,8 +3338,7 @@ export default [
     protein_name: 'TNR16, ITA4, CHSTA',
     protein_id: 'CD24, P13612, O43529',
     marker_resource: 'Experiment',
-    pmid: '27431246',
-    company: 'NA'
+    pmid: '27431246'
   },
   {
     species_type: 'Human',
@@ -3669,13 +3349,8 @@ export default [
     cell_name: 'Myeloid stem cell',
     cell_ontology_id: 'CL_0000049',
     cell_marker: 'human myeloid inhibitory C-lectin',
-    gene_symbol: 'NA',
-    gene_id: 'NA',
-    protein_name: 'NA',
-    protein_id: 'NA',
     marker_resource: 'Experiment',
-    pmid: '27734526',
-    company: 'NA'
+    pmid: '27734526'
   },
   {
     species_type: 'Human',
@@ -3691,13 +3366,11 @@ export default [
     protein_name: 'CD34, CD38, THY1',
     protein_id: 'P28906, P28907, P04216',
     marker_resource: 'Experiment',
-    pmid: '24886724',
-    company: 'NA'
+    pmid: '24886724'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'B-cell Lymphoma',
     cell_type: 'Cancer cell',
     cell_name: 'Germinal center B cell',
@@ -3708,13 +3381,11 @@ export default [
     protein_name: 'GCSAM, GCSAM',
     protein_id: 'Q8N6F7, Q8N6F7',
     marker_resource: 'Experiment',
-    pmid: '22743653',
-    company: 'NA'
+    pmid: '22743653'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Pluripotent stem cell',
@@ -3725,13 +3396,11 @@ export default [
     protein_name: 'CAD11, EFNA2, GPC3, TSP50',
     protein_id: 'P55287, O43921, P51654, Q9UI38',
     marker_resource: 'Experiment',
-    pmid: '22493178',
-    company: 'NA'
+    pmid: '22493178'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Pluripotent stem cell',
@@ -3742,25 +3411,21 @@ export default [
     protein_name: 'NECT2, PECA1, EPCAM, ITA6',
     protein_id: 'Q92692, P16284, P16422, P23229',
     marker_resource: 'Experiment',
-    pmid: '22493178',
-    company: 'NA'
+    pmid: '22493178'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Glioblastoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem-like cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133',
     gene_symbol: 'PROM1',
     gene_id: '8842',
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '22996727',
-    company: 'NA'
+    pmid: '22996727'
   },
   {
     species_type: 'Human',
@@ -3776,8 +3441,7 @@ export default [
     protein_name: 'AICDA, NEP, TN13B, CD28, CD38, TFR1, CD86',
     protein_id: 'Q9GZX7, P08473, Q9Y275, P10747, P28907, P02786, P42081',
     marker_resource: 'Experiment',
-    pmid: '23722608',
-    company: 'NA'
+    pmid: '23722608'
   },
   {
     species_type: 'Human',
@@ -3796,8 +3460,7 @@ export default [
     protein_id:
       'P32248, P16871, P01589, P26842, Q7Z6A9, P10747, [P04234, P07766, P09693], P01730, PTPRC, PTPRC, P14151, P01732, P16410, P18621, Q8TDQ0',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -3813,8 +3476,7 @@ export default [
     protein_name: 'CD19, CD20, CR2, CD24, CD27, CD38, PTPRC, CD5, IgD family, CD40L',
     protein_id: 'P15391, P11836, P20023, P25063, P26842, P28907, P08575, P06127, IgD family, P29965',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -3830,8 +3492,7 @@ export default [
     protein_name: 'ITAM, ITAX, IL3RA, FUT4, [FCG3A, FCG3B], CD33, PTPRC, CEAM8, HLA-DR family, CSKP',
     protein_id: 'P11215, P20702, P26951, P22083, [P08637, O75015], P20138, P08575, P31997, HLA-DR family, O14936',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -3850,8 +3511,7 @@ export default [
     protein_id:
       'Q9NZQ7, P08571, P13726, [P08637, O75015], [P12318, P31994, P31995], P25942, P08575, P12314, P33681, P42081, HLA-DR family, P18621, P20333',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -3867,8 +3527,7 @@ export default [
     protein_name: 'CCR3, CD14, FUT4, [FCG3A, FCG3B], ENPP3, CD44, PTPRC, ITA4, CD63, CEAM8',
     protein_id: 'P51677, P08571, P22083, [P08637, O75015], O14638, P16070, P08575, P13612, P08962, P31997',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -3884,8 +3543,7 @@ export default [
     protein_name: 'ITAM, ITAX, IL3RA, CD14, FUT4, [FCG3A, FCG3B], CD33, CEAM8, HLA-DR family',
     protein_id: 'P11215, P20702, P26951, P08571, P22083, [P08637, O75015], P20138, P31997, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -3901,8 +3559,7 @@ export default [
     protein_name: 'ITAM, ITAX, IL3RA, CD14, FUT4, [FCG3A, FCG3B], CD33, CEAM8, HLA-DR family',
     protein_id: 'P11215, P20702, P26951, P08571, P22083, [P08637, O75015], P20138, P31997, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -3918,8 +3575,7 @@ export default [
     protein_name: 'ITAM, ITAX, IL3RA, CD14, FUT4, [FCG3A, FCG3B], CD33, CEAM8, HLA-DR family',
     protein_id: 'P11215, P20702, P26951, P08571, P22083, [P08637, O75015], P20138, P31997, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -3935,8 +3591,7 @@ export default [
     protein_name: 'ITAM, ITAX, IL3RA, CD14, FUT4, [FCG3A, FCG3B], CD33, CEAM8, HLA-DR family',
     protein_id: 'P11215, P20702, P26951, P08571, P22083, [P08637, O75015], P20138, P31997, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -3952,8 +3607,7 @@ export default [
     protein_name: 'ITAM, ITAX, IL3RA, CD14, FUT4, [FCG3A, FCG3B], CD33, CEAM8, HLA-DR family',
     protein_id: 'P11215, P20702, P26951, P08571, P22083, [P08637, O75015], P20138, P31997, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -3969,8 +3623,7 @@ export default [
     protein_name: 'ITAM, ITAX, IL3RA, CD14, FUT4, [FCG3A, FCG3B], CD33, CEAM8, HLA-DR family',
     protein_id: 'P11215, P20702, P26951, P08571, P22083, [P08637, O75015], P20138, P31997, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -3986,8 +3639,7 @@ export default [
     protein_name: 'ITAM, ITAX, IL3RA, CD14, FUT4, [FCG3A, FCG3B], CD33, CEAM8, HLA-DR family',
     protein_id: 'P11215, P20702, P26951, P08571, P22083, [P08637, O75015], P20138, P31997, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -4003,8 +3655,7 @@ export default [
     protein_name: 'ITAM, ITAX, IL3RA, CD14, FUT4, [FCG3A, FCG3B], CD33, CEAM8, HLA-DR family',
     protein_id: 'P11215, P20702, P26951, P08571, P22083, [P08637, O75015], P20138, P31997, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -4020,8 +3671,7 @@ export default [
     protein_name: 'ITAM, ITAX, IL3RA, CD14, FUT4, [FCG3A, FCG3B], CD33, CEAM8, HLA-DR family',
     protein_id: 'P11215, P20702, P26951, P08571, P22083, [P08637, O75015], P20138, P31997, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -4037,8 +3687,7 @@ export default [
     protein_name: 'ITAM, ITAX, IL3RA, CD14, FUT4, [FCG3A, FCG3B], CD33, CEAM8, HLA-DR family',
     protein_id: 'P11215, P20702, P26951, P08571, P22083, [P08637, O75015], P20138, P31997, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25799053',
-    company: 'NA'
+    pmid: '25799053'
   },
   {
     species_type: 'Human',
@@ -4054,13 +3703,11 @@ export default [
     protein_name: 'IL7RA, ITA4',
     protein_id: 'P16871, P13612',
     marker_resource: 'Experiment',
-    pmid: '26049548',
-    company: 'NA'
+    pmid: '26049548'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Unrestricted somatic stem cell',
@@ -4071,13 +3718,11 @@ export default [
     protein_name: 'EGLN, CD166, CD34, CD44, 5NTD, THY1',
     protein_id: 'P17813, Q13740, P28906, P16070, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '23054438',
-    company: 'NA'
+    pmid: '23054438'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Mesenchymal stem cell',
@@ -4088,8 +3733,7 @@ export default [
     protein_name: 'EGLN, CD166, CD34, CD44, 5NTD, THY1',
     protein_id: 'P17813, Q13740, P28906, P16070, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '23054438',
-    company: 'NA'
+    pmid: '23054438'
   },
   {
     species_type: 'Human',
@@ -4105,8 +3749,7 @@ export default [
     protein_name: 'CD19, CD27, CD38, IgD family',
     protein_id: 'P15391, P26842, P28907, IgD family',
     marker_resource: 'Experiment',
-    pmid: '23608739',
-    company: 'NA'
+    pmid: '23608739'
   },
   {
     species_type: 'Human',
@@ -4122,8 +3765,7 @@ export default [
     protein_name: 'CD19, CD27, CD38, IgD family',
     protein_id: 'P15391, P26842, P28907, IgD family',
     marker_resource: 'Experiment',
-    pmid: '23608739',
-    company: 'NA'
+    pmid: '23608739'
   },
   {
     species_type: 'Human',
@@ -4139,8 +3781,7 @@ export default [
     protein_name: 'CD19, CD27, IgD family',
     protein_id: 'P15391, P26842, IgD family',
     marker_resource: 'Experiment',
-    pmid: '23608739',
-    company: 'NA'
+    pmid: '23608739'
   },
   {
     species_type: 'Human',
@@ -4156,8 +3797,7 @@ export default [
     protein_name: 'CD19, CD27, IgD family',
     protein_id: 'P15391, P26842, IgD family',
     marker_resource: 'Experiment',
-    pmid: '23608739',
-    company: 'NA'
+    pmid: '23608739'
   },
   {
     species_type: 'Human',
@@ -4173,8 +3813,7 @@ export default [
     protein_name: 'CD19, CD27, IgD family',
     protein_id: 'P15391, P26842, IgD family',
     marker_resource: 'Experiment',
-    pmid: '23608739',
-    company: 'NA'
+    pmid: '23608739'
   },
   {
     species_type: 'Human',
@@ -4190,8 +3829,7 @@ export default [
     protein_name: 'CD19, CD27, CD38, IgD family',
     protein_id: 'P15391, P26842, P28907, IgD family',
     marker_resource: 'Experiment',
-    pmid: '23608739',
-    company: 'NA'
+    pmid: '23608739'
   },
   {
     species_type: 'Human',
@@ -4207,8 +3845,7 @@ export default [
     protein_name: 'CHST8, FSHR, GCSP, GPX3, HUMMR',
     protein_id: 'Q9H2A9, P23945, P23378, P22352, Q8TDB4',
     marker_resource: 'Experiment',
-    pmid: '25775029',
-    company: 'NA'
+    pmid: '25775029'
   },
   {
     species_type: 'Human',
@@ -4217,20 +3854,17 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Theca interna cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CYP17, FBLN5, OGN, RAMP2',
     gene_symbol: 'CYP17A1, FBLN5, OGN, RAMP2',
     gene_id: '1586, 10516, 4969, 10266',
     protein_name: 'CP17A, FBLN5, MIME, RAMP2',
     protein_id: 'P05093, Q9UBX5, P20774, O60895',
     marker_resource: 'Experiment',
-    pmid: '25775029',
-    company: 'NA'
+    pmid: '25775029'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Beta cell',
@@ -4241,8 +3875,7 @@ export default [
     protein_name: 'PD2R2',
     protein_id: 'Q9Y5Y4',
     marker_resource: 'Experiment',
-    pmid: '26467464',
-    company: 'NA'
+    pmid: '26467464'
   },
   {
     species_type: 'Human',
@@ -4258,8 +3891,7 @@ export default [
     protein_name: 'EGLN, ITB1, PECA1, CD44, PTPRC, 5NTD, THY1',
     protein_id: 'P17813, P05556, P16284, P16070, P08575, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '23025577',
-    company: 'NA'
+    pmid: '23025577'
   },
   {
     species_type: 'Human',
@@ -4268,15 +3900,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Alveolar epithelial progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'TM4SF1',
     gene_symbol: 'TM4SF1',
     gene_id: '4071',
     protein_name: 'T4S1',
     protein_id: 'P30408',
     marker_resource: 'Experiment',
-    pmid: '29489752',
-    company: 'NA'
+    pmid: '29489752'
   },
   {
     species_type: 'Human',
@@ -4292,25 +3922,21 @@ export default [
     protein_name: 'ABCG2, K1C14, P63',
     protein_id: 'Q9UNQ0, P02533, Q9H3D4',
     marker_resource: 'Experiment',
-    pmid: '28813511',
-    company: 'NA'
+    pmid: '28813511'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Hepatocellular Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ABCG2',
     gene_symbol: 'ABCG2',
     gene_id: '9429',
     protein_name: 'ABCG2',
     protein_id: 'Q9UNQ0',
     marker_resource: 'Experiment',
-    pmid: '24194752',
-    company: 'NA'
+    pmid: '24194752'
   },
   {
     species_type: 'Human',
@@ -4326,25 +3952,21 @@ export default [
     protein_name: 'EGLN, THY1, NA',
     protein_id: 'P17813, P04216, NA',
     marker_resource: 'Experiment',
-    pmid: '25212102',
-    company: 'NA'
+    pmid: '25212102'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Leukemia',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'IL1RAP',
     gene_symbol: 'IL1RAP',
     gene_id: '3556',
     protein_name: 'IL1AP',
     protein_id: 'Q9NPH3',
     marker_resource: 'Experiment',
-    pmid: '24370017',
-    company: 'NA'
+    pmid: '24370017'
   },
   {
     species_type: 'Human',
@@ -4353,15 +3975,13 @@ export default [
     cancer_type: 'Colorectum Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ALDH1, CD133',
     gene_symbol: 'ALDH1A1, PROM1',
     gene_id: '216, 8842',
     protein_name: 'AL1A1, PROM1',
     protein_id: 'P00352, O43490',
     marker_resource: 'Experiment',
-    pmid: '24396478',
-    company: 'NA'
+    pmid: '24396478'
   },
   {
     species_type: 'Human',
@@ -4370,37 +3990,31 @@ export default [
     cancer_type: 'Oral Squamous Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD24',
     gene_symbol: 'CD24',
     gene_id: '100133941',
     protein_name: 'CD24',
     protein_id: 'P25063',
     marker_resource: 'Experiment',
-    pmid: '28344048',
-    company: 'NA'
+    pmid: '28344048'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Hepatocellular Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'SOX12',
     gene_symbol: 'SOX12',
     gene_id: '6666',
     protein_name: 'SOX12',
     protein_id: 'O15370',
     marker_resource: 'Experiment',
-    pmid: '29127951',
-    company: 'NA'
+    pmid: '29127951'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Testicular Germ Cell Tumor',
     cell_type: 'Cancer cell',
     cell_name: 'Primordial germ cell',
@@ -4411,8 +4025,7 @@ export default [
     protein_name: 'CCNA2, GTR3',
     protein_id: 'P20248, P11169',
     marker_resource: 'Experiment',
-    pmid: '23343953',
-    company: 'NA'
+    pmid: '23343953'
   },
   {
     species_type: 'Human',
@@ -4421,15 +4034,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Liver progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'Brain isoform glycogen phosphorylase',
     gene_symbol: 'PYGB',
     gene_id: '5834',
     protein_name: 'PYGB',
     protein_id: 'P11216',
     marker_resource: 'Experiment',
-    pmid: '25826279',
-    company: 'NA'
+    pmid: '25826279'
   },
   {
     species_type: 'Human',
@@ -4445,8 +4056,7 @@ export default [
     protein_name: 'O13C4',
     protein_id: 'Q8NGS5',
     marker_resource: 'Experiment',
-    pmid: '25590652',
-    company: 'NA'
+    pmid: '25590652'
   },
   {
     species_type: 'Human',
@@ -4462,8 +4072,7 @@ export default [
     protein_name: 'CD14, CD19, ITB1, CD34, 5NTD, CD9, HLA-DR family',
     protein_id: 'P08571, P15391, P05556, P28906, P21589, P21926, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '22588732',
-    company: 'NA'
+    pmid: '22588732'
   },
   {
     species_type: 'Human',
@@ -4482,8 +4091,7 @@ export default [
     protein_id:
       'P10721, P43626, P43628, [P08637, O75015], Q12918, [P04234, P07766, P09693], P56199, P17301, P13591, Q9P2W7, O00574, P26717, O76036',
     marker_resource: 'Experiment',
-    pmid: '26312867',
-    company: 'NA'
+    pmid: '26312867'
   },
   {
     species_type: 'Human',
@@ -4499,8 +4107,7 @@ export default [
     protein_name: 'KIT, PROM1, CD34',
     protein_id: 'P10721, O43490, P28906',
     marker_resource: 'Experiment',
-    pmid: '22940915',
-    company: 'NA'
+    pmid: '22940915'
   },
   {
     species_type: 'Human',
@@ -4516,8 +4123,7 @@ export default [
     protein_name: 'EGLN, 5NTD, THY1',
     protein_id: 'P17813, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '22940915',
-    company: 'NA'
+    pmid: '22940915'
   },
   {
     species_type: 'Human',
@@ -4533,8 +4139,7 @@ export default [
     protein_name: 'ITB1, CD44',
     protein_id: 'P05556, P16070',
     marker_resource: 'Experiment',
-    pmid: '22940915',
-    company: 'NA'
+    pmid: '22940915'
   },
   {
     species_type: 'Human',
@@ -4550,8 +4155,7 @@ export default [
     protein_name: 'AMPN, CD14, CD209, PTPRC, CD83, CD86, HLA-DR family',
     protein_id: 'P15144, P08571, Q9NNX6, P08575, Q01151, P42081, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '22940915',
-    company: 'NA'
+    pmid: '22940915'
   },
   {
     species_type: 'Human',
@@ -4572,8 +4176,7 @@ export default [
     protein_id:
       'Q9UNQ0, P17813, P19320, P10721, O43490, P09619, P43121, Q13740, P05556, P16284, P28906, P16070, P08575, P13612, P05362, P21589, P04216, P48681, Q01860, P48431, NA',
     marker_resource: 'Experiment',
-    pmid: '23460308',
-    company: 'NA'
+    pmid: '23460308'
   },
   {
     species_type: 'Human',
@@ -4594,13 +4197,11 @@ export default [
     protein_id:
       'Q9UNQ0, P17813, P19320, P10721, O43490, P09619, P43121, Q13740, P05556, P16284, P28906, P16070, P08575, P13612, P05362, P21589, P04216, Q01860, P48431, NA',
     marker_resource: 'Experiment',
-    pmid: '23460308',
-    company: 'NA'
+    pmid: '23460308'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Mesenchymal stem cell',
@@ -4611,25 +4212,21 @@ export default [
     protein_name: 'CADH2',
     protein_id: 'P19022',
     marker_resource: 'Experiment',
-    pmid: '23899519',
-    company: 'NA'
+    pmid: '23899519'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Glioma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'Nestin',
     gene_symbol: 'NES',
     gene_id: '10763',
     protein_name: 'NEST',
     protein_id: 'P48681',
     marker_resource: 'Experiment',
-    pmid: '23524267',
-    company: 'NA'
+    pmid: '23524267'
   },
   {
     species_type: 'Human',
@@ -4645,8 +4242,7 @@ export default [
     protein_name: 'EGLN, CD4, 5NTD, THY1',
     protein_id: 'P17813, P01730, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '23942284',
-    company: 'NA'
+    pmid: '23942284'
   },
   {
     species_type: 'Human',
@@ -4655,15 +4251,13 @@ export default [
     cancer_type: 'Glioma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'BMI1, CD133, GLUT3, Musashi-1, Nestin, SOX2',
     gene_symbol: 'BMI1, PROM1, SLC2A3, MSI1, NES, SOX2',
     gene_id: '648, 8842, 6515, 4440, 10763, 6657',
     protein_name: 'BMI1, PROM1, GTR3, MSI1H, NEST, SOX2',
     protein_id: 'P35226, O43490, P11169, O43347, P48681, P48431',
     marker_resource: 'Experiment',
-    pmid: '27171431',
-    company: 'NA'
+    pmid: '27171431'
   },
   {
     species_type: 'Human',
@@ -4679,13 +4273,11 @@ export default [
     protein_name: 'EGLN, VCAM1, NECT2, MUC18, CD166, CADH2, CD34, CD44, CD47, ICAM1, 5NTD, THY1',
     protein_id: 'P17813, P19320, Q92692, P43121, Q13740, P19022, P28906, P16070, Q08722, P05362, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '28032398',
-    company: 'NA'
+    pmid: '28032398'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Astrocytoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer cell',
@@ -4696,8 +4288,7 @@ export default [
     protein_name: 'NA, GFAP, GLNA',
     protein_id: 'NA, P14136, P15104',
     marker_resource: 'Experiment',
-    pmid: '25091859',
-    company: 'NA'
+    pmid: '25091859'
   },
   {
     species_type: 'Human',
@@ -4713,8 +4304,7 @@ export default [
     protein_name: 'EGLN, CD34, CADH2, VIME',
     protein_id: 'P17813, P28906, P19022, P08670',
     marker_resource: 'Experiment',
-    pmid: '25277234',
-    company: 'NA'
+    pmid: '25277234'
   },
   {
     species_type: 'Human',
@@ -4730,8 +4320,7 @@ export default [
     protein_name: 'CCR7, C163A, MRC1',
     protein_id: 'P32248, Q86VB7, P22897',
     marker_resource: 'Experiment',
-    pmid: '29031872',
-    company: 'NA'
+    pmid: '29031872'
   },
   {
     species_type: 'Human',
@@ -4740,15 +4329,13 @@ export default [
     cancer_type: 'Ductal Breast Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'GLI1',
     gene_symbol: 'GLI1',
     gene_id: '2735',
     protein_name: 'GLI1',
     protein_id: 'P08151',
     marker_resource: 'Experiment',
-    pmid: '28965964',
-    company: 'NA'
+    pmid: '28965964'
   },
   {
     species_type: 'Human',
@@ -4764,8 +4351,7 @@ export default [
     protein_name: 'EGLN, ITB1, CD34, CD44, PTPRC, 5NTD, HLA-DR family',
     protein_id: 'P17813, P05556, P28906, P16070, P08575, P21589, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '24662208',
-    company: 'NA'
+    pmid: '24662208'
   },
   {
     species_type: 'Human',
@@ -4781,8 +4367,7 @@ export default [
     protein_name: 'ITA2B',
     protein_id: 'P08514',
     marker_resource: 'Experiment',
-    pmid: '24511371',
-    company: 'NA'
+    pmid: '24511371'
   },
   {
     species_type: 'Human',
@@ -4798,8 +4383,7 @@ export default [
     protein_name: 'CD14',
     protein_id: 'P08571',
     marker_resource: 'Experiment',
-    pmid: '24511371',
-    company: 'NA'
+    pmid: '24511371'
   },
   {
     species_type: 'Human',
@@ -4815,8 +4399,7 @@ export default [
     protein_name: 'PECA1, GP1BA',
     protein_id: 'P16284, P07359',
     marker_resource: 'Experiment',
-    pmid: '24511371',
-    company: 'NA'
+    pmid: '24511371'
   },
   {
     species_type: 'Human',
@@ -4832,8 +4415,7 @@ export default [
     protein_name: 'GLPA',
     protein_id: 'P02724',
     marker_resource: 'Experiment',
-    pmid: '24511371',
-    company: 'NA'
+    pmid: '24511371'
   },
   {
     species_type: 'Human',
@@ -4849,8 +4431,7 @@ export default [
     protein_name: 'EGLN, ITB1, CD34',
     protein_id: 'P17813, P05556, P28906',
     marker_resource: 'Experiment',
-    pmid: '24886437',
-    company: 'NA'
+    pmid: '24886437'
   },
   {
     species_type: 'Human',
@@ -4866,8 +4447,7 @@ export default [
     protein_name: 'EGLN, CD44, 5NTD, THY1',
     protein_id: 'P17813, P16070, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '27883224',
-    company: 'NA'
+    pmid: '27883224'
   },
   {
     species_type: 'Human',
@@ -4883,8 +4463,7 @@ export default [
     protein_name: 'PPBT',
     protein_id: 'P05186',
     marker_resource: 'Experiment',
-    pmid: '24911063',
-    company: 'NA'
+    pmid: '24911063'
   },
   {
     species_type: 'Human',
@@ -4900,8 +4479,7 @@ export default [
     protein_name: 'EGLN, THY1, NA',
     protein_id: 'P17813, P04216, NA',
     marker_resource: 'Experiment',
-    pmid: '24256547',
-    company: 'NA'
+    pmid: '24256547'
   },
   {
     species_type: 'Human',
@@ -4917,8 +4495,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G]',
     protein_id: '[P04234, P07766, P09693]',
     marker_resource: 'Experiment',
-    pmid: '27228084',
-    company: 'NA'
+    pmid: '27228084'
   },
   {
     species_type: 'Human',
@@ -4934,8 +4511,7 @@ export default [
     protein_name: 'CD68',
     protein_id: 'P34810',
     marker_resource: 'Experiment',
-    pmid: '27228084',
-    company: 'NA'
+    pmid: '27228084'
   },
   {
     species_type: 'Human',
@@ -4951,8 +4527,7 @@ export default [
     protein_name: 'CD19',
     protein_id: 'P15391',
     marker_resource: 'Experiment',
-    pmid: '27228084',
-    company: 'NA'
+    pmid: '27228084'
   },
   {
     species_type: 'Human',
@@ -4968,8 +4543,7 @@ export default [
     protein_name: 'CD19, CD1D',
     protein_id: 'P15391, P15813',
     marker_resource: 'Experiment',
-    pmid: '24390063',
-    company: 'NA'
+    pmid: '24390063'
   },
   {
     species_type: 'Human',
@@ -4985,8 +4559,7 @@ export default [
     protein_name: 'CD14',
     protein_id: 'P08571',
     marker_resource: 'Experiment',
-    pmid: '24631966',
-    company: 'NA'
+    pmid: '24631966'
   },
   {
     species_type: 'Human',
@@ -5002,42 +4575,35 @@ export default [
     protein_name: 'PROM1, NEST, SOX2',
     protein_id: 'O43490, P48681, P48431',
     marker_resource: 'Experiment',
-    pmid: '28795331',
-    company: 'NA'
+    pmid: '28795331'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Cardiac progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'SLC8A1',
     gene_symbol: 'SLC8A1',
     gene_id: '6546',
     protein_name: 'NAC1',
     protein_id: 'P32418',
     marker_resource: 'Experiment',
-    pmid: '25075536',
-    company: 'NA'
+    pmid: '25075536'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Colorectal Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD44',
     gene_symbol: 'CD44',
     gene_id: '960',
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '24921913',
-    company: 'NA'
+    pmid: '24921913'
   },
   {
     species_type: 'Human',
@@ -5053,8 +4619,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G]',
     protein_id: '[P04234, P07766, P09693]',
     marker_resource: 'Experiment',
-    pmid: '25254006',
-    company: 'NA'
+    pmid: '25254006'
   },
   {
     species_type: 'Human',
@@ -5070,8 +4635,7 @@ export default [
     protein_name: 'CD20',
     protein_id: 'P11836',
     marker_resource: 'Experiment',
-    pmid: '25254006',
-    company: 'NA'
+    pmid: '25254006'
   },
   {
     species_type: 'Human',
@@ -5087,8 +4651,7 @@ export default [
     protein_name: 'PROM1, CD34, VGFR2',
     protein_id: 'O43490, P28906, P35968',
     marker_resource: 'Experiment',
-    pmid: '26770089',
-    company: 'NA'
+    pmid: '26770089'
   },
   {
     species_type: 'Human',
@@ -5104,8 +4667,7 @@ export default [
     protein_name: 'GTR1',
     protein_id: 'P11166',
     marker_resource: 'Experiment',
-    pmid: '24335483',
-    company: 'NA'
+    pmid: '24335483'
   },
   {
     species_type: 'Human',
@@ -5121,8 +4683,7 @@ export default [
     protein_name: 'PROM1, PO5F1, NA',
     protein_id: 'O43490, Q01860, NA',
     marker_resource: 'Experiment',
-    pmid: '24568237',
-    company: 'NA'
+    pmid: '24568237'
   },
   {
     species_type: 'Human',
@@ -5138,8 +4699,7 @@ export default [
     protein_name: 'PO5F1',
     protein_id: 'Q01860',
     marker_resource: 'Experiment',
-    pmid: '24568237',
-    company: 'NA'
+    pmid: '24568237'
   },
   {
     species_type: 'Human',
@@ -5155,8 +4715,7 @@ export default [
     protein_name: 'DPPA3, DDX4',
     protein_id: 'Q6W0C5, Q9NQI0',
     marker_resource: 'Experiment',
-    pmid: '24568237',
-    company: 'NA'
+    pmid: '24568237'
   },
   {
     species_type: 'Human',
@@ -5172,8 +4731,7 @@ export default [
     protein_name: 'DAZL, GDF9, SYCP3',
     protein_id: 'Q92904, O60383, Q8IZU3',
     marker_resource: 'Experiment',
-    pmid: '24568237',
-    company: 'NA'
+    pmid: '24568237'
   },
   {
     species_type: 'Human',
@@ -5189,8 +4747,7 @@ export default [
     protein_name: 'NANOG, PO5F1, SOX2, FUT4, NA',
     protein_id: 'Q9H9S0, Q01860, P48431, P22083, NA',
     marker_resource: 'Experiment',
-    pmid: '29078734',
-    company: 'NA'
+    pmid: '29078734'
   },
   {
     species_type: 'Human',
@@ -5206,8 +4763,7 @@ export default [
     protein_name: 'DDX4, IFM3',
     protein_id: 'Q9NQI0, Q01628',
     marker_resource: 'Experiment',
-    pmid: '29078734',
-    company: 'NA'
+    pmid: '29078734'
   },
   {
     species_type: 'Human',
@@ -5216,15 +4772,13 @@ export default [
     cancer_type: 'Ovarian Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD44, LGR5',
     gene_symbol: 'CD44, LGR5',
     gene_id: '960, 8549',
     protein_name: 'CD44, LGR5',
     protein_id: 'P16070, O75473',
     marker_resource: 'Experiment',
-    pmid: '29078734',
-    company: 'NA'
+    pmid: '29078734'
   },
   {
     species_type: 'Human',
@@ -5240,8 +4794,7 @@ export default [
     protein_name: 'CD44, NANOG',
     protein_id: 'P16070, Q9H9S0',
     marker_resource: 'Experiment',
-    pmid: '27865367',
-    company: 'NA'
+    pmid: '27865367'
   },
   {
     species_type: 'Human',
@@ -5257,8 +4810,7 @@ export default [
     protein_name: 'TNR16',
     protein_id: 'P08138',
     marker_resource: 'Experiment',
-    pmid: '24831840',
-    company: 'NA'
+    pmid: '24831840'
   },
   {
     species_type: 'Human',
@@ -5274,8 +4826,7 @@ export default [
     protein_name: 'EGLN, THY1, NANOG, PO5F1, SOX2',
     protein_id: 'P17813, P04216, Q9H9S0, Q01860, P48431',
     marker_resource: 'Experiment',
-    pmid: '28545230',
-    company: 'NA'
+    pmid: '28545230'
   },
   {
     species_type: 'Human',
@@ -5284,15 +4835,13 @@ export default [
     cancer_type: 'Colorectum Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133, CD44',
     gene_symbol: 'PROM1, CD44',
     gene_id: '8842, 960',
     protein_name: 'PROM1, CD44',
     protein_id: 'O43490, P16070',
     marker_resource: 'Experiment',
-    pmid: '24864242',
-    company: 'NA'
+    pmid: '24864242'
   },
   {
     species_type: 'Human',
@@ -5308,8 +4857,7 @@ export default [
     protein_name: 'PECA1, VMF',
     protein_id: 'P16284, P04275',
     marker_resource: 'Experiment',
-    pmid: '25091340',
-    company: 'NA'
+    pmid: '25091340'
   },
   {
     species_type: 'Human',
@@ -5318,15 +4866,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Circulating progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ALDH, CD133, CD34',
     gene_symbol: 'ALDH family, PROM1, CD34',
     gene_id: 'ALDH family, 8842, 947',
     protein_name: 'ALDH family, PROM1, CD34',
     protein_id: 'ALDH family, O43490, P28906',
     marker_resource: 'Experiment',
-    pmid: '24055327',
-    company: 'NA'
+    pmid: '24055327'
   },
   {
     species_type: 'Human',
@@ -5342,25 +4888,21 @@ export default [
     protein_name: 'ANXA5, CX3C1',
     protein_id: 'P08758, P49238',
     marker_resource: 'Experiment',
-    pmid: '24816885',
-    company: 'NA'
+    pmid: '24816885'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Liver Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133, CD44',
     gene_symbol: 'PROM1, CD44',
     gene_id: '8842, 960',
     protein_name: 'PROM1, CD44',
     protein_id: 'O43490, P16070',
     marker_resource: 'Experiment',
-    pmid: '24431896',
-    company: 'NA'
+    pmid: '24431896'
   },
   {
     species_type: 'Human',
@@ -5376,8 +4918,7 @@ export default [
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '27617580',
-    company: 'NA'
+    pmid: '27617580'
   },
   {
     species_type: 'Human',
@@ -5393,8 +4934,7 @@ export default [
     protein_name: 'CD14, C163A',
     protein_id: 'P08571, Q86VB7',
     marker_resource: 'Experiment',
-    pmid: '29096690',
-    company: 'NA'
+    pmid: '29096690'
   },
   {
     species_type: 'Human',
@@ -5410,8 +4950,7 @@ export default [
     protein_name: 'K1C19',
     protein_id: 'P08727',
     marker_resource: 'Experiment',
-    pmid: '24255082',
-    company: 'NA'
+    pmid: '24255082'
   },
   {
     species_type: 'Human',
@@ -5420,15 +4959,13 @@ export default [
     cancer_type: 'Renal Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CXCR4',
     gene_symbol: 'CXCR4',
     gene_id: '7852',
     protein_name: 'CXCR4',
     protein_id: 'P61073',
     marker_resource: 'Experiment',
-    pmid: '27638770',
-    company: 'NA'
+    pmid: '27638770'
   },
   {
     species_type: 'Human',
@@ -5444,8 +4981,7 @@ export default [
     protein_name: 'AGRA3, ID4',
     protein_id: 'Q8IWK6, P47928',
     marker_resource: 'Experiment',
-    pmid: '24902969',
-    company: 'NA'
+    pmid: '24902969'
   },
   {
     species_type: 'Human',
@@ -5454,15 +4990,13 @@ export default [
     cancer_type: 'Renal Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133',
     gene_symbol: 'PROM1',
     gene_id: '8842',
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '29050853',
-    company: 'NA'
+    pmid: '29050853'
   },
   {
     species_type: 'Human',
@@ -5471,15 +5005,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Circulating precursor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133, CD34, CD45',
     gene_symbol: 'PROM1, CD34, PTPRC',
     gene_id: '8842, 947, 5788',
     protein_name: 'PROM1, CD34, PTPRC',
     protein_id: 'O43490, P28906, P08575',
     marker_resource: 'Experiment',
-    pmid: '24624298',
-    company: 'NA'
+    pmid: '24624298'
   },
   {
     species_type: 'Human',
@@ -5495,8 +5027,7 @@ export default [
     protein_name: 'PECA1, VGFR2',
     protein_id: 'P16284, P35968',
     marker_resource: 'Experiment',
-    pmid: '24624298',
-    company: 'NA'
+    pmid: '24624298'
   },
   {
     species_type: 'Human',
@@ -5512,8 +5043,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], CD4, CD8A',
     protein_id: '[P04234, P07766, P09693], P01730, P01732',
     marker_resource: 'Experiment',
-    pmid: '24510338',
-    company: 'NA'
+    pmid: '24510338'
   },
   {
     species_type: 'Human',
@@ -5529,13 +5059,11 @@ export default [
     protein_name: 'CD34, NA',
     protein_id: 'P28906, NA',
     marker_resource: 'Experiment',
-    pmid: '25171543',
-    company: 'NA'
+    pmid: '25171543'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Acute Monocytic Leukemia',
     cell_type: 'Cancer cell',
     cell_name: 'Dendritic cell',
@@ -5546,8 +5074,7 @@ export default [
     protein_name: 'ITAX, CD209, CD83',
     protein_id: 'P20702, Q9NNX6, Q01151',
     marker_resource: 'Experiment',
-    pmid: '23994500',
-    company: 'NA'
+    pmid: '23994500'
   },
   {
     species_type: 'Human',
@@ -5556,20 +5083,17 @@ export default [
     cancer_type: 'Breast Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ALDH1, CD24, CD44',
     gene_symbol: 'ALDH1A1, CD24, CD44',
     gene_id: '216, 100133941, 960',
     protein_name: 'AL1A1, CD24, CD44',
     protein_id: 'P00352, P25063, P16070',
     marker_resource: 'Experiment',
-    pmid: '27840965',
-    company: 'NA'
+    pmid: '27840965'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Smooth muscle cell',
@@ -5580,25 +5104,21 @@ export default [
     protein_name: 'ACTA, DESM',
     protein_id: 'P62736, P17661',
     marker_resource: 'Experiment',
-    pmid: '25015608',
-    company: 'NA'
+    pmid: '25015608'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Urothelium cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'Pancytokeratin, Uroplakin III',
     gene_symbol: 'Pancytokeratin family, UPK3A',
     gene_id: 'Pancytokeratin family, 7380',
     protein_name: 'Pancytokeratin family, UPK3A',
     protein_id: 'Pancytokeratin family, O75631',
     marker_resource: 'Experiment',
-    pmid: '25015608',
-    company: 'NA'
+    pmid: '25015608'
   },
   {
     species_type: 'Human',
@@ -5614,8 +5134,7 @@ export default [
     protein_name: 'CD44, EGLN, 5NTD, THY1',
     protein_id: 'P16070, P17813, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '29241918',
-    company: 'NA'
+    pmid: '29241918'
   },
   {
     species_type: 'Human',
@@ -5631,8 +5150,7 @@ export default [
     protein_name: 'CD34, PTPRC, MUC18, NA',
     protein_id: 'P28906, P08575, P43121, NA',
     marker_resource: 'Experiment',
-    pmid: '24469124',
-    company: 'NA'
+    pmid: '24469124'
   },
   {
     species_type: 'Human',
@@ -5648,25 +5166,21 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], NCAM1',
     protein_id: '[P04234, P07766, P09693], P13591',
     marker_resource: 'Experiment',
-    pmid: '23997950',
-    company: 'NA'
+    pmid: '23997950'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Thyroid Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem-like cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD13, CD133, CD15, CD166, CD326, CD44',
     gene_symbol: 'ANPEP, PROM1, FUT4, ALCAM, EPCAM, CD44',
     gene_id: '290, 8842, 2526, 214, 4072, 960',
     protein_name: 'AMPN, PROM1, FUT4, CD166, EPCAM, CD44',
     protein_id: 'P15144, O43490, P22083, Q13740, P16422, P16070',
     marker_resource: 'Experiment',
-    pmid: '24531915',
-    company: 'NA'
+    pmid: '24531915'
   },
   {
     species_type: 'Human',
@@ -5675,15 +5189,13 @@ export default [
     cancer_type: 'Breast Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'Nectin-4',
     gene_symbol: 'NECTIN4',
     gene_id: '81607',
     protein_name: 'NECT4',
     protein_id: 'Q96NY8',
     marker_resource: 'Experiment',
-    pmid: '28600142',
-    company: 'NA'
+    pmid: '28600142'
   },
   {
     species_type: 'Human',
@@ -5694,13 +5206,8 @@ export default [
     cell_name: 'Spermatogonial stem cell',
     cell_ontology_id: 'CL_0000089',
     cell_marker: 'SSEA-4',
-    gene_symbol: 'NA',
-    gene_id: 'NA',
-    protein_name: 'NA',
-    protein_id: 'NA',
     marker_resource: 'Experiment',
-    pmid: '25038247',
-    company: 'NA'
+    pmid: '25038247'
   },
   {
     species_type: 'Human',
@@ -5716,8 +5223,7 @@ export default [
     protein_name: 'THY1',
     protein_id: 'P04216',
     marker_resource: 'Experiment',
-    pmid: '25038247',
-    company: 'NA'
+    pmid: '25038247'
   },
   {
     species_type: 'Human',
@@ -5733,13 +5239,11 @@ export default [
     protein_name: 'CRX, NEST, PERI, PRRT2, RECO, OPSD, RPE65',
     protein_id: 'O43186, P48681, P41219, Q7Z6L0, P35243, P08100, Q16518',
     marker_resource: 'Experiment',
-    pmid: '28691584',
-    company: 'NA'
+    pmid: '28691584'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Infantile Hemangiomas',
     cell_type: 'Cancer cell',
     cell_name: 'Endothelial cell',
@@ -5750,13 +5254,11 @@ export default [
     protein_name: 'PECA1',
     protein_id: 'P16284',
     marker_resource: 'Experiment',
-    pmid: '24401806',
-    company: 'NA'
+    pmid: '24401806'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Infantile Hemangiomas',
     cell_type: 'Cancer cell',
     cell_name: 'Neural crest cell',
@@ -5767,13 +5269,11 @@ export default [
     protein_name: 'CSPG4, NEST',
     protein_id: 'Q6UVK1, P48681',
     marker_resource: 'Experiment',
-    pmid: '24401806',
-    company: 'NA'
+    pmid: '24401806'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Infantile Hemangiomas',
     cell_type: 'Cancer cell',
     cell_name: 'Pericyte',
@@ -5784,25 +5284,21 @@ export default [
     protein_name: 'Calponin family, THY1, DLK1, CSPG4, PDGFA, SMN',
     protein_id: 'Calponin family, P04216, P80370, Q6UVK1, P04085, Q16637',
     marker_resource: 'Experiment',
-    pmid: '24401806',
-    company: 'NA'
+    pmid: '24401806'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Infantile Hemangiomas',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'c-Myc, EZH2, NANOG, OCT4, SOX2',
     gene_symbol: 'MYC, EZH2, NANOG, POU5F1, SOX2',
     gene_id: '4609, 2146, 79923, 5460, 6657',
     protein_name: 'MYC, EZH2, NANOG, PO5F1, SOX2',
     protein_id: 'P01106, Q15910, Q9H9S0, Q01860, P48431',
     marker_resource: 'Experiment',
-    pmid: '24401806',
-    company: 'NA'
+    pmid: '24401806'
   },
   {
     species_type: 'Human',
@@ -5811,15 +5307,13 @@ export default [
     cancer_type: 'Infantile Hemangiomas',
     cell_type: 'Cancer cell',
     cell_name: 'Placenta cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CDX2',
     gene_symbol: 'CDX2',
     gene_id: '1045',
     protein_name: 'CDX2',
     protein_id: 'Q99626',
     marker_resource: 'Experiment',
-    pmid: '24401806',
-    company: 'NA'
+    pmid: '24401806'
   },
   {
     species_type: 'Human',
@@ -5835,8 +5329,7 @@ export default [
     protein_name: 'ITAX',
     protein_id: 'P20702',
     marker_resource: 'Experiment',
-    pmid: '24084687',
-    company: 'NA'
+    pmid: '24084687'
   },
   {
     species_type: 'Human',
@@ -5852,13 +5345,11 @@ export default [
     protein_name: 'MUC18',
     protein_id: 'P43121',
     marker_resource: 'Experiment',
-    pmid: '25266708',
-    company: 'NA'
+    pmid: '25266708'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Breast Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Fibroblast',
@@ -5869,8 +5360,7 @@ export default [
     protein_name: 'NEP, C5AR2',
     protein_id: 'P08473, Q9P296',
     marker_resource: 'Experiment',
-    pmid: '29395328',
-    company: 'NA'
+    pmid: '29395328'
   },
   {
     species_type: 'Human',
@@ -5879,15 +5369,13 @@ export default [
     cancer_type: 'Endometrial Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem-like cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133, CXCR4',
     gene_symbol: 'PROM1, CXCR4',
     gene_id: '8842, 7852',
     protein_name: 'PROM1, CXCR4',
     protein_id: 'O43490, P61073',
     marker_resource: 'Experiment',
-    pmid: '29096246',
-    company: 'NA'
+    pmid: '29096246'
   },
   {
     species_type: 'Human',
@@ -5903,8 +5391,7 @@ export default [
     protein_name: 'EGLN, CD44, 5NTD, THY1',
     protein_id: 'P17813, P16070, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '25003199',
-    company: 'NA'
+    pmid: '25003199'
   },
   {
     species_type: 'Human',
@@ -5920,8 +5407,7 @@ export default [
     protein_name: 'CD4',
     protein_id: 'P01730',
     marker_resource: 'Experiment',
-    pmid: '25177110',
-    company: 'NA'
+    pmid: '25177110'
   },
   {
     species_type: 'Human',
@@ -5937,8 +5423,7 @@ export default [
     protein_name: 'CD5',
     protein_id: 'P06127',
     marker_resource: 'Experiment',
-    pmid: '25177110',
-    company: 'NA'
+    pmid: '25177110'
   },
   {
     species_type: 'Human',
@@ -5954,8 +5439,7 @@ export default [
     protein_name: 'CD5',
     protein_id: 'P06127',
     marker_resource: 'Experiment',
-    pmid: '25177110',
-    company: 'NA'
+    pmid: '25177110'
   },
   {
     species_type: 'Human',
@@ -5971,8 +5455,7 @@ export default [
     protein_name: 'CD20',
     protein_id: 'P11836',
     marker_resource: 'Experiment',
-    pmid: '25177110',
-    company: 'NA'
+    pmid: '25177110'
   },
   {
     species_type: 'Human',
@@ -5988,8 +5471,7 @@ export default [
     protein_name: 'SDC1',
     protein_id: 'P18827',
     marker_resource: 'Experiment',
-    pmid: '25177110',
-    company: 'NA'
+    pmid: '25177110'
   },
   {
     species_type: 'Human',
@@ -6005,8 +5487,7 @@ export default [
     protein_name: 'BCL6, [CD3D, CD3E, CD3G]',
     protein_id: 'P41182, [P04234, P07766, P09693]',
     marker_resource: 'Experiment',
-    pmid: '25177110',
-    company: 'NA'
+    pmid: '25177110'
   },
   {
     species_type: 'Human',
@@ -6022,8 +5503,7 @@ export default [
     protein_name: 'CCR6, MUC18',
     protein_id: 'P51684, P43121',
     marker_resource: 'Experiment',
-    pmid: '22486269',
-    company: 'NA'
+    pmid: '22486269'
   },
   {
     species_type: 'Human',
@@ -6039,25 +5519,21 @@ export default [
     protein_name: 'EGLN, 5NTD, THY1',
     protein_id: 'P17813, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '22641429',
-    company: 'NA'
+    pmid: '22641429'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Hepatocellular Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'Keratin-19',
     gene_symbol: 'KRT19',
     gene_id: '3880',
     protein_name: 'K1C19',
     protein_id: 'P08727',
     marker_resource: 'Experiment',
-    pmid: '25820415',
-    company: 'NA'
+    pmid: '25820415'
   },
   {
     species_type: 'Human',
@@ -6073,8 +5549,7 @@ export default [
     protein_name: 'MUC18',
     protein_id: 'P43121',
     marker_resource: 'Experiment',
-    pmid: '23766770',
-    company: 'NA'
+    pmid: '23766770'
   },
   {
     species_type: 'Human',
@@ -6090,8 +5565,7 @@ export default [
     protein_name: 'AL1A1',
     protein_id: 'P00352',
     marker_resource: 'Experiment',
-    pmid: '26198909',
-    company: 'NA'
+    pmid: '26198909'
   },
   {
     species_type: 'Human',
@@ -6107,13 +5581,11 @@ export default [
     protein_name: 'PECA1',
     protein_id: 'P16284',
     marker_resource: 'Experiment',
-    pmid: '23425195',
-    company: 'NA'
+    pmid: '23425195'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Prostate Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Basal cell',
@@ -6124,8 +5596,7 @@ export default [
     protein_name: 'LEG3',
     protein_id: 'P17931',
     marker_resource: 'Experiment',
-    pmid: '23907467',
-    company: 'NA'
+    pmid: '23907467'
   },
   {
     species_type: 'Human',
@@ -6141,8 +5612,7 @@ export default [
     protein_name: 'EGLN, CD14, CD19, PECA1, CD34, CD44, PTPRC, 5NTD, THY1',
     protein_id: 'P17813, P08571, P15391, P16284, P28906, P16070, P08575, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '23572135',
-    company: 'NA'
+    pmid: '23572135'
   },
   {
     species_type: 'Human',
@@ -6158,8 +5628,7 @@ export default [
     protein_name: 'EGLN, CD14, CD19, PECA1, CD34, CD44, PTPRC, 5NTD, THY1',
     protein_id: 'P17813, P08571, P15391, P16284, P28906, P16070, P08575, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '23572135',
-    company: 'NA'
+    pmid: '23572135'
   },
   {
     species_type: 'Human',
@@ -6175,8 +5644,7 @@ export default [
     protein_name: 'EGLN, CD44, 5NTD',
     protein_id: 'P17813, P16070, P21589',
     marker_resource: 'Experiment',
-    pmid: '23211052',
-    company: 'NA'
+    pmid: '23211052'
   },
   {
     species_type: 'Human',
@@ -6192,25 +5660,21 @@ export default [
     protein_name: 'PROM1, CD34, VGFR2',
     protein_id: 'O43490, P28906, P35968',
     marker_resource: 'Experiment',
-    pmid: '23703397',
-    company: 'NA'
+    pmid: '23703397'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Synovial Sarcoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133',
     gene_symbol: 'PROM1',
     gene_id: '8842',
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '23416969',
-    company: 'NA'
+    pmid: '23416969'
   },
   {
     species_type: 'Human',
@@ -6226,8 +5690,7 @@ export default [
     protein_name: 'CEAM8',
     protein_id: 'P31997',
     marker_resource: 'Experiment',
-    pmid: '25729037',
-    company: 'NA'
+    pmid: '25729037'
   },
   {
     species_type: 'Human',
@@ -6243,8 +5706,7 @@ export default [
     protein_name: 'CD14, [FCG3A, FCG3B]',
     protein_id: 'P08571, [P08637, O75015]',
     marker_resource: 'Experiment',
-    pmid: '25729037',
-    company: 'NA'
+    pmid: '25729037'
   },
   {
     species_type: 'Human',
@@ -6260,8 +5722,7 @@ export default [
     protein_name: 'CD14, [FCG3A, FCG3B]',
     protein_id: 'P08571, [P08637, O75015]',
     marker_resource: 'Experiment',
-    pmid: '25729037',
-    company: 'NA'
+    pmid: '25729037'
   },
   {
     species_type: 'Human',
@@ -6277,8 +5738,7 @@ export default [
     protein_name: 'CD14, [FCG3A, FCG3B]',
     protein_id: 'P08571, [P08637, O75015]',
     marker_resource: 'Experiment',
-    pmid: '25729037',
-    company: 'NA'
+    pmid: '25729037'
   },
   {
     species_type: 'Human',
@@ -6294,8 +5754,7 @@ export default [
     protein_name: 'Albumin family',
     protein_id: 'Albumin family',
     marker_resource: 'Experiment',
-    pmid: '26407160',
-    company: 'NA'
+    pmid: '26407160'
   },
   {
     species_type: 'Human',
@@ -6311,8 +5770,7 @@ export default [
     protein_name: 'MUC18',
     protein_id: 'P43121',
     marker_resource: 'Experiment',
-    pmid: '26407160',
-    company: 'NA'
+    pmid: '26407160'
   },
   {
     species_type: 'Human',
@@ -6328,8 +5786,7 @@ export default [
     protein_name: 'ACTA',
     protein_id: 'P62736',
     marker_resource: 'Experiment',
-    pmid: '26407160',
-    company: 'NA'
+    pmid: '26407160'
   },
   {
     species_type: 'Human',
@@ -6345,8 +5802,7 @@ export default [
     protein_name: 'CD14, C163A, CD68',
     protein_id: 'P08571, Q86VB7, P34810',
     marker_resource: 'Experiment',
-    pmid: '26407160',
-    company: 'NA'
+    pmid: '26407160'
   },
   {
     species_type: 'Human',
@@ -6362,13 +5818,11 @@ export default [
     protein_name: 'ITA2',
     protein_id: 'P17301',
     marker_resource: 'Experiment',
-    pmid: '23165626',
-    company: 'NA'
+    pmid: '23165626'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Malignant Epithelial Neoplasm',
     cell_type: 'Cancer cell',
     cell_name: 'Myoepithelial cell',
@@ -6379,8 +5833,7 @@ export default [
     protein_name: 'Calponin family, P63',
     protein_id: 'Calponin family, Q9H3D4',
     marker_resource: 'Experiment',
-    pmid: '26630681',
-    company: 'NA'
+    pmid: '26630681'
   },
   {
     species_type: 'Human',
@@ -6396,42 +5849,35 @@ export default [
     protein_name: 'LGR5',
     protein_id: 'O75473',
     marker_resource: 'Experiment',
-    pmid: '23664892',
-    company: 'NA'
+    pmid: '23664892'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Colorectal Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'LGR5',
     gene_symbol: 'LGR5',
     gene_id: '8549',
     protein_name: 'LGR5',
     protein_id: 'O75473',
     marker_resource: 'Experiment',
-    pmid: '23153436',
-    company: 'NA'
+    pmid: '23153436'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Nasopharyngeal Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Side-population cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD44',
     gene_symbol: 'CD44',
     gene_id: '960',
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '26281064',
-    company: 'NA'
+    pmid: '26281064'
   },
   {
     species_type: 'Human',
@@ -6447,25 +5893,21 @@ export default [
     protein_name: 'TNR18',
     protein_id: 'Q9Y5U5',
     marker_resource: 'Experiment',
-    pmid: '23929911',
-    company: 'NA'
+    pmid: '23929911'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Head And Neck Squamous Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD166',
     gene_symbol: 'ALCAM',
     gene_id: '214',
     protein_name: 'CD166',
     protein_id: 'Q13740',
     marker_resource: 'Experiment',
-    pmid: '23903875',
-    company: 'NA'
+    pmid: '23903875'
   },
   {
     species_type: 'Human',
@@ -6474,15 +5916,13 @@ export default [
     cancer_type: 'Breast Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD24, CD44',
     gene_symbol: 'CD24, CD44',
     gene_id: '100133941, 960',
     protein_name: 'CD24, CD44',
     protein_id: 'P25063, P16070',
     marker_resource: 'Experiment',
-    pmid: '23799994',
-    company: 'NA'
+    pmid: '23799994'
   },
   {
     species_type: 'Human',
@@ -6498,25 +5938,21 @@ export default [
     protein_name: 'ITA6',
     protein_id: 'P23229',
     marker_resource: 'Experiment',
-    pmid: '26013602',
-    company: 'NA'
+    pmid: '26013602'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Leukemia',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'IL1RAP',
     gene_symbol: 'IL1RAP',
     gene_id: '3556',
     protein_name: 'IL1AP',
     protein_id: 'Q9NPH3',
     marker_resource: 'Experiment',
-    pmid: '26314426',
-    company: 'NA'
+    pmid: '26314426'
   },
   {
     species_type: 'Human',
@@ -6532,8 +5968,7 @@ export default [
     protein_name: 'CD9',
     protein_id: 'P21926',
     marker_resource: 'Experiment',
-    pmid: '23291167',
-    company: 'NA'
+    pmid: '23291167'
   },
   {
     species_type: 'Human',
@@ -6549,8 +5984,7 @@ export default [
     protein_name: 'IPO13',
     protein_id: 'O94829',
     marker_resource: 'Experiment',
-    pmid: '22648251',
-    company: 'NA'
+    pmid: '22648251'
   },
   {
     species_type: 'Human',
@@ -6559,32 +5993,27 @@ export default [
     cancer_type: 'Endometrial Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Endometrial progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'IPO13',
     gene_symbol: 'IPO13',
     gene_id: '9670',
     protein_name: 'IPO13',
     protein_id: 'O94829',
     marker_resource: 'Experiment',
-    pmid: '22648251',
-    company: 'NA'
+    pmid: '22648251'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Osteosarcoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD117, STRO-1',
     gene_symbol: 'KIT, NA',
     gene_id: '3815, NA',
     protein_name: 'KIT, NA',
     protein_id: 'P10721, NA',
     marker_resource: 'Experiment',
-    pmid: '25973030',
-    company: 'NA'
+    pmid: '25973030'
   },
   {
     species_type: 'Human',
@@ -6593,15 +6022,13 @@ export default [
     cancer_type: 'Leukemia',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'IL1RAP',
     gene_symbol: 'IL1RAP',
     gene_id: '3556',
     protein_name: 'IL1AP',
     protein_id: 'Q9NPH3',
     marker_resource: 'Experiment',
-    pmid: '25663975',
-    company: 'NA'
+    pmid: '25663975'
   },
   {
     species_type: 'Human',
@@ -6610,32 +6037,27 @@ export default [
     cancer_type: 'Leukemia',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'IL1RAP',
     gene_symbol: 'IL1RAP',
     gene_id: '3556',
     protein_name: 'IL1AP',
     protein_id: 'Q9NPH3',
     marker_resource: 'Experiment',
-    pmid: '25663975',
-    company: 'NA'
+    pmid: '25663975'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Nasopharyngeal Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133',
     gene_symbol: 'PROM1',
     gene_id: '8842',
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '23604326',
-    company: 'NA'
+    pmid: '23604326'
   },
   {
     species_type: 'Human',
@@ -6651,8 +6073,7 @@ export default [
     protein_name: 'KIT',
     protein_id: 'P10721',
     marker_resource: 'Experiment',
-    pmid: '25918122',
-    company: 'NA'
+    pmid: '25918122'
   },
   {
     species_type: 'Human',
@@ -6668,8 +6089,7 @@ export default [
     protein_name: 'EGLN, CD34, THY1, NA',
     protein_id: 'P17813, P28906, P04216, NA',
     marker_resource: 'Experiment',
-    pmid: '26617710',
-    company: 'NA'
+    pmid: '26617710'
   },
   {
     species_type: 'Human',
@@ -6678,15 +6098,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Vaginal cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'Loricrin, Stratifin',
     gene_symbol: 'LOR, SFN',
     gene_id: '4014, 2810',
     protein_name: 'LORI, 1433S',
     protein_id: 'P23490, P31947',
     marker_resource: 'Experiment',
-    pmid: '22612601',
-    company: 'NA'
+    pmid: '22612601'
   },
   {
     species_type: 'Human',
@@ -6702,8 +6120,7 @@ export default [
     protein_name: 'NCAM1',
     protein_id: 'P13591',
     marker_resource: 'Experiment',
-    pmid: '23210987',
-    company: 'NA'
+    pmid: '23210987'
   },
   {
     species_type: 'Human',
@@ -6719,8 +6136,7 @@ export default [
     protein_name: 'CD34, PECA1',
     protein_id: 'P28906, P16284',
     marker_resource: 'Experiment',
-    pmid: '23210987',
-    company: 'NA'
+    pmid: '23210987'
   },
   {
     species_type: 'Human',
@@ -6736,8 +6152,7 @@ export default [
     protein_name: 'CD34, PECA1',
     protein_id: 'P28906, P16284',
     marker_resource: 'Experiment',
-    pmid: '23210987',
-    company: 'NA'
+    pmid: '23210987'
   },
   {
     species_type: 'Human',
@@ -6753,8 +6168,7 @@ export default [
     protein_name: 'CD14',
     protein_id: 'P08571',
     marker_resource: 'Experiment',
-    pmid: '26287250',
-    company: 'NA'
+    pmid: '26287250'
   },
   {
     species_type: 'Human',
@@ -6770,8 +6184,7 @@ export default [
     protein_name: 'CD14, PTPRC',
     protein_id: 'P08571, P08575',
     marker_resource: 'Experiment',
-    pmid: '26287250',
-    company: 'NA'
+    pmid: '26287250'
   },
   {
     species_type: 'Human',
@@ -6787,8 +6200,7 @@ export default [
     protein_name: 'CD14, PTPRC, EPCAM',
     protein_id: 'P08571, P08575, P16422',
     marker_resource: 'Experiment',
-    pmid: '26287250',
-    company: 'NA'
+    pmid: '26287250'
   },
   {
     species_type: 'Human',
@@ -6797,15 +6209,13 @@ export default [
     cancer_type: 'Gastric Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD44',
     gene_symbol: 'CD44',
     gene_id: '960',
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '23833643',
-    company: 'NA'
+    pmid: '23833643'
   },
   {
     species_type: 'Human',
@@ -6821,8 +6231,7 @@ export default [
     protein_name: 'ITB1, KIT',
     protein_id: 'P05556, P10721',
     marker_resource: 'Experiment',
-    pmid: '23758503',
-    company: 'NA'
+    pmid: '23758503'
   },
   {
     species_type: 'Human',
@@ -6838,25 +6247,21 @@ export default [
     protein_name: 'GP1BA',
     protein_id: 'P07359',
     marker_resource: 'Experiment',
-    pmid: '26137266',
-    company: 'NA'
+    pmid: '26137266'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Sarcoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'Aldehyde dehydrogenase 1',
     gene_symbol: 'Aldehyde dehydrogenase 1 family',
     gene_id: 'Aldehyde dehydrogenase 1 family',
     protein_name: 'Aldehyde dehydrogenase 1 family',
     protein_id: 'Aldehyde dehydrogenase 1 family',
     marker_resource: 'Experiment',
-    pmid: '22928012',
-    company: 'NA'
+    pmid: '22928012'
   },
   {
     species_type: 'Human',
@@ -6872,8 +6277,7 @@ export default [
     protein_name: 'KIT, KI67',
     protein_id: 'P10721, P46013',
     marker_resource: 'Experiment',
-    pmid: '26327908',
-    company: 'NA'
+    pmid: '26327908'
   },
   {
     species_type: 'Human',
@@ -6889,8 +6293,7 @@ export default [
     protein_name: 'KIT, KI67',
     protein_id: 'P10721, P46013',
     marker_resource: 'Experiment',
-    pmid: '26327908',
-    company: 'NA'
+    pmid: '26327908'
   },
   {
     species_type: 'Human',
@@ -6899,15 +6302,13 @@ export default [
     cancer_type: 'Breast Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD44',
     gene_symbol: 'CD44',
     gene_id: '960',
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '22899576',
-    company: 'NA'
+    pmid: '22899576'
   },
   {
     species_type: 'Human',
@@ -6923,8 +6324,7 @@ export default [
     protein_name: 'NEP, 5NTD, THY1',
     protein_id: 'P08473, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '26356872',
-    company: 'NA'
+    pmid: '26356872'
   },
   {
     species_type: 'Human',
@@ -6933,15 +6333,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Keratinocyte progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ABCG2',
     gene_symbol: 'ABCG2',
     gene_id: '9429',
     protein_name: 'ABCG2',
     protein_id: 'Q9UNQ0',
     marker_resource: 'Experiment',
-    pmid: '25881149',
-    company: 'NA'
+    pmid: '25881149'
   },
   {
     species_type: 'Human',
@@ -6957,8 +6355,7 @@ export default [
     protein_name: 'EGLN, ITB1, PECA1, CD34, CD44, ITA4, 5NTD, THY1',
     protein_id: 'P17813, P05556, P16284, P28906, P16070, P13612, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '25901195',
-    company: 'NA'
+    pmid: '25901195'
   },
   {
     species_type: 'Human',
@@ -6967,32 +6364,27 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Adipose progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD29',
     gene_symbol: 'ITGB1',
     gene_id: '3688',
     protein_name: 'ITB1',
     protein_id: 'P05556',
     marker_resource: 'Experiment',
-    pmid: '26076036',
-    company: 'NA'
+    pmid: '26076036'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Head and neck cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD44',
     gene_symbol: 'CD44',
     gene_id: '960',
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '23152667',
-    company: 'NA'
+    pmid: '23152667'
   },
   {
     species_type: 'Human',
@@ -7008,8 +6400,7 @@ export default [
     protein_name: 'CD19',
     protein_id: 'P15391',
     marker_resource: 'Experiment',
-    pmid: '23688120',
-    company: 'NA'
+    pmid: '23688120'
   },
   {
     species_type: 'Human',
@@ -7025,8 +6416,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], CD8A',
     protein_id: '[P04234, P07766, P09693], P01732',
     marker_resource: 'Experiment',
-    pmid: '23688120',
-    company: 'NA'
+    pmid: '23688120'
   },
   {
     species_type: 'Human',
@@ -7042,25 +6432,19 @@ export default [
     protein_name: '[FCG3A, FCG3B], NCAM1',
     protein_id: '[P08637, O75015], P13591',
     marker_resource: 'Experiment',
-    pmid: '23688120',
-    company: 'NA'
+    pmid: '23688120'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Esophageal Squamous Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ICAM1',
     gene_symbol: 'ICAM1',
     gene_id: '3383',
-    protein_name: 'NA',
-    protein_id: 'NA',
     marker_resource: 'Experiment',
-    pmid: '26571024',
-    company: 'NA'
+    pmid: '26571024'
   },
   {
     species_type: 'Human',
@@ -7069,15 +6453,13 @@ export default [
     cancer_type: 'Breast Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ALDH1',
     gene_symbol: 'ALDH1A1',
     gene_id: '216',
     protein_name: 'AL1A1',
     protein_id: 'P00352',
     marker_resource: 'Experiment',
-    pmid: '23053657',
-    company: 'NA'
+    pmid: '23053657'
   },
   {
     species_type: 'Human',
@@ -7086,15 +6468,13 @@ export default [
     cancer_type: 'Breast Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD24, CD44',
     gene_symbol: 'CD24, CD44',
     gene_id: '100133941, 960',
     protein_name: 'CD24, CD44',
     protein_id: 'P25063, P16070',
     marker_resource: 'Experiment',
-    pmid: '23053657',
-    company: 'NA'
+    pmid: '23053657'
   },
   {
     species_type: 'Human',
@@ -7110,8 +6490,7 @@ export default [
     protein_name: 'PECA1',
     protein_id: 'P16284',
     marker_resource: 'Experiment',
-    pmid: '26148001',
-    company: 'NA'
+    pmid: '26148001'
   },
   {
     species_type: 'Human',
@@ -7120,15 +6499,13 @@ export default [
     cancer_type: 'Colorectal Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133, ESA',
     gene_symbol: 'PROM1, FLOT2',
     gene_id: '8842, 2319',
     protein_name: 'PROM1, FLOT2',
     protein_id: 'O43490, Q14254',
     marker_resource: 'Experiment',
-    pmid: '26119272',
-    company: 'NA'
+    pmid: '26119272'
   },
   {
     species_type: 'Human',
@@ -7144,8 +6521,7 @@ export default [
     protein_name: 'PDPN',
     protein_id: 'Q86YL7',
     marker_resource: 'Experiment',
-    pmid: '23262786',
-    company: 'NA'
+    pmid: '23262786'
   },
   {
     species_type: 'Human',
@@ -7161,25 +6537,21 @@ export default [
     protein_name: 'FUT4',
     protein_id: 'P22083',
     marker_resource: 'Experiment',
-    pmid: '23847113',
-    company: 'NA'
+    pmid: '23847113'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Colorectal Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133',
     gene_symbol: 'PROM1',
     gene_id: '8842',
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '22453233',
-    company: 'NA'
+    pmid: '22453233'
   },
   {
     species_type: 'Human',
@@ -7195,8 +6567,7 @@ export default [
     protein_name: 'AMPQ',
     protein_id: 'Q6Q4G3',
     marker_resource: 'Experiment',
-    pmid: '22402206',
-    company: 'NA'
+    pmid: '22402206'
   },
   {
     species_type: 'Human',
@@ -7205,15 +6576,13 @@ export default [
     cancer_type: 'Glioblastoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133, CD15',
     gene_symbol: 'PROM1, FUT4',
     gene_id: '8842, 2526',
     protein_name: 'PROM1, FUT4',
     protein_id: 'O43490, P22083',
     marker_resource: 'Experiment',
-    pmid: '26237571',
-    company: 'NA'
+    pmid: '26237571'
   },
   {
     species_type: 'Human',
@@ -7229,8 +6598,7 @@ export default [
     protein_name: 'EGLN, ITAM, MUC18, CD34, PTPRC',
     protein_id: 'P17813, P11215, P43121, P28906, P08575',
     marker_resource: 'Experiment',
-    pmid: '25679506',
-    company: 'NA'
+    pmid: '25679506'
   },
   {
     species_type: 'Human',
@@ -7246,8 +6614,7 @@ export default [
     protein_name: 'CD166, CD24, CD44',
     protein_id: 'Q13740, P25063, P16070',
     marker_resource: 'Experiment',
-    pmid: '23644405',
-    company: 'NA'
+    pmid: '23644405'
   },
   {
     species_type: 'Human',
@@ -7263,8 +6630,7 @@ export default [
     protein_name: 'ITB1, CD34, GP1BA, THY1',
     protein_id: 'P05556, P28906, P07359, P04216',
     marker_resource: 'Experiment',
-    pmid: '22952951',
-    company: 'NA'
+    pmid: '22952951'
   },
   {
     species_type: 'Human',
@@ -7280,25 +6646,21 @@ export default [
     protein_name: 'EGLN, PECA1, CD34, PTPRC, THY1',
     protein_id: 'P17813, P16284, P28906, P08575, P04216',
     marker_resource: 'Experiment',
-    pmid: '23271558',
-    company: 'NA'
+    pmid: '23271558'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Gastric Cancer',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD44',
     gene_symbol: 'CD44',
     gene_id: '960',
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '22374783',
-    company: 'NA'
+    pmid: '22374783'
   },
   {
     species_type: 'Human',
@@ -7314,8 +6676,7 @@ export default [
     protein_name: 'NEP, EGLN, AMPN, CD166, ITB1, CD44, TFR1, 5NTD, THY1',
     protein_id: 'P08473, P17813, P15144, Q13740, P05556, P16070, P02786, P21589, P04216',
     marker_resource: 'Experiment',
-    pmid: '26020286',
-    company: 'NA'
+    pmid: '26020286'
   },
   {
     species_type: 'Human',
@@ -7331,8 +6692,7 @@ export default [
     protein_name: 'IL7RA, IL2RA, CD4, FOXP3',
     protein_id: 'P16871, P01589, P01730, Q9BZS1',
     marker_resource: 'Experiment',
-    pmid: '23769051',
-    company: 'NA'
+    pmid: '23769051'
   },
   {
     species_type: 'Human',
@@ -7341,15 +6701,13 @@ export default [
     cancer_type: 'Retinoblastoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'EpCAM',
     gene_symbol: 'EPCAM',
     gene_id: '4072',
     protein_name: 'EPCAM',
     protein_id: 'P16422',
     marker_resource: 'Experiment',
-    pmid: '22328825',
-    company: 'NA'
+    pmid: '22328825'
   },
   {
     species_type: 'Human',
@@ -7365,25 +6723,21 @@ export default [
     protein_name: 'LGR5',
     protein_id: 'O75473',
     marker_resource: 'Experiment',
-    pmid: '22322201',
-    company: 'NA'
+    pmid: '22322201'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Tongue Squamous Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ALDH',
     gene_symbol: 'ALDH family',
     gene_id: 'ALDH family',
     protein_name: 'ALDH family',
     protein_id: 'ALDH family',
     marker_resource: 'Experiment',
-    pmid: '22307065',
-    company: 'NA'
+    pmid: '22307065'
   },
   {
     species_type: 'Human',
@@ -7399,8 +6753,7 @@ export default [
     protein_name: 'PGFRA, CASP3',
     protein_id: 'P16234, P42574',
     marker_resource: 'Experiment',
-    pmid: '23766770',
-    company: 'NA'
+    pmid: '23766770'
   },
   {
     species_type: 'Human',
@@ -7416,8 +6769,7 @@ export default [
     protein_name: 'MUC18',
     protein_id: 'P43121',
     marker_resource: 'Experiment',
-    pmid: '23766770',
-    company: 'NA'
+    pmid: '23766770'
   },
   {
     species_type: 'Human',
@@ -7433,8 +6785,7 @@ export default [
     protein_name: 'MUC18',
     protein_id: 'P43121',
     marker_resource: 'Experiment',
-    pmid: '23766770',
-    company: 'NA'
+    pmid: '23766770'
   },
   {
     species_type: 'Human',
@@ -7450,8 +6801,7 @@ export default [
     protein_name: 'MUC18',
     protein_id: 'P43121',
     marker_resource: 'Experiment',
-    pmid: '23766770',
-    company: 'NA'
+    pmid: '23766770'
   },
   {
     species_type: 'Human',
@@ -7467,8 +6817,7 @@ export default [
     protein_name: 'MUC18',
     protein_id: 'P43121',
     marker_resource: 'Experiment',
-    pmid: '23766770',
-    company: 'NA'
+    pmid: '23766770'
   },
   {
     species_type: 'Human',
@@ -7484,8 +6833,7 @@ export default [
     protein_name: 'AL1A1, CD44, PTPRC, 5NTD, THY1, NA',
     protein_id: 'P00352, P16070, P08575, P21589, P04216, NA',
     marker_resource: 'Experiment',
-    pmid: '26198909',
-    company: 'NA'
+    pmid: '26198909'
   },
   {
     species_type: 'Human',
@@ -7501,8 +6849,7 @@ export default [
     protein_name: 'CMAH',
     protein_id: 'Q9Y471',
     marker_resource: 'Experiment',
-    pmid: '19890979',
-    company: 'NA'
+    pmid: '19890979'
   },
   {
     species_type: 'Human',
@@ -7518,8 +6865,7 @@ export default [
     protein_name: 'CMAH',
     protein_id: 'Q9Y471',
     marker_resource: 'Experiment',
-    pmid: '19890979',
-    company: 'NA'
+    pmid: '19890979'
   },
   {
     species_type: 'Human',
@@ -7535,8 +6881,7 @@ export default [
     protein_name: 'FABP5',
     protein_id: 'Q01469',
     marker_resource: 'Experiment',
-    pmid: '11113456',
-    company: 'NA'
+    pmid: '11113456'
   },
   {
     species_type: 'Human',
@@ -7552,8 +6897,7 @@ export default [
     protein_name: 'CD34',
     protein_id: 'P28906',
     marker_resource: 'Experiment',
-    pmid: '21998334',
-    company: 'NA'
+    pmid: '21998334'
   },
   {
     species_type: 'Human',
@@ -7569,8 +6913,7 @@ export default [
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '21973167',
-    company: 'NA'
+    pmid: '21973167'
   },
   {
     species_type: 'Human',
@@ -7586,8 +6929,7 @@ export default [
     protein_name: 'CD166',
     protein_id: 'Q13740',
     marker_resource: 'Experiment',
-    pmid: '21973167',
-    company: 'NA'
+    pmid: '21973167'
   },
   {
     species_type: 'Human',
@@ -7603,8 +6945,7 @@ export default [
     protein_name: 'NCAM1, GRAB, TIA1',
     protein_id: 'P13591, P10144, P31483',
     marker_resource: 'Experiment',
-    pmid: '10861822',
-    company: 'NA'
+    pmid: '10861822'
   },
   {
     species_type: 'Human',
@@ -7613,15 +6954,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Multipotent progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'ISL1',
     gene_symbol: 'ISL1',
     gene_id: '3670',
     protein_name: 'ISL1',
     protein_id: 'P61371',
     marker_resource: 'Experiment',
-    pmid: '18805183',
-    company: 'NA'
+    pmid: '18805183'
   },
   {
     species_type: 'Human',
@@ -7637,8 +6976,7 @@ export default [
     protein_name: 'CD68',
     protein_id: 'P34810',
     marker_resource: 'Experiment',
-    pmid: '10440240',
-    company: 'NA'
+    pmid: '10440240'
   },
   {
     species_type: 'Human',
@@ -7654,8 +6992,7 @@ export default [
     protein_name: 'A4GAT',
     protein_id: 'Q9NPC4',
     marker_resource: 'Experiment',
-    pmid: '10996204',
-    company: 'NA'
+    pmid: '10996204'
   },
   {
     species_type: 'Human',
@@ -7671,8 +7008,7 @@ export default [
     protein_name: 'A4GAT',
     protein_id: 'Q9NPC4',
     marker_resource: 'Experiment',
-    pmid: '10996204',
-    company: 'NA'
+    pmid: '10996204'
   },
   {
     species_type: 'Human',
@@ -7688,8 +7024,7 @@ export default [
     protein_name: 'A4GAT',
     protein_id: 'Q9NPC4',
     marker_resource: 'Experiment',
-    pmid: '10996204',
-    company: 'NA'
+    pmid: '10996204'
   },
   {
     species_type: 'Human',
@@ -7705,8 +7040,7 @@ export default [
     protein_name: 'K1C19, EGF, GSTP1, NA, HGF, NA',
     protein_id: 'P08727, P01133, P09211, NA, P14210, NA',
     marker_resource: 'Experiment',
-    pmid: '20080086',
-    company: 'NA'
+    pmid: '20080086'
   },
   {
     species_type: 'Human',
@@ -7722,8 +7056,7 @@ export default [
     protein_name: 'MAGA4',
     protein_id: 'P43358',
     marker_resource: 'Experiment',
-    pmid: '11753951',
-    company: 'NA'
+    pmid: '11753951'
   },
   {
     species_type: 'Human',
@@ -7739,8 +7072,7 @@ export default [
     protein_name: 'MAGA4',
     protein_id: 'P43358',
     marker_resource: 'Experiment',
-    pmid: '11753951',
-    company: 'NA'
+    pmid: '11753951'
   },
   {
     species_type: 'Human',
@@ -7756,8 +7088,7 @@ export default [
     protein_name: 'SEPR',
     protein_id: 'Q12884',
     marker_resource: 'Experiment',
-    pmid: '18510677',
-    company: 'NA'
+    pmid: '18510677'
   },
   {
     species_type: 'Human',
@@ -7773,8 +7104,7 @@ export default [
     protein_name: 'TFR1',
     protein_id: 'P02786',
     marker_resource: 'Experiment',
-    pmid: '26990635',
-    company: 'NA'
+    pmid: '26990635'
   },
   {
     species_type: 'Human',
@@ -7790,8 +7120,7 @@ export default [
     protein_name: 'AMPN, CD34, HLA-DR family',
     protein_id: 'P15144, P28906, HLA-DR family',
     marker_resource: 'Experiment',
-    pmid: '25625182',
-    company: 'NA'
+    pmid: '25625182'
   },
   {
     species_type: 'Human',
@@ -7807,25 +7136,21 @@ export default [
     protein_name: 'LGR5',
     protein_id: 'O75473',
     marker_resource: 'Experiment',
-    pmid: '19030762',
-    company: 'NA'
+    pmid: '19030762'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Lentigo Maligna Melanoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD133, CD34',
     gene_symbol: 'PROM1, CD34',
     gene_id: '8842, 947',
     protein_name: 'PROM1, CD34',
     protein_id: 'O43490, P28906',
     marker_resource: 'Experiment',
-    pmid: '18727808',
-    company: 'NA'
+    pmid: '18727808'
   },
   {
     species_type: 'Human',
@@ -7841,8 +7166,7 @@ export default [
     protein_name: 'CD20',
     protein_id: 'P11836',
     marker_resource: 'Experiment',
-    pmid: '6970772',
-    company: 'NA'
+    pmid: '6970772'
   },
   {
     species_type: 'Human',
@@ -7858,8 +7182,7 @@ export default [
     protein_name: 'ITA2B, ITB3',
     protein_id: 'P08514, P05106',
     marker_resource: 'Experiment',
-    pmid: '23508472',
-    company: 'NA'
+    pmid: '23508472'
   },
   {
     species_type: 'Human',
@@ -7868,15 +7191,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Endocrine progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'DDR1, DNER',
     gene_symbol: 'DDR1, DNER',
     gene_id: '780, 92737',
     protein_name: 'DDR1, DNER',
     protein_id: 'Q08345, Q8NFT8',
     marker_resource: 'Experiment',
-    pmid: '21947380',
-    company: 'NA'
+    pmid: '21947380'
   },
   {
     species_type: 'Human',
@@ -7892,8 +7213,7 @@ export default [
     protein_name: 'HECA2',
     protein_id: 'A8MVW5',
     marker_resource: 'Experiment',
-    pmid: '21947380',
-    company: 'NA'
+    pmid: '21947380'
   },
   {
     species_type: 'Human',
@@ -7909,8 +7229,7 @@ export default [
     protein_name: 'DISP2, LRP11, SE6L2, ZNT8, Solute carrier family 30',
     protein_id: 'A7MBM2, Q86VZ4, Q6UXD5, Q8IWU4, Solute carrier family 30',
     marker_resource: 'Experiment',
-    pmid: '21947380',
-    company: 'NA'
+    pmid: '21947380'
   },
   {
     species_type: 'Human',
@@ -7926,8 +7245,7 @@ export default [
     protein_name: 'DCLK1',
     protein_id: 'O15075',
     marker_resource: 'Experiment',
-    pmid: '21916995',
-    company: 'NA'
+    pmid: '21916995'
   },
   {
     species_type: 'Human',
@@ -7943,13 +7261,11 @@ export default [
     protein_name: 'DCLK1',
     protein_id: 'O15075',
     marker_resource: 'Experiment',
-    pmid: '21916995',
-    company: 'NA'
+    pmid: '21916995'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Lymphocyte',
@@ -7960,8 +7276,7 @@ export default [
     protein_name: '[IL18R, I18RA], IL1RL1',
     protein_id: '[Q13478, O95256], Q01638',
     marker_resource: 'Experiment',
-    pmid: '11466339',
-    company: 'NA'
+    pmid: '11466339'
   },
   {
     species_type: 'Human',
@@ -7977,8 +7292,7 @@ export default [
     protein_name: 'PERM',
     protein_id: 'P05164',
     marker_resource: 'Experiment',
-    pmid: '18825001',
-    company: 'NA'
+    pmid: '18825001'
   },
   {
     species_type: 'Human',
@@ -7994,8 +7308,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G]',
     protein_id: '[P04234, P07766, P09693]',
     marker_resource: 'Experiment',
-    pmid: '18825001',
-    company: 'NA'
+    pmid: '18825001'
   },
   {
     species_type: 'Human',
@@ -8011,8 +7324,7 @@ export default [
     protein_name: 'CD20',
     protein_id: 'P11836',
     marker_resource: 'Experiment',
-    pmid: '18825001',
-    company: 'NA'
+    pmid: '18825001'
   },
   {
     species_type: 'Human',
@@ -8028,8 +7340,7 @@ export default [
     protein_name: 'KLRB1',
     protein_id: 'Q12918',
     marker_resource: 'Experiment',
-    pmid: '18663128',
-    company: 'NA'
+    pmid: '18663128'
   },
   {
     species_type: 'Human',
@@ -8045,8 +7356,7 @@ export default [
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '12153177',
-    company: 'NA'
+    pmid: '12153177'
   },
   {
     species_type: 'Human',
@@ -8062,8 +7372,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], CD4, CD8A',
     protein_id: '[P04234, P07766, P09693], P01730, P01732',
     marker_resource: 'Experiment',
-    pmid: '11842977',
-    company: 'NA'
+    pmid: '11842977'
   },
   {
     species_type: 'Human',
@@ -8079,8 +7388,7 @@ export default [
     protein_name: 'NA, CD20, TNR5, HG2A, CD80, CD86',
     protein_id: 'NA, P11836, P25942, P04233, P33681, P42081',
     marker_resource: 'Experiment',
-    pmid: '11842977',
-    company: 'NA'
+    pmid: '11842977'
   },
   {
     species_type: 'Human',
@@ -8096,8 +7404,7 @@ export default [
     protein_name: '[CD3D, CD3E, CD3G], CD4, CD8A',
     protein_id: '[P04234, P07766, P09693], P01730, P01732',
     marker_resource: 'Experiment',
-    pmid: '11842977',
-    company: 'NA'
+    pmid: '11842977'
   },
   {
     species_type: 'Human',
@@ -8113,8 +7420,7 @@ export default [
     protein_name: 'NA, CD20, TNR5, HG2A, CD80, CD86',
     protein_id: 'NA, P11836, P25942, P04233, P33681, P42081',
     marker_resource: 'Experiment',
-    pmid: '11842977',
-    company: 'NA'
+    pmid: '11842977'
   },
   {
     species_type: 'Human',
@@ -8130,8 +7436,7 @@ export default [
     protein_name: 'P63',
     protein_id: 'Q9H3D4',
     marker_resource: 'Experiment',
-    pmid: '16384708',
-    company: 'NA'
+    pmid: '16384708'
   },
   {
     species_type: 'Human',
@@ -8147,8 +7452,7 @@ export default [
     protein_name: 'MUC18, PTPRC',
     protein_id: 'P43121, P08575',
     marker_resource: 'Experiment',
-    pmid: '19039027',
-    company: 'NA'
+    pmid: '19039027'
   },
   {
     species_type: 'Human',
@@ -8164,8 +7468,7 @@ export default [
     protein_name: 'CD166',
     protein_id: 'Q13740',
     marker_resource: 'Experiment',
-    pmid: '21496249',
-    company: 'NA'
+    pmid: '21496249'
   },
   {
     species_type: 'Human',
@@ -8174,32 +7477,27 @@ export default [
     cancer_type: 'Nephroblastoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'NCAM',
     gene_symbol: 'NCAM1',
     gene_id: '4684',
     protein_name: 'NCAM1',
     protein_id: 'P13591',
     marker_resource: 'Experiment',
-    pmid: '20187302',
-    company: 'NA'
+    pmid: '20187302'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: 'Head And Neck Squamous Cell Carcinoma',
     cell_type: 'Cancer cell',
     cell_name: 'Cancer stem cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD44',
     gene_symbol: 'CD44',
     gene_id: '960',
     protein_name: 'CD44',
     protein_id: 'P16070',
     marker_resource: 'Experiment',
-    pmid: '21617876',
-    company: 'NA'
+    pmid: '21617876'
   },
   {
     species_type: 'Human',
@@ -8215,8 +7513,7 @@ export default [
     protein_name: 'K2C7',
     protein_id: 'P08729',
     marker_resource: 'Experiment',
-    pmid: '26931579',
-    company: 'NA'
+    pmid: '26931579'
   },
   {
     species_type: 'Human',
@@ -8232,8 +7529,7 @@ export default [
     protein_name: 'EZRI',
     protein_id: 'P15311',
     marker_resource: 'Experiment',
-    pmid: '9853258',
-    company: 'NA'
+    pmid: '9853258'
   },
   {
     species_type: 'Human',
@@ -8242,15 +7538,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Glomerular epithelial cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'Ezrin',
     gene_symbol: 'EZR',
     gene_id: '7430',
     protein_name: 'EZRI',
     protein_id: 'P15311',
     marker_resource: 'Experiment',
-    pmid: '9853258',
-    company: 'NA'
+    pmid: '9853258'
   },
   {
     species_type: 'Human',
@@ -8261,13 +7555,8 @@ export default [
     cell_name: 'Stromal stem cell',
     cell_ontology_id: 'CL_0000034',
     cell_marker: 'STRO-1',
-    gene_symbol: 'NA',
-    gene_id: 'NA',
-    protein_name: 'NA',
-    protein_id: 'NA',
     marker_resource: 'Experiment',
-    pmid: '21837388',
-    company: 'NA'
+    pmid: '21837388'
   },
   {
     species_type: 'Human',
@@ -8283,8 +7572,7 @@ export default [
     protein_name: 'MIC60',
     protein_id: 'Q16891',
     marker_resource: 'Experiment',
-    pmid: '25590652',
-    company: 'NA'
+    pmid: '25590652'
   },
   {
     species_type: 'Human',
@@ -8300,8 +7588,7 @@ export default [
     protein_name: 'AMPN, ITB1, PECA1, CD34, CD44',
     protein_id: 'P15144, P05556, P16284, P28906, P16070',
     marker_resource: 'Experiment',
-    pmid: '20890444',
-    company: 'NA'
+    pmid: '20890444'
   },
   {
     species_type: 'Human',
@@ -8317,8 +7604,7 @@ export default [
     protein_name: 'DEF5',
     protein_id: 'Q01523',
     marker_resource: 'Experiment',
-    pmid: '11499835',
-    company: 'NA'
+    pmid: '11499835'
   },
   {
     species_type: 'Human',
@@ -8334,8 +7620,7 @@ export default [
     protein_name: 'CD24',
     protein_id: 'P25063',
     marker_resource: 'Experiment',
-    pmid: '16181617',
-    company: 'NA'
+    pmid: '16181617'
   },
   {
     species_type: 'Human',
@@ -8351,8 +7636,7 @@ export default [
     protein_name: 'CD24, CD79A',
     protein_id: 'P25063, P11912',
     marker_resource: 'Experiment',
-    pmid: '16181617',
-    company: 'NA'
+    pmid: '16181617'
   },
   {
     species_type: 'Human',
@@ -8368,8 +7652,7 @@ export default [
     protein_name: 'PROM1',
     protein_id: 'O43490',
     marker_resource: 'Experiment',
-    pmid: '17185982',
-    company: 'NA'
+    pmid: '17185982'
   },
   {
     species_type: 'Human',
@@ -8380,13 +7663,8 @@ export default [
     cell_name: 'Spermatogonial stem cell',
     cell_ontology_id: 'CL_0000089',
     cell_marker: 'SSEA-4',
-    gene_symbol: 'NA',
-    gene_id: 'NA',
-    protein_name: 'NA',
-    protein_id: 'NA',
     marker_resource: 'Experiment',
-    pmid: '21349855',
-    company: 'NA'
+    pmid: '21349855'
   },
   {
     species_type: 'Human',
@@ -8402,8 +7680,7 @@ export default [
     protein_name: 'GFAP',
     protein_id: 'P14136',
     marker_resource: 'Experiment',
-    pmid: '11725235',
-    company: 'NA'
+    pmid: '11725235'
   },
   {
     species_type: 'Human',
@@ -8419,8 +7696,7 @@ export default [
     protein_name: 'CD34',
     protein_id: 'P28906',
     marker_resource: 'Experiment',
-    pmid: '11725235',
-    company: 'NA'
+    pmid: '11725235'
   },
   {
     species_type: 'Human',
@@ -8436,8 +7712,7 @@ export default [
     protein_name: 'IL6RB, LIFR',
     protein_id: 'P40189, P42702',
     marker_resource: 'Experiment',
-    pmid: '16977637',
-    company: 'NA'
+    pmid: '16977637'
   },
   {
     species_type: 'Human',
@@ -8446,15 +7721,13 @@ export default [
     cancer_type: 'Normal',
     cell_type: 'Normal cell',
     cell_name: 'Liver progenitor cell',
-    cell_ontology_id: 'NA',
     cell_marker: 'CD24',
     gene_symbol: 'CD24',
     gene_id: '100133941',
     protein_name: 'CD24',
     protein_id: 'P25063',
     marker_resource: 'Experiment',
-    pmid: '21361791',
-    company: 'NA'
+    pmid: '21361791'
   },
   {
     species_type: 'Human',
@@ -8470,8 +7743,7 @@ export default [
     protein_name: 'PPBT, PO5F1, FUT4, NA, NA, PODXL',
     protein_id: 'P05186, Q01860, P22083, NA, NA, O00592',
     marker_resource: 'Experiment',
-    pmid: '16761728',
-    company: 'NA'
+    pmid: '16761728'
   },
   {
     species_type: 'Human',
@@ -8487,8 +7759,7 @@ export default [
     protein_name: 'ATNG',
     protein_id: 'P54710',
     marker_resource: 'Experiment',
-    pmid: '20379810',
-    company: 'NA'
+    pmid: '20379810'
   },
   {
     species_type: 'Human',
@@ -8504,24 +7775,17 @@ export default [
     protein_name: 'TNR16',
     protein_id: 'P08138',
     marker_resource: 'Experiment',
-    pmid: '21478116',
-    company: 'NA'
+    pmid: '21478116'
   },
   {
     species_type: 'Human',
     tissue_type: 'Undefined',
-    uberon_ontology_id: 'NA',
     cancer_type: "Non-Hodgkin's Lymphoma",
     cell_type: 'Cancer cell',
     cell_name: 'Cancer cell',
     cell_ontology_id: 'CL_0001064',
     cell_marker: 'HMNA',
-    gene_symbol: 'NA',
-    gene_id: 'NA',
-    protein_name: 'NA',
-    protein_id: 'NA',
     marker_resource: 'Experiment',
-    pmid: '6365200',
-    company: 'NA'
+    pmid: '6365200'
   }
 ];

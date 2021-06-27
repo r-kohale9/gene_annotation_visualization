@@ -1,16 +1,107 @@
 # Entity
-type TypeName {
-  typeName: String!
+type Cell {
+  id: Int
+  geneId: String
+  proteinId: String
+  uberonOntologyId: String
+  cellOntologyId: String
+  geneSymbol: String
+  pmid: String
+  speciesType: String
+  tissueType: String
+  cancerType: String
+  cellType: String
+  cellName: String
+  cellMarker: String
+  proteinName: String
+  markerResource: String
+  company: String
+}
+
+type Cells {
+  totalCount: Int
+  edges: [CellEdges]
+  pageInfo: CellPageInfo
+}
+
+type CellEdges {
+  node: Cell
+  cursor: Int
+}
+
+type CellPageInfo {
+  endCursor: Int
+  hasNextPage: Boolean
 }
 
 extend type Query {
-  queryName: TypeName
+  cell(id: Int!): Cell
+  cells(
+    limit: Int
+    after: Int
+    orderBy: OrderByCellInput
+    filter: FilterCellInput
+  ): Cells
+}
+
+input FilterCellInput {
+  searchText: String
+  isActive: Boolean
+}
+
+input OrderByCellInput {
+  column: String
+  order: String
 }
 
 extend type Mutation {
-  mutationName(varName: Int!): TypeName
+  addCell(input: AddCellInput!): Cell
+  editCell(input: EditCellInput!): Cell
+  deleteCell(id: Int!): Cell
+}
+
+input AddCellInput {
+  geneId: String
+  proteinId: String
+  uberonOntologyId: String
+  cellOntologyId: String
+  geneSymbol: String
+  pmid: String
+  speciesType: String
+  tissueType: String
+  cancerType: String
+  cellType: String
+  cellName: String
+  cellMarker: String
+  proteinName: String
+  markerResource: String
+  company: String
+}
+
+input EditCellInput {
+  id: Int!
+  geneId: String
+  proteinId: String
+  uberonOntologyId: String
+  cellOntologyId: String
+  geneSymbol: String
+  pmid: String
+  speciesType: String
+  tissueType: String
+  cancerType: String
+  cellType: String
+  cellName: String
+  cellMarker: String
+  proteinName: String
+  markerResource: String
+  company: String
 }
 
 extend type Subscription {
-  subscriptionName: TypeName
+  cellUpdated(filter: FilterCellInput): UpdateCellPayload
+}
+
+type UpdateCellPayload {
+  mutation: String!
+  node: Cell
 }
