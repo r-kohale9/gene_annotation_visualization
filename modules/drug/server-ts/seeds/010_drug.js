@@ -6,7 +6,6 @@ export async function seed(knex, Promise) {
   await truncateTables(knex, Promise, ['drug']);
   await Promise.all(
     DRUG.map(async (ii, i) => {
-      console.log(i);
       await returnId(knex('drug')).insert(ii);
     })
   );

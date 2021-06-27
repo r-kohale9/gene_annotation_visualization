@@ -6,7 +6,6 @@ export async function seed(knex, Promise) {
   await truncateTables(knex, Promise, ['cell']);
   await Promise.all(
     CELL.map(async (ii, i) => {
-      console.log(ii);
       await returnId(knex('cell')).insert(ii);
     })
   );

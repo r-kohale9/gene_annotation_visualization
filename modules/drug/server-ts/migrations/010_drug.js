@@ -5,6 +5,7 @@ exports.up = function(knex, Promise) {
       table.string('entrez_id');
       table.string('drug_concept_id');
       table.string('pmid');
+      table.string('gene_name');
       table.string('gene_claim_name');
       table.string('interaction_claim_source');
       table.string('interaction_type');
