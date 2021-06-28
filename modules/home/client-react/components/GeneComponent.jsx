@@ -30,7 +30,7 @@ class GeneComponent extends React.Component {
     const { CytoscapeComponent, width, height } = this.props;
     const elements = [
       {
-        data: { id: "one", label: "Node 1" },
+        data: { id: "one", label: "FBLN1" },
         position: { x: width / 2 - 80, y: height / 2 },
       },
       {
