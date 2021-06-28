@@ -1,16 +1,89 @@
 # Entity
-type TypeName {
-  typeName: String!
+type Gene {
+  id: Int
+  geneId: String
+  omimId: String
+  ensemblId: String
+  geneSymbol: String
+  cosmicSymbol: String
+  geneName: String
+  status: String
+  refSeqAccession: String
+  chromosomeLocation: String
+}
+
+type Genes {
+  totalCount: Int
+  edges: [GeneEdges]
+  pageInfo: GenePageInfo
+}
+
+type GeneEdges {
+  node: Gene
+  cursor: Int
+}
+
+type GenePageInfo {
+  endCursor: Int
+  hasNextPage: Boolean
 }
 
 extend type Query {
-  queryName: TypeName
+  gene(id: Int!): Gene
+  genes(
+    limit: Int
+    after: Int
+    orderBy: OrderByGeneInput
+    filter: FilterGeneInput
+  ): Genes
+}
+
+input FilterGeneInput {
+  searchText: String
+  isActive: Boolean
+}
+
+input OrderByGeneInput {
+  column: String
+  order: String
 }
 
 extend type Mutation {
-  mutationName(varName: Int!): TypeName
+  addGene(input: AddGeneInput!): Gene
+  editGene(input: EditGeneInput!): Gene
+  deleteGene(id: Int!): Gene
+}
+
+input AddGeneInput {
+  geneId: String
+  omimId: String
+  ensemblId: String
+  geneSymbol: String
+  cosmicSymbol: String
+  geneName: String
+  status: String
+  refSeqAccession: String
+  chromosomeLocation: String
+}
+
+input EditGeneInput {
+  id: Int!
+  geneId: String
+  omimId: String
+  ensemblId: String
+  geneSymbol: String
+  cosmicSymbol: String
+  geneName: String
+  status: String
+  refSeqAccession: String
+  chromosomeLocation: String
 }
 
 extend type Subscription {
-  subscriptionName: TypeName
+  geneUpdated(filter: FilterGeneInput): UpdateGenePayload
+}
+
+type UpdateGenePayload {
+  mutation: String!
+  node: Gene
 }
