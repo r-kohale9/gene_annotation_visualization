@@ -8,7 +8,6 @@ export default (pubsub: any) => ({
     async cells(obj: any, { filter, limit, after, orderBy }: any, context: any) {
       const cellOutput = await context.Cell.cells(limit, after, orderBy, filter);
       const { cellItems, total } = cellOutput;
-      console.log(cellItems);
       const hasNextPage = total > after + limit;
 
       const edgesArray = [];

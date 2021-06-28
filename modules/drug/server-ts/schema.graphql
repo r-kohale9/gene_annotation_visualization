@@ -1,16 +1,95 @@
 # Entity
-type TypeName {
-  typeName: String!
+type Drug {
+  id: Int
+  entrezId: String
+  drugConceptId: String
+  pmid: String
+  geneName: String
+  geneClaimName: String
+  interactionClaimSource: String
+  interactionType: String
+  drugClaimPrimaryName: String
+  drugClaimName: String
+  drugName: String
+  interactionGroupScore: String
+}
+
+type Drugs {
+  totalCount: Int
+  edges: [DrugEdges]
+  pageInfo: DrugPageInfo
+}
+
+type DrugEdges {
+  node: Drug
+  cursor: Int
+}
+
+type DrugPageInfo {
+  endCursor: Int
+  hasNextPage: Boolean
 }
 
 extend type Query {
-  queryName: TypeName
+  drug(id: Int!): Drug
+  drugs(
+    limit: Int
+    after: Int
+    orderBy: OrderByDrugInput
+    filter: FilterDrugInput
+  ): Drugs
+}
+
+input FilterDrugInput {
+  searchText: String
+  isActive: Boolean
+}
+
+input OrderByDrugInput {
+  column: String
+  order: String
 }
 
 extend type Mutation {
-  mutationName(varName: Int!): TypeName
+  addDrug(input: AddDrugInput!): Drug
+  editDrug(input: EditDrugInput!): Drug
+  deleteDrug(id: Int!): Drug
+}
+
+input AddDrugInput {
+  entrezId: String
+  drugConceptId: String
+  pmid: String
+  geneName: String
+  geneClaimName: String
+  interactionClaimSource: String
+  interactionType: String
+  drugClaimPrimaryName: String
+  drugClaimName: String
+  drugName: String
+  interactionGroupScore: String
+}
+
+input EditDrugInput {
+  id: Int!
+  entrezId: String
+  drugConceptId: String
+  pmid: String
+  geneName: String
+  geneClaimName: String
+  interactionClaimSource: String
+  interactionType: String
+  drugClaimPrimaryName: String
+  drugClaimName: String
+  drugName: String
+  interactionGroupScore: String
 }
 
 extend type Subscription {
-  subscriptionName: TypeName
+  drugUpdated(filter: FilterDrugInput): UpdateDrugPayload
+}
+
+type UpdateDrugPayload {
+  mutation: String!
+  node: Drug
 }
