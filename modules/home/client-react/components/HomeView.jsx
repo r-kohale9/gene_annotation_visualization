@@ -98,20 +98,49 @@ class HomeView extends React.Component {
         position: { x: width / 2, y: height / 4 },
       },
       {
-        data: { id: "pathway", label: "Pathway", width: 100, background:'#3EC0C1' },
+        data: {
+          id: "pathway",
+          label: "Pathway",
+          width: 100,
+          background: "#3EC0C1",
+        },
         position: { x: width / 2 - 200, y: height / 2 },
       },
       {
-        data: { id: "disease", label: "Disease", width: 100, background:'#ACD257' },
+        data: {
+          id: "disease",
+          label: "Disease",
+          width: 100,
+          background: "#ACD257",
+        },
         position: { x: width / 2 - 70, y: height / 2 },
       },
       {
-        data: { id: "single_cell", label: "Single Cell", width: 100, background:'#EB7B77' },
+        data: {
+          id: "single_cell",
+          label: "Single Cell",
+          width: 100,
+          background: "#EB7B77",
+        },
         position: { x: width / 2 + 70, y: height / 2 },
       },
       {
-        data: { id: "drug_interaction", label: "Drug Interaction", width: 150, background:'#9C6795' },
+        data: {
+          id: "drug_interaction",
+          label: "Drug Interaction",
+          width: 150,
+          background: "#9C6795",
+        },
         position: { x: width / 2 + 200, y: height / 2 },
+      },
+      {
+        data: {
+          id: "single_cell_node",
+          label: "Kupffer Cell\nBTO_0000685",
+          width: 200,
+          background: "#9C6795",
+        },
+        position: { x: width / 2 + 70, y: height / 2 + 200 },
       },
       {
         data: {
@@ -142,6 +171,14 @@ class HomeView extends React.Component {
           source: "gene",
           target: "drug_interaction",
           label: "Gene to drug_interaction",
+          type: "DB2",
+        },
+      },
+      {
+        data: {
+          source: "single_cell",
+          target: "single_cell_node",
+          label: "single_cell to single_cell_node",
           type: "DB2",
         },
       },
@@ -195,6 +232,17 @@ class HomeView extends React.Component {
           width: 150,
           "background-color": "#BB342F",
           color: "white",
+        },
+      },
+      {
+        selector: "#single_cell_node",
+        style: {
+          shape: "round-rectangle",
+          width: "data(width)",
+          height: "50",
+          "background-color": "#BB342F",
+          color: "white",
+          "text-wrap": "wrap",
         },
       },
       {
