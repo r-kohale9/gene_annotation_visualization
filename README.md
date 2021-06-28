@@ -1,6 +1,6 @@
 
 
-# Gene Annotation Visualizer
+# Gene Annotation Visualizer 
 
 
 1. Install the dependencies. Make sure that you use Yarn 1.0.0 or higher.
