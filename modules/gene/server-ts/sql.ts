@@ -2,9 +2,11 @@ import { Model, raw } from 'objection';
 import { camelizeKeys, decamelizeKeys, decamelize } from 'humps';
 import { knex, returnId, orderedFor } from '@gqlapp/database-server-ts';
 import { has } from 'lodash';
+import Drug from '@gqlapp/drug-server-ts/sql';
+import Cell from '@gqlapp/cell-server-ts/sql';
 
 // Give the knex object to objection.
-const eager = '[]';
+const eager = '[drug_interactions, cell_specific_markers]';
 
 Model.knex(knex);
 
@@ -15,6 +17,27 @@ export default class Gene extends Model {
 
   static get idColumn() {
     return 'id';
+  }
+
+  static get relationMappings() {
+    return {
+      drug_interactions: {
+        relation: Model.HasManyRelation,
+        modelClass: Drug,
+        join: {
+          from: 'gene.gene_symbol',
+          to: 'drug.gene_name'
+        }
+      },
+      cell_specific_markers: {
+        relation: Model.HasManyRelation,
+        modelClass: Cell,
+        join: {
+          from: 'gene.gene_id',
+          to: 'cell.gene_id'
+        }
+      }
+    };
   }
 
   public async genes(limit: number, after: any, orderBy: any, filter: any) {

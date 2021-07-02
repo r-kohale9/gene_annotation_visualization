@@ -10,6 +10,9 @@ type Gene {
   status: String
   refSeqAccession: String
   chromosomeLocation: String
+
+  drugInteractions: [Drug]
+  cellSpecificMarkers: [Cell]
 }
 
 type Genes {

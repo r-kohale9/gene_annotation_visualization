@@ -1,6 +1,6 @@
 export default [
   {
-    gene_id: 'HGNC:1',
+    gene_id: '1',
     status: 'Approved',
     gene_symbol: 'A1BG',
     gene_name: 'alpha-1-B glycoprotein',
@@ -11,7 +11,7 @@ export default [
     omim_id: '138670'
   },
   {
-    gene_id: 'HGNC:100',
+    gene_id: '100',
     status: 'Approved',
     gene_symbol: 'A1BG-AS1',
     gene_name: 'A1BG antisense RNA 1',
@@ -22,7 +22,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1000',
+    gene_id: '1000',
     status: 'Approved',
     gene_symbol: 'A1CF',
     gene_name: 'APOBEC1 complementation factor',
@@ -33,7 +33,7 @@ export default [
     omim_id: '618199'
   },
   {
-    gene_id: 'HGNC:10000',
+    gene_id: '10000',
     status: 'Approved',
     gene_symbol: 'A2M',
     gene_name: 'alpha-2-macroglobulin',
@@ -44,7 +44,7 @@ export default [
     omim_id: '103950'
   },
   {
-    gene_id: 'HGNC:10001',
+    gene_id: '10001',
     status: 'Approved',
     gene_symbol: 'A2M-AS1',
     gene_name: 'A2M antisense RNA 1',
@@ -55,7 +55,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10002',
+    gene_id: '10002',
     status: 'Approved',
     gene_symbol: 'A2ML1',
     gene_name: 'alpha-2-macroglobulin like 1',
@@ -66,7 +66,7 @@ export default [
     omim_id: '610627'
   },
   {
-    gene_id: 'HGNC:10003',
+    gene_id: '10003',
     status: 'Approved',
     gene_symbol: 'A2ML1-AS1',
     gene_name: 'A2ML1 antisense RNA 1',
@@ -77,7 +77,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10004',
+    gene_id: '10004',
     status: 'Approved',
     gene_symbol: 'A2ML1-AS2',
     gene_name: 'A2ML1 antisense RNA 2',
@@ -88,7 +88,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10006',
+    gene_id: '10006',
     status: 'Approved',
     gene_symbol: 'A2MP1',
     gene_name: 'alpha-2-macroglobulin pseudogene 1',
@@ -99,7 +99,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10007',
+    gene_id: '10007',
     status: 'Approved',
     gene_symbol: 'A3GALT2',
     gene_name: 'alpha 1,3-galactosyltransferase 2',
@@ -110,7 +110,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10008',
+    gene_id: '10008',
     status: 'Approved',
     gene_symbol: 'A4GALT',
     gene_name: 'alpha 1,4-galactosyltransferase (P blood group)',
@@ -121,7 +121,7 @@ export default [
     omim_id: '607922'
   },
   {
-    gene_id: 'HGNC:10009',
+    gene_id: '10009',
     status: 'Approved',
     gene_symbol: 'A4GNT',
     gene_name: 'alpha-1,4-N-acetylglucosaminyltransferase',
@@ -132,7 +132,7 @@ export default [
     omim_id: '616709'
   },
   {
-    gene_id: 'HGNC:1001',
+    gene_id: '1001',
     status: 'Entry Withdrawn',
     gene_symbol: 'A12M1',
     gene_name: 'adenovirus-12 chromosome modification site 1C',
@@ -143,7 +143,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10010',
+    gene_id: '10010',
     status: 'Entry Withdrawn',
     gene_symbol: 'A12M2',
     gene_name: 'adenovirus-12 chromosome modification site 1A',
@@ -154,7 +154,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10011',
+    gene_id: '10011',
     status: 'Entry Withdrawn',
     gene_symbol: 'A12M3',
     gene_name: 'adenovirus-12 chromosome modification site 1B',
@@ -165,7 +165,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10012',
+    gene_id: '10012',
     status: 'Entry Withdrawn',
     gene_symbol: 'A12M4',
     gene_name: 'adenovirus-12 chromosome modification site 17',
@@ -176,7 +176,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10013',
+    gene_id: '10013',
     status: 'Approved',
     gene_symbol: 'AAAS',
     gene_name: 'aladin WD repeat nucleoporin',
@@ -187,7 +187,7 @@ export default [
     omim_id: '605378'
   },
   {
-    gene_id: 'HGNC:10015',
+    gene_id: '10015',
     status: 'Entry Withdrawn',
     gene_symbol: 'AABT',
     gene_name: 'amino acid transport, beta',
@@ -198,7 +198,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10017',
+    gene_id: '10017',
     status: 'Approved',
     gene_symbol: 'AACS',
     gene_name: 'acetoacetyl-CoA synthetase',
@@ -209,7 +209,7 @@ export default [
     omim_id: '614364'
   },
   {
-    gene_id: 'HGNC:10018',
+    gene_id: '10018',
     status: 'Approved',
     gene_symbol: 'AACSP1',
     gene_name: 'acetoacetyl-CoA synthetase pseudogene 1',
@@ -220,7 +220,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10019',
+    gene_id: '10019',
     status: 'Approved',
     gene_symbol: 'AADAC',
     gene_name: 'arylacetamide deacetylase',
@@ -231,7 +231,7 @@ export default [
     omim_id: '600338'
   },
   {
-    gene_id: 'HGNC:1002',
+    gene_id: '1002',
     status: 'Approved',
     gene_symbol: 'AADACL2',
     gene_name: 'arylacetamide deacetylase like 2',
@@ -242,7 +242,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10020',
+    gene_id: '10020',
     status: 'Approved',
     gene_symbol: 'AADACL2-AS1',
     gene_name: 'AADACL2 antisense RNA 1',
@@ -253,7 +253,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10021',
+    gene_id: '10021',
     status: 'Approved',
     gene_symbol: 'AADACL3',
     gene_name: 'arylacetamide deacetylase like 3',
@@ -264,7 +264,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10023',
+    gene_id: '10023',
     status: 'Approved',
     gene_symbol: 'AADACL4',
     gene_name: 'arylacetamide deacetylase like 4',
@@ -275,7 +275,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10024',
+    gene_id: '10024',
     status: 'Approved',
     gene_symbol: 'AADACP1',
     gene_name: 'arylacetamide deacetylase pseudogene 1',
@@ -286,7 +286,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10025',
+    gene_id: '10025',
     status: 'Approved',
     gene_symbol: 'AADAT',
     gene_name: 'aminoadipate aminotransferase',
@@ -297,7 +297,7 @@ export default [
     omim_id: '611754'
   },
   {
-    gene_id: 'HGNC:10026',
+    gene_id: '10026',
     status: 'Approved',
     gene_symbol: 'AAGAB',
     gene_name: 'alpha and gamma adaptin binding protein',
@@ -308,7 +308,7 @@ export default [
     omim_id: '614888'
   },
   {
-    gene_id: 'HGNC:10027',
+    gene_id: '10027',
     status: 'Approved',
     gene_symbol: 'AAK1',
     gene_name: 'AP2 associated kinase 1',
@@ -319,7 +319,7 @@ export default [
     omim_id: '616405'
   },
   {
-    gene_id: 'HGNC:10030',
+    gene_id: '10030',
     status: 'Approved',
     gene_symbol: 'AAMDC',
     gene_name: 'adipogenesis associated Mth938 domain containing',
@@ -330,7 +330,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10031',
+    gene_id: '10031',
     status: 'Approved',
     gene_symbol: 'AAMP',
     gene_name: 'angio associated migratory cell protein',
@@ -341,7 +341,7 @@ export default [
     omim_id: '603488'
   },
   {
-    gene_id: 'HGNC:10032',
+    gene_id: '10032',
     status: 'Approved',
     gene_symbol: 'AANAT',
     gene_name: 'aralkylamine N-acetyltransferase',
@@ -352,7 +352,7 @@ export default [
     omim_id: '600950'
   },
   {
-    gene_id: 'HGNC:10034',
+    gene_id: '10034',
     status: 'Approved',
     gene_symbol: 'AAR2',
     gene_name: 'AAR2 splicing factor',
@@ -363,7 +363,7 @@ export default [
     omim_id: '617365'
   },
   {
-    gene_id: 'HGNC:10035',
+    gene_id: '10035',
     status: 'Approved',
     gene_symbol: 'AARD',
     gene_name: 'alanine and arginine rich domain containing protein',
@@ -374,7 +374,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10036',
+    gene_id: '10036',
     status: 'Approved',
     gene_symbol: 'AARS1',
     gene_name: 'alanyl-tRNA synthetase 1',
@@ -385,7 +385,7 @@ export default [
     omim_id: '601065'
   },
   {
-    gene_id: 'HGNC:10037',
+    gene_id: '10037',
     status: 'Approved',
     gene_symbol: 'AARS1P1',
     gene_name: 'alanyl-tRNA synthetase 1 pseudogene 1',
@@ -396,7 +396,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10038',
+    gene_id: '10038',
     status: 'Approved',
     gene_symbol: 'AARS2',
     gene_name: 'alanyl-tRNA synthetase 2, mitochondrial',
@@ -407,7 +407,7 @@ export default [
     omim_id: '612035'
   },
   {
-    gene_id: 'HGNC:10039',
+    gene_id: '10039',
     status: 'Approved',
     gene_symbol: 'AARSD1',
     gene_name: 'alanyl-tRNA synthetase domain containing 1',
@@ -418,7 +418,7 @@ export default [
     omim_id: '613212'
   },
   {
-    gene_id: 'HGNC:1004',
+    gene_id: '1004',
     status: 'Approved',
     gene_symbol: 'AARSD1P1',
     gene_name: 'AARSD1 pseudogene 1',
@@ -429,7 +429,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10040',
+    gene_id: '10040',
     status: 'Approved',
     gene_symbol: 'AASDH',
     gene_name: 'aminoadipate-semialdehyde dehydrogenase',
@@ -440,7 +440,7 @@ export default [
     omim_id: '614365'
   },
   {
-    gene_id: 'HGNC:10041',
+    gene_id: '10041',
     status: 'Approved',
     gene_symbol: 'AASDHPPT',
     gene_name: 'aminoadipate-semialdehyde dehydrogenase-phosphopantetheinyl transferase',
@@ -451,7 +451,7 @@ export default [
     omim_id: '607756'
   },
   {
-    gene_id: 'HGNC:10042',
+    gene_id: '10042',
     status: 'Approved',
     gene_symbol: 'AASS',
     gene_name: 'aminoadipate-semialdehyde synthase',
@@ -462,7 +462,7 @@ export default [
     omim_id: '605113'
   },
   {
-    gene_id: 'HGNC:10043',
+    gene_id: '10043',
     status: 'Approved',
     gene_symbol: 'AATBC',
     gene_name: 'apoptosis associated transcript in bladder cancer',
@@ -473,7 +473,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10044',
+    gene_id: '10044',
     status: 'Approved',
     gene_symbol: 'AATF',
     gene_name: 'apoptosis antagonizing transcription factor',
@@ -484,7 +484,7 @@ export default [
     omim_id: '608463'
   },
   {
-    gene_id: 'HGNC:10045',
+    gene_id: '10045',
     status: 'Approved',
     gene_symbol: 'AATK',
     gene_name: 'apoptosis associated tyrosine kinase',
@@ -495,7 +495,7 @@ export default [
     omim_id: '605276'
   },
   {
-    gene_id: 'HGNC:10046',
+    gene_id: '10046',
     status: 'Approved',
     gene_symbol: 'AAVS1',
     gene_name: 'adeno-associated virus integration site 1',
@@ -506,7 +506,7 @@ export default [
     omim_id: '102699'
   },
   {
-    gene_id: 'HGNC:10047',
+    gene_id: '10047',
     status: 'Approved',
     gene_symbol: 'ABALON',
     gene_name: 'apoptotic BCL2L1-antisense long non-coding RNA',
@@ -517,7 +517,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10048',
+    gene_id: '10048',
     status: 'Approved',
     gene_symbol: 'ABAT',
     gene_name: '4-aminobutyrate aminotransferase',
@@ -528,7 +528,7 @@ export default [
     omim_id: '137150'
   },
   {
-    gene_id: 'HGNC:10049',
+    gene_id: '10049',
     status: 'Approved',
     gene_symbol: 'ABCA1',
     gene_name: 'ATP binding cassette subfamily A member 1',
@@ -539,7 +539,7 @@ export default [
     omim_id: '600046'
   },
   {
-    gene_id: 'HGNC:1005',
+    gene_id: '1005',
     status: 'Approved',
     gene_symbol: 'ABCA2',
     gene_name: 'ATP binding cassette subfamily A member 2',
@@ -550,7 +550,7 @@ export default [
     omim_id: '600047'
   },
   {
-    gene_id: 'HGNC:10050',
+    gene_id: '10050',
     status: 'Approved',
     gene_symbol: 'ABCA3',
     gene_name: 'ATP binding cassette subfamily A member 3',
@@ -561,7 +561,7 @@ export default [
     omim_id: '601615'
   },
   {
-    gene_id: 'HGNC:10055',
+    gene_id: '10055',
     status: 'Approved',
     gene_symbol: 'ABCA4',
     gene_name: 'ATP binding cassette subfamily A member 4',
@@ -572,7 +572,7 @@ export default [
     omim_id: '601691'
   },
   {
-    gene_id: 'HGNC:10056',
+    gene_id: '10056',
     status: 'Approved',
     gene_symbol: 'ABCA5',
     gene_name: 'ATP binding cassette subfamily A member 5',
@@ -583,7 +583,7 @@ export default [
     omim_id: '612503'
   },
   {
-    gene_id: 'HGNC:10057',
+    gene_id: '10057',
     status: 'Approved',
     gene_symbol: 'ABCA6',
     gene_name: 'ATP binding cassette subfamily A member 6',
@@ -594,7 +594,7 @@ export default [
     omim_id: '612504'
   },
   {
-    gene_id: 'HGNC:10058',
+    gene_id: '10058',
     status: 'Approved',
     gene_symbol: 'ABCA7',
     gene_name: 'ATP binding cassette subfamily A member 7',
@@ -605,7 +605,7 @@ export default [
     omim_id: '605414'
   },
   {
-    gene_id: 'HGNC:10059',
+    gene_id: '10059',
     status: 'Approved',
     gene_symbol: 'ABCA8',
     gene_name: 'ATP binding cassette subfamily A member 8',
@@ -616,7 +616,7 @@ export default [
     omim_id: '612505'
   },
   {
-    gene_id: 'HGNC:1006',
+    gene_id: '1006',
     status: 'Approved',
     gene_symbol: 'ABCA9',
     gene_name: 'ATP binding cassette subfamily A member 9',
@@ -627,7 +627,7 @@ export default [
     omim_id: '612507'
   },
   {
-    gene_id: 'HGNC:10060',
+    gene_id: '10060',
     status: 'Approved',
     gene_symbol: 'ABCA9-AS1',
     gene_name: 'ABCA9 antisense RNA 1',
@@ -638,7 +638,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10061',
+    gene_id: '10061',
     status: 'Approved',
     gene_symbol: 'ABCA10',
     gene_name: 'ATP binding cassette subfamily A member 10',
@@ -649,7 +649,7 @@ export default [
     omim_id: '612508'
   },
   {
-    gene_id: 'HGNC:10062',
+    gene_id: '10062',
     status: 'Approved',
     gene_symbol: 'ABCA11P',
     gene_name: 'ATP binding cassette subfamily A member 11, pseudogene',
@@ -660,7 +660,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10063',
+    gene_id: '10063',
     status: 'Approved',
     gene_symbol: 'ABCA12',
     gene_name: 'ATP binding cassette subfamily A member 12',
@@ -671,7 +671,7 @@ export default [
     omim_id: '607800'
   },
   {
-    gene_id: 'HGNC:10064',
+    gene_id: '10064',
     status: 'Approved',
     gene_symbol: 'ABCA13',
     gene_name: 'ATP binding cassette subfamily A member 13',
@@ -682,7 +682,7 @@ export default [
     omim_id: '607807'
   },
   {
-    gene_id: 'HGNC:10065',
+    gene_id: '10065',
     status: 'Approved',
     gene_symbol: 'ABCA17P',
     gene_name: 'ATP binding cassette subfamily A member 17, pseudogene',
@@ -693,7 +693,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10066',
+    gene_id: '10066',
     status: 'Approved',
     gene_symbol: 'ABCB1',
     gene_name: 'ATP binding cassette subfamily B member 1',
@@ -704,7 +704,7 @@ export default [
     omim_id: '171050'
   },
   {
-    gene_id: 'HGNC:10067',
+    gene_id: '10067',
     status: 'Approved',
     gene_symbol: 'ABCB4',
     gene_name: 'ATP binding cassette subfamily B member 4',
@@ -715,7 +715,7 @@ export default [
     omim_id: '171060'
   },
   {
-    gene_id: 'HGNC:10068',
+    gene_id: '10068',
     status: 'Approved',
     gene_symbol: 'ABCB5',
     gene_name: 'ATP binding cassette subfamily B member 5',
@@ -726,7 +726,7 @@ export default [
     omim_id: '611785'
   },
   {
-    gene_id: 'HGNC:10069',
+    gene_id: '10069',
     status: 'Approved',
     gene_symbol: 'ABCB6',
     gene_name: 'ATP binding cassette subfamily B member 6 (Langereis blood group)',
@@ -737,7 +737,7 @@ export default [
     omim_id: '605452'
   },
   {
-    gene_id: 'HGNC:1007',
+    gene_id: '1007',
     status: 'Approved',
     gene_symbol: 'ABCB7',
     gene_name: 'ATP binding cassette subfamily B member 7',
@@ -748,7 +748,7 @@ export default [
     omim_id: '300135'
   },
   {
-    gene_id: 'HGNC:10070',
+    gene_id: '10070',
     status: 'Approved',
     gene_symbol: 'ABCB8',
     gene_name: 'ATP binding cassette subfamily B member 8',
@@ -759,7 +759,7 @@ export default [
     omim_id: '605464'
   },
   {
-    gene_id: 'HGNC:10071',
+    gene_id: '10071',
     status: 'Approved',
     gene_symbol: 'ABCB9',
     gene_name: 'ATP binding cassette subfamily B member 9',
@@ -770,7 +770,7 @@ export default [
     omim_id: '605453'
   },
   {
-    gene_id: 'HGNC:10072',
+    gene_id: '10072',
     status: 'Approved',
     gene_symbol: 'ABCB10',
     gene_name: 'ATP binding cassette subfamily B member 10',
@@ -781,7 +781,7 @@ export default [
     omim_id: '605454'
   },
   {
-    gene_id: 'HGNC:10073',
+    gene_id: '10073',
     status: 'Approved',
     gene_symbol: 'ABCB10P1',
     gene_name: 'ABCB10 pseudogene 1',
@@ -792,7 +792,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10074',
+    gene_id: '10074',
     status: 'Approved',
     gene_symbol: 'ABCB10P3',
     gene_name: 'ABCB10 pseudogene 3',
@@ -803,7 +803,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10075',
+    gene_id: '10075',
     status: 'Approved',
     gene_symbol: 'ABCB10P4',
     gene_name: 'ABCB10 pseudogene 4',
@@ -814,7 +814,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10078',
+    gene_id: '10078',
     status: 'Approved',
     gene_symbol: 'ABCB11',
     gene_name: 'ATP binding cassette subfamily B member 11',
@@ -825,7 +825,7 @@ export default [
     omim_id: '603201'
   },
   {
-    gene_id: 'HGNC:10079',
+    gene_id: '10079',
     status: 'Approved',
     gene_symbol: 'ABCC1',
     gene_name: 'ATP binding cassette subfamily C member 1',
@@ -836,7 +836,7 @@ export default [
     omim_id: '158343'
   },
   {
-    gene_id: 'HGNC:1008',
+    gene_id: '1008',
     status: 'Approved',
     gene_symbol: 'ABCC2',
     gene_name: 'ATP binding cassette subfamily C member 2',
@@ -847,7 +847,7 @@ export default [
     omim_id: '601107'
   },
   {
-    gene_id: 'HGNC:10080',
+    gene_id: '10080',
     status: 'Approved',
     gene_symbol: 'ABCC3',
     gene_name: 'ATP binding cassette subfamily C member 3',
@@ -858,7 +858,7 @@ export default [
     omim_id: '604323'
   },
   {
-    gene_id: 'HGNC:10082',
+    gene_id: '10082',
     status: 'Approved',
     gene_symbol: 'ABCC4',
     gene_name: 'ATP binding cassette subfamily C member 4',
@@ -869,7 +869,7 @@ export default [
     omim_id: '605250'
   },
   {
-    gene_id: 'HGNC:10083',
+    gene_id: '10083',
     status: 'Approved',
     gene_symbol: 'ABCC5',
     gene_name: 'ATP binding cassette subfamily C member 5',
@@ -880,7 +880,7 @@ export default [
     omim_id: '605251'
   },
   {
-    gene_id: 'HGNC:10084',
+    gene_id: '10084',
     status: 'Approved',
     gene_symbol: 'ABCC5-AS1',
     gene_name: 'ABCC5 antisense RNA 1',
@@ -891,7 +891,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10085',
+    gene_id: '10085',
     status: 'Approved',
     gene_symbol: 'ABCC6',
     gene_name: 'ATP binding cassette subfamily C member 6',
@@ -902,7 +902,7 @@ export default [
     omim_id: '603234'
   },
   {
-    gene_id: 'HGNC:10086',
+    gene_id: '10086',
     status: 'Approved',
     gene_symbol: 'ABCC6P1',
     gene_name: 'ATP binding cassette subfamily C member 6 pseudogene 1',
@@ -913,7 +913,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10087',
+    gene_id: '10087',
     status: 'Approved',
     gene_symbol: 'ABCC6P2',
     gene_name: 'ATP binding cassette subfamily C member 6 pseudogene 2',
@@ -924,7 +924,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10088',
+    gene_id: '10088',
     status: 'Approved',
     gene_symbol: 'ABCC8',
     gene_name: 'ATP binding cassette subfamily C member 8',
@@ -935,7 +935,7 @@ export default [
     omim_id: '600509'
   },
   {
-    gene_id: 'HGNC:10096',
+    gene_id: '10096',
     status: 'Approved',
     gene_symbol: 'ABCC9',
     gene_name: 'ATP binding cassette subfamily C member 9',
@@ -946,7 +946,7 @@ export default [
     omim_id: '601439'
   },
   {
-    gene_id: 'HGNC:10097',
+    gene_id: '10097',
     status: 'Approved',
     gene_symbol: 'ABCC10',
     gene_name: 'ATP binding cassette subfamily C member 10',
@@ -957,7 +957,7 @@ export default [
     omim_id: '612509'
   },
   {
-    gene_id: 'HGNC:10098',
+    gene_id: '10098',
     status: 'Approved',
     gene_symbol: 'ABCC11',
     gene_name: 'ATP binding cassette subfamily C member 11',
@@ -968,7 +968,7 @@ export default [
     omim_id: '607040'
   },
   {
-    gene_id: 'HGNC:10099',
+    gene_id: '10099',
     status: 'Approved',
     gene_symbol: 'ABCC12',
     gene_name: 'ATP binding cassette subfamily C member 12',
@@ -979,7 +979,7 @@ export default [
     omim_id: '607041'
   },
   {
-    gene_id: 'HGNC:101',
+    gene_id: '101',
     status: 'Approved',
     gene_symbol: 'ABCC13',
     gene_name: 'ATP binding cassette subfamily C member 13 (pseudogene)',
@@ -990,7 +990,7 @@ export default [
     omim_id: '608835'
   },
   {
-    gene_id: 'HGNC:10100',
+    gene_id: '10100',
     status: 'Approved',
     gene_symbol: 'ABCD1',
     gene_name: 'ATP binding cassette subfamily D member 1',
@@ -1001,7 +1001,7 @@ export default [
     omim_id: '300371'
   },
   {
-    gene_id: 'HGNC:10101',
+    gene_id: '10101',
     status: 'Approved',
     gene_symbol: 'ABCD1P1',
     gene_name: 'ATP binding cassette subfamily D member 1 pseudogene 1',
@@ -1012,7 +1012,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10103',
+    gene_id: '10103',
     status: 'Approved',
     gene_symbol: 'ABCD1P2',
     gene_name: 'ATP binding cassette subfamily D member 1 pseudogene 2',
@@ -1023,7 +1023,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10104',
+    gene_id: '10104',
     status: 'Approved',
     gene_symbol: 'ABCD1P3',
     gene_name: 'ATP binding cassette subfamily D member 1 pseudogene 3',
@@ -1034,7 +1034,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10105',
+    gene_id: '10105',
     status: 'Approved',
     gene_symbol: 'ABCD1P4',
     gene_name: 'ATP binding cassette subfamily D member 1 pseudogene 4',
@@ -1045,7 +1045,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10106',
+    gene_id: '10106',
     status: 'Approved',
     gene_symbol: 'ABCD1P5',
     gene_name: 'ATP binding cassette subfamily D member 1 pseudogene 5',
@@ -1056,7 +1056,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10107',
+    gene_id: '10107',
     status: 'Approved',
     gene_symbol: 'ABCD2',
     gene_name: 'ATP binding cassette subfamily D member 2',
@@ -1067,7 +1067,7 @@ export default [
     omim_id: '601081'
   },
   {
-    gene_id: 'HGNC:10108',
+    gene_id: '10108',
     status: 'Approved',
     gene_symbol: 'ABCD3',
     gene_name: 'ATP binding cassette subfamily D member 3',
@@ -1078,7 +1078,7 @@ export default [
     omim_id: '170995'
   },
   {
-    gene_id: 'HGNC:10109',
+    gene_id: '10109',
     status: 'Approved',
     gene_symbol: 'ABCD4',
     gene_name: 'ATP binding cassette subfamily D member 4',
@@ -1089,7 +1089,7 @@ export default [
     omim_id: '603214'
   },
   {
-    gene_id: 'HGNC:10110',
+    gene_id: '10110',
     status: 'Approved',
     gene_symbol: 'ABCE1',
     gene_name: 'ATP binding cassette subfamily E member 1',
@@ -1100,7 +1100,7 @@ export default [
     omim_id: '601213'
   },
   {
-    gene_id: 'HGNC:10111',
+    gene_id: '10111',
     status: 'Approved',
     gene_symbol: 'ABCF1',
     gene_name: 'ATP binding cassette subfamily F member 1',
@@ -1111,7 +1111,7 @@ export default [
     omim_id: '603429'
   },
   {
-    gene_id: 'HGNC:10112',
+    gene_id: '10112',
     status: 'Approved',
     gene_symbol: 'ABCF1-DT',
     gene_name: 'ABCF1 divergent transcript',
@@ -1122,7 +1122,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10113',
+    gene_id: '10113',
     status: 'Approved',
     gene_symbol: 'ABCF2',
     gene_name: 'ATP binding cassette subfamily F member 2',
@@ -1133,7 +1133,7 @@ export default [
     omim_id: '612510'
   },
   {
-    gene_id: 'HGNC:10114',
+    gene_id: '10114',
     status: 'Approved',
     gene_symbol: 'ABCF2-H2BE1',
     gene_name: 'ABCF2-H2BE1 readthrough',
@@ -1144,7 +1144,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10115',
+    gene_id: '10115',
     status: 'Approved',
     gene_symbol: 'ABCF2P1',
     gene_name: 'ATP binding cassette subfamily F member 2 pseudogene 1',
@@ -1155,7 +1155,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10116',
+    gene_id: '10116',
     status: 'Approved',
     gene_symbol: 'ABCF2P2',
     gene_name: 'ATP binding cassette subfamily F member 2 pseudogene 2',
@@ -1166,7 +1166,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10118',
+    gene_id: '10118',
     status: 'Approved',
     gene_symbol: 'ABCF3',
     gene_name: 'ATP binding cassette subfamily F member 3',
@@ -1177,7 +1177,7 @@ export default [
     omim_id: '618967'
   },
   {
-    gene_id: 'HGNC:10119',
+    gene_id: '10119',
     status: 'Approved',
     gene_symbol: 'ABCG1',
     gene_name: 'ATP binding cassette subfamily G member 1',
@@ -1188,7 +1188,7 @@ export default [
     omim_id: '603076'
   },
   {
-    gene_id: 'HGNC:1012',
+    gene_id: '1012',
     status: 'Approved',
     gene_symbol: 'ABCG2',
     gene_name: 'ATP binding cassette subfamily G member 2 (Junior blood group)',
@@ -1199,7 +1199,7 @@ export default [
     omim_id: '603756'
   },
   {
-    gene_id: 'HGNC:10120',
+    gene_id: '10120',
     status: 'Approved',
     gene_symbol: 'ABCG4',
     gene_name: 'ATP binding cassette subfamily G member 4',
@@ -1210,7 +1210,7 @@ export default [
     omim_id: '607784'
   },
   {
-    gene_id: 'HGNC:10123',
+    gene_id: '10123',
     status: 'Approved',
     gene_symbol: 'ABCG5',
     gene_name: 'ATP binding cassette subfamily G member 5',
@@ -1221,7 +1221,7 @@ export default [
     omim_id: '605459'
   },
   {
-    gene_id: 'HGNC:10128',
+    gene_id: '10128',
     status: 'Approved',
     gene_symbol: 'ABCG8',
     gene_name: 'ATP binding cassette subfamily G member 8',
@@ -1232,7 +1232,7 @@ export default [
     omim_id: '605460'
   },
   {
-    gene_id: 'HGNC:10130',
+    gene_id: '10130',
     status: 'Approved',
     gene_symbol: 'ABHD1',
     gene_name: 'abhydrolase domain containing 1',
@@ -1243,7 +1243,7 @@ export default [
     omim_id: '612195'
   },
   {
-    gene_id: 'HGNC:10133',
+    gene_id: '10133',
     status: 'Approved',
     gene_symbol: 'ABHD2',
     gene_name: 'abhydrolase domain containing 2, acylglycerol lipase',
@@ -1254,7 +1254,7 @@ export default [
     omim_id: '612196'
   },
   {
-    gene_id: 'HGNC:10135',
+    gene_id: '10135',
     status: 'Approved',
     gene_symbol: 'ABHD3',
     gene_name: 'abhydrolase domain containing 3, phospholipase',
@@ -1265,7 +1265,7 @@ export default [
     omim_id: '612197'
   },
   {
-    gene_id: 'HGNC:10136',
+    gene_id: '10136',
     status: 'Approved',
     gene_symbol: 'ABHD4',
     gene_name: 'abhydrolase domain containing 4, N-acyl phospholipase B',
@@ -1276,7 +1276,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10137',
+    gene_id: '10137',
     status: 'Approved',
     gene_symbol: 'ABHD5',
     gene_name: 'abhydrolase domain containing 5, lysophosphatidic acid acyltransferase',
@@ -1287,7 +1287,7 @@ export default [
     omim_id: '604780'
   },
   {
-    gene_id: 'HGNC:10139',
+    gene_id: '10139',
     status: 'Approved',
     gene_symbol: 'ABHD6',
     gene_name: 'abhydrolase domain containing 6, acylglycerol lipase',
@@ -1298,7 +1298,7 @@ export default [
     omim_id: '616966'
   },
   {
-    gene_id: 'HGNC:1014',
+    gene_id: '1014',
     status: 'Approved',
     gene_symbol: 'ABHD8',
     gene_name: 'abhydrolase domain containing 8',
@@ -1309,7 +1309,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10140',
+    gene_id: '10140',
     status: 'Approved',
     gene_symbol: 'ABHD10',
     gene_name: 'abhydrolase domain containing 10, depalmitoylase',
@@ -1320,7 +1320,7 @@ export default [
     omim_id: '618756'
   },
   {
-    gene_id: 'HGNC:10142',
+    gene_id: '10142',
     status: 'Approved',
     gene_symbol: 'ABHD11',
     gene_name: 'abhydrolase domain containing 11',
@@ -1331,7 +1331,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10143',
+    gene_id: '10143',
     status: 'Approved',
     gene_symbol: 'ABHD11-AS1',
     gene_name: 'ABHD11 antisense RNA 1 (tail to tail)',
@@ -1342,7 +1342,7 @@ export default [
     omim_id: '612545'
   },
   {
-    gene_id: 'HGNC:10144',
+    gene_id: '10144',
     status: 'Entry Withdrawn',
     gene_symbol: 'ABHD11-AS2',
     gene_name: 'ABHD11 antisense RNA 2',
@@ -1353,7 +1353,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10145',
+    gene_id: '10145',
     status: 'Approved',
     gene_symbol: 'ABHD12',
     gene_name: 'abhydrolase domain containing 12, lysophospholipase',
@@ -1364,7 +1364,7 @@ export default [
     omim_id: '613599'
   },
   {
-    gene_id: 'HGNC:10146',
+    gene_id: '10146',
     status: 'Approved',
     gene_symbol: 'ABHD12B',
     gene_name: 'abhydrolase domain containing 12B',
@@ -1375,7 +1375,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10147',
+    gene_id: '10147',
     status: 'Approved',
     gene_symbol: 'ABHD13',
     gene_name: 'abhydrolase domain containing 13',
@@ -1386,7 +1386,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10148',
+    gene_id: '10148',
     status: 'Approved',
     gene_symbol: 'ABHD14A',
     gene_name: 'abhydrolase domain containing 14A',
@@ -1397,7 +1397,7 @@ export default [
     omim_id: '618771'
   },
   {
-    gene_id: 'HGNC:10149',
+    gene_id: '10149',
     status: 'Approved',
     gene_symbol: 'ABHD14A-ACY1',
     gene_name: 'ABHD14A-ACY1 readthrough',
@@ -1408,7 +1408,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1015',
+    gene_id: '1015',
     status: 'Approved',
     gene_symbol: 'ABHD14B',
     gene_name: 'abhydrolase domain containing 14B',
@@ -1419,7 +1419,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10150',
+    gene_id: '10150',
     status: 'Approved',
     gene_symbol: 'ABHD15',
     gene_name: 'abhydrolase domain containing 15',
@@ -1430,7 +1430,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10151',
+    gene_id: '10151',
     status: 'Approved',
     gene_symbol: 'ABHD15-AS1',
     gene_name: 'ABHD15 antisense RNA 1',
@@ -1441,7 +1441,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10152',
+    gene_id: '10152',
     status: 'Approved',
     gene_symbol: 'ABHD16A',
     gene_name: 'abhydrolase domain containing 16A, phospholipase',
@@ -1452,7 +1452,7 @@ export default [
     omim_id: '142620'
   },
   {
-    gene_id: 'HGNC:10153',
+    gene_id: '10153',
     status: 'Approved',
     gene_symbol: 'ABHD16B',
     gene_name: 'abhydrolase domain containing 16B',
@@ -1463,7 +1463,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10154',
+    gene_id: '10154',
     status: 'Approved',
     gene_symbol: 'ABHD17A',
     gene_name: 'abhydrolase domain containing 17A, depalmitoylase',
@@ -1474,7 +1474,7 @@ export default [
     omim_id: '617942'
   },
   {
-    gene_id: 'HGNC:10155',
+    gene_id: '10155',
     status: 'Approved',
     gene_symbol: 'ABHD17AP1',
     gene_name: 'ABHD17A pseudogene 1',
@@ -1485,7 +1485,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10156',
+    gene_id: '10156',
     status: 'Approved',
     gene_symbol: 'ABHD17AP3',
     gene_name: 'ABHD17A pseudogene 3',
@@ -1496,7 +1496,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10157',
+    gene_id: '10157',
     status: 'Approved',
     gene_symbol: 'ABHD17AP4',
     gene_name: 'ABHD17A pseudogene 4',
@@ -1507,7 +1507,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10158',
+    gene_id: '10158',
     status: 'Approved',
     gene_symbol: 'ABHD17AP5',
     gene_name: 'ABHD17A pseudogene 5',
@@ -1518,7 +1518,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10159',
+    gene_id: '10159',
     status: 'Approved',
     gene_symbol: 'ABHD17AP6',
     gene_name: 'ABHD17A pseudogene 6',
@@ -1529,7 +1529,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1016',
+    gene_id: '1016',
     status: 'Approved',
     gene_symbol: 'ABHD17AP7',
     gene_name: 'ABHD17A pseudogene 7',
@@ -1540,7 +1540,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10160',
+    gene_id: '10160',
     status: 'Approved',
     gene_symbol: 'ABHD17AP8',
     gene_name: 'ABHD17A pseudogene 8',
@@ -1551,7 +1551,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10161',
+    gene_id: '10161',
     status: 'Approved',
     gene_symbol: 'ABHD17AP9',
     gene_name: 'ABHD17A pseudogene 9',
@@ -1562,7 +1562,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10162',
+    gene_id: '10162',
     status: 'Approved',
     gene_symbol: 'ABHD17B',
     gene_name: 'abhydrolase domain containing 17B, depalmitoylase',
@@ -1573,7 +1573,7 @@ export default [
     omim_id: '617943'
   },
   {
-    gene_id: 'HGNC:10163',
+    gene_id: '10163',
     status: 'Approved',
     gene_symbol: 'ABHD17C',
     gene_name: 'abhydrolase domain containing 17C, depalmitoylase',
@@ -1584,7 +1584,7 @@ export default [
     omim_id: '617944'
   },
   {
-    gene_id: 'HGNC:10164',
+    gene_id: '10164',
     status: 'Approved',
     gene_symbol: 'ABHD18',
     gene_name: 'abhydrolase domain containing 18',
@@ -1595,7 +1595,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10165',
+    gene_id: '10165',
     status: 'Approved',
     gene_symbol: 'ABI1',
     gene_name: 'abl interactor 1',
@@ -1606,7 +1606,7 @@ export default [
     omim_id: '603050'
   },
   {
-    gene_id: 'HGNC:10166',
+    gene_id: '10166',
     status: 'Approved',
     gene_symbol: 'ABI1P1',
     gene_name: 'abl interactor 1 pseudogene 1',
@@ -1617,7 +1617,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10168',
+    gene_id: '10168',
     status: 'Approved',
     gene_symbol: 'ABI2',
     gene_name: 'abl interactor 2',
@@ -1628,7 +1628,7 @@ export default [
     omim_id: '606442'
   },
   {
-    gene_id: 'HGNC:10169',
+    gene_id: '10169',
     status: 'Approved',
     gene_symbol: 'ABI3',
     gene_name: 'ABI family member 3',
@@ -1639,7 +1639,7 @@ export default [
     omim_id: '606363'
   },
   {
-    gene_id: 'HGNC:1017',
+    gene_id: '1017',
     status: 'Approved',
     gene_symbol: 'ABI3BP',
     gene_name: 'ABI family member 3 binding protein',
@@ -1650,7 +1650,7 @@ export default [
     omim_id: '606279'
   },
   {
-    gene_id: 'HGNC:10170',
+    gene_id: '10170',
     status: 'Approved',
     gene_symbol: 'ABITRAM',
     gene_name: 'actin binding transcription modulator',
@@ -1661,7 +1661,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10171',
+    gene_id: '10171',
     status: 'Approved',
     gene_symbol: 'ABITRAMP1',
     gene_name: 'ABITRAM pseudogene 1',
@@ -1672,7 +1672,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10172',
+    gene_id: '10172',
     status: 'Approved',
     gene_symbol: 'ABL1',
     gene_name: 'ABL proto-oncogene 1, non-receptor tyrosine kinase',
@@ -1683,7 +1683,7 @@ export default [
     omim_id: '189980'
   },
   {
-    gene_id: 'HGNC:10173',
+    gene_id: '10173',
     status: 'Approved',
     gene_symbol: 'ABL2',
     gene_name: 'ABL proto-oncogene 2, non-receptor tyrosine kinase',
@@ -1694,7 +1694,7 @@ export default [
     omim_id: '164690'
   },
   {
-    gene_id: 'HGNC:10174',
+    gene_id: '10174',
     status: 'Approved',
     gene_symbol: 'ABLIM1',
     gene_name: 'actin binding LIM protein 1',
@@ -1705,7 +1705,7 @@ export default [
     omim_id: '602330'
   },
   {
-    gene_id: 'HGNC:10175',
+    gene_id: '10175',
     status: 'Approved',
     gene_symbol: 'ABLIM2',
     gene_name: 'actin binding LIM protein family member 2',
@@ -1716,7 +1716,7 @@ export default [
     omim_id: '612544'
   },
   {
-    gene_id: 'HGNC:10177',
+    gene_id: '10177',
     status: 'Approved',
     gene_symbol: 'ABLIM3',
     gene_name: 'actin binding LIM protein family member 3',
@@ -1727,7 +1727,7 @@ export default [
     omim_id: '611305'
   },
   {
-    gene_id: 'HGNC:10178',
+    gene_id: '10178',
     status: 'Approved',
     gene_symbol: 'ABO',
     gene_name: 'ABO, alpha 1-3-N-acetylgalactosaminyltransferase and alpha 1-3-galactosyltransferase',
@@ -1738,7 +1738,7 @@ export default [
     omim_id: '110300'
   },
   {
-    gene_id: 'HGNC:10179',
+    gene_id: '10179',
     status: 'Approved',
     gene_symbol: 'ABR',
     gene_name: 'ABR activator of RhoGEF and GTPase',
@@ -1749,7 +1749,7 @@ export default [
     omim_id: '600365'
   },
   {
-    gene_id: 'HGNC:1018',
+    gene_id: '1018',
     status: 'Approved',
     gene_symbol: 'ABRA',
     gene_name: 'actin binding Rho activating protein',
@@ -1760,7 +1760,7 @@ export default [
     omim_id: '609747'
   },
   {
-    gene_id: 'HGNC:10180',
+    gene_id: '10180',
     status: 'Approved',
     gene_symbol: 'ABRACL',
     gene_name: 'ABRA C-terminal like',
@@ -1771,7 +1771,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10181',
+    gene_id: '10181',
     status: 'Approved',
     gene_symbol: 'ABRAXAS1',
     gene_name: 'abraxas 1, BRCA1 A complex subunit',
@@ -1782,7 +1782,7 @@ export default [
     omim_id: '611143'
   },
   {
-    gene_id: 'HGNC:10182',
+    gene_id: '10182',
     status: 'Approved',
     gene_symbol: 'ABRAXAS2',
     gene_name: 'abraxas 2, BRISC complex subunit',
@@ -1793,7 +1793,7 @@ export default [
     omim_id: '611144'
   },
   {
-    gene_id: 'HGNC:10183',
+    gene_id: '10183',
     status: 'Approved',
     gene_symbol: 'ABT1',
     gene_name: 'activator of basal transcription 1',
@@ -1804,7 +1804,7 @@ export default [
     omim_id: '618750'
   },
   {
-    gene_id: 'HGNC:10184',
+    gene_id: '10184',
     status: 'Approved',
     gene_symbol: 'ABT1P1',
     gene_name: 'activator of basal transcription 1 pseudogene 1',
@@ -1815,7 +1815,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10185',
+    gene_id: '10185',
     status: 'Approved',
     gene_symbol: 'ABTB1',
     gene_name: 'ankyrin repeat and BTB domain containing 1',
@@ -1826,7 +1826,7 @@ export default [
     omim_id: '608308'
   },
   {
-    gene_id: 'HGNC:10186',
+    gene_id: '10186',
     status: 'Approved',
     gene_symbol: 'ABTB2',
     gene_name: 'ankyrin repeat and BTB domain containing 2',
@@ -1837,7 +1837,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10187',
+    gene_id: '10187',
     status: 'Approved',
     gene_symbol: 'ACAA1',
     gene_name: 'acetyl-CoA acyltransferase 1',
@@ -1848,7 +1848,7 @@ export default [
     omim_id: '604054'
   },
   {
-    gene_id: 'HGNC:10188',
+    gene_id: '10188',
     status: 'Approved',
     gene_symbol: 'ACAA2',
     gene_name: 'acetyl-CoA acyltransferase 2',
@@ -1859,7 +1859,7 @@ export default [
     omim_id: '604770'
   },
   {
-    gene_id: 'HGNC:10189',
+    gene_id: '10189',
     status: 'Approved',
     gene_symbol: 'ACACA',
     gene_name: 'acetyl-CoA carboxylase alpha',
@@ -1870,7 +1870,7 @@ export default [
     omim_id: '200350'
   },
   {
-    gene_id: 'HGNC:10192',
+    gene_id: '10192',
     status: 'Approved',
     gene_symbol: 'ACACB',
     gene_name: 'acetyl-CoA carboxylase beta',
@@ -1881,7 +1881,7 @@ export default [
     omim_id: '601557'
   },
   {
-    gene_id: 'HGNC:10193',
+    gene_id: '10193',
     status: 'Entry Withdrawn',
     gene_symbol: 'ACAD',
     gene_name: 'acyl-Coenzyme A dehydrogenase, multiple (chr X)',
@@ -1892,7 +1892,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10194',
+    gene_id: '10194',
     status: 'Approved',
     gene_symbol: 'ACAD8',
     gene_name: 'acyl-CoA dehydrogenase family member 8',
@@ -1903,7 +1903,7 @@ export default [
     omim_id: '604773'
   },
   {
-    gene_id: 'HGNC:10195',
+    gene_id: '10195',
     status: 'Approved',
     gene_symbol: 'ACAD9',
     gene_name: 'acyl-CoA dehydrogenase family member 9',
@@ -1914,7 +1914,7 @@ export default [
     omim_id: '611103'
   },
   {
-    gene_id: 'HGNC:10196',
+    gene_id: '10196',
     status: 'Approved',
     gene_symbol: 'ACAD10',
     gene_name: 'acyl-CoA dehydrogenase family member 10',
@@ -1925,7 +1925,7 @@ export default [
     omim_id: '611181'
   },
   {
-    gene_id: 'HGNC:10197',
+    gene_id: '10197',
     status: 'Approved',
     gene_symbol: 'ACAD11',
     gene_name: 'acyl-CoA dehydrogenase family member 11',
@@ -1936,7 +1936,7 @@ export default [
     omim_id: '614288'
   },
   {
-    gene_id: 'HGNC:10198',
+    gene_id: '10198',
     status: 'Approved',
     gene_symbol: 'ACADL',
     gene_name: 'acyl-CoA dehydrogenase long chain',
@@ -1947,7 +1947,7 @@ export default [
     omim_id: '609576'
   },
   {
-    gene_id: 'HGNC:10199',
+    gene_id: '10199',
     status: 'Approved',
     gene_symbol: 'ACADM',
     gene_name: 'acyl-CoA dehydrogenase medium chain',
@@ -1958,7 +1958,7 @@ export default [
     omim_id: '607008'
   },
   {
-    gene_id: 'HGNC:102',
+    gene_id: '102',
     status: 'Approved',
     gene_symbol: 'ACADS',
     gene_name: 'acyl-CoA dehydrogenase short chain',
@@ -1969,7 +1969,7 @@ export default [
     omim_id: '606885'
   },
   {
-    gene_id: 'HGNC:1020',
+    gene_id: '1020',
     status: 'Approved',
     gene_symbol: 'ACADSB',
     gene_name: 'acyl-CoA dehydrogenase short/branched chain',
@@ -1980,7 +1980,7 @@ export default [
     omim_id: '600301'
   },
   {
-    gene_id: 'HGNC:10200',
+    gene_id: '10200',
     status: 'Approved',
     gene_symbol: 'ACADVL',
     gene_name: 'acyl-CoA dehydrogenase very long chain',
@@ -1991,7 +1991,7 @@ export default [
     omim_id: '609575'
   },
   {
-    gene_id: 'HGNC:10201',
+    gene_id: '10201',
     status: 'Approved',
     gene_symbol: 'ACAN',
     gene_name: 'aggrecan',
@@ -2002,7 +2002,7 @@ export default [
     omim_id: '155760'
   },
   {
-    gene_id: 'HGNC:10202',
+    gene_id: '10202',
     status: 'Approved',
     gene_symbol: 'ACAP1',
     gene_name: 'ArfGAP with coiled-coil, ankyrin repeat and PH domains 1',
@@ -2013,7 +2013,7 @@ export default [
     omim_id: '607763'
   },
   {
-    gene_id: 'HGNC:10203',
+    gene_id: '10203',
     status: 'Approved',
     gene_symbol: 'ACAP2',
     gene_name: 'ArfGAP with coiled-coil, ankyrin repeat and PH domains 2',
@@ -2024,7 +2024,7 @@ export default [
     omim_id: '607766'
   },
   {
-    gene_id: 'HGNC:10204',
+    gene_id: '10204',
     status: 'Approved',
     gene_symbol: 'ACAP2-IT1',
     gene_name: 'ACAP2 intronic transcript 1',
@@ -2035,7 +2035,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10205',
+    gene_id: '10205',
     status: 'Approved',
     gene_symbol: 'ACAP3',
     gene_name: 'ArfGAP with coiled-coil, ankyrin repeat and PH domains 3',
@@ -2046,7 +2046,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10206',
+    gene_id: '10206',
     status: 'Approved',
     gene_symbol: 'ACAT1',
     gene_name: 'acetyl-CoA acetyltransferase 1',
@@ -2057,7 +2057,7 @@ export default [
     omim_id: '607809'
   },
   {
-    gene_id: 'HGNC:10207',
+    gene_id: '10207',
     status: 'Approved',
     gene_symbol: 'ACAT2',
     gene_name: 'acetyl-CoA acetyltransferase 2',
@@ -2068,7 +2068,7 @@ export default [
     omim_id: '100678'
   },
   {
-    gene_id: 'HGNC:10208',
+    gene_id: '10208',
     status: 'Approved',
     gene_symbol: 'ACBD3',
     gene_name: 'acyl-CoA binding domain containing 3',
@@ -2079,7 +2079,7 @@ export default [
     omim_id: '606809'
   },
   {
-    gene_id: 'HGNC:10209',
+    gene_id: '10209',
     status: 'Approved',
     gene_symbol: 'ACBD3-AS1',
     gene_name: 'ACBD3 antisense RNA 1',
@@ -2090,7 +2090,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10210',
+    gene_id: '10210',
     status: 'Approved',
     gene_symbol: 'ACBD4',
     gene_name: 'acyl-CoA binding domain containing 4',
@@ -2101,7 +2101,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10211',
+    gene_id: '10211',
     status: 'Approved',
     gene_symbol: 'ACBD5',
     gene_name: 'acyl-CoA binding domain containing 5',
@@ -2112,7 +2112,7 @@ export default [
     omim_id: '616618'
   },
   {
-    gene_id: 'HGNC:10212',
+    gene_id: '10212',
     status: 'Approved',
     gene_symbol: 'ACBD6',
     gene_name: 'acyl-CoA binding domain containing 6',
@@ -2123,7 +2123,7 @@ export default [
     omim_id: '616352'
   },
   {
-    gene_id: 'HGNC:10214',
+    gene_id: '10214',
     status: 'Approved',
     gene_symbol: 'ACBD7',
     gene_name: 'acyl-CoA binding domain containing 7',
@@ -2134,7 +2134,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10215',
+    gene_id: '10215',
     status: 'Approved',
     gene_symbol: 'ACCS',
     gene_name: '1-aminocyclopropane-1-carboxylate synthase homolog (inactive)',
@@ -2145,7 +2145,7 @@ export default [
     omim_id: '608405'
   },
   {
-    gene_id: 'HGNC:10216',
+    gene_id: '10216',
     status: 'Approved',
     gene_symbol: 'ACCSL',
     gene_name: '1-aminocyclopropane-1-carboxylate synthase homolog (inactive) like',
@@ -2156,7 +2156,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10217',
+    gene_id: '10217',
     status: 'Approved',
     gene_symbol: 'ACD',
     gene_name: 'ACD shelterin complex subunit and telomerase recruitment factor',
@@ -2167,7 +2167,7 @@ export default [
     omim_id: '609377'
   },
   {
-    gene_id: 'HGNC:10218',
+    gene_id: '10218',
     status: 'Approved',
     gene_symbol: 'ACE',
     gene_name: 'angiotensin I converting enzyme',
@@ -2178,7 +2178,7 @@ export default [
     omim_id: '106180'
   },
   {
-    gene_id: 'HGNC:10219',
+    gene_id: '10219',
     status: 'Approved',
     gene_symbol: 'ACE2',
     gene_name: 'angiotensin converting enzyme 2',
@@ -2189,7 +2189,7 @@ export default [
     omim_id: '300335'
   },
   {
-    gene_id: 'HGNC:1022',
+    gene_id: '1022',
     status: 'Approved',
     gene_symbol: 'ACE3P',
     gene_name: 'angiotensin I converting enzyme 3, pseudogene',
@@ -2200,7 +2200,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10220',
+    gene_id: '10220',
     status: 'Approved',
     gene_symbol: 'ACER1',
     gene_name: 'alkaline ceramidase 1',
@@ -2211,7 +2211,7 @@ export default [
     omim_id: '613491'
   },
   {
-    gene_id: 'HGNC:10221',
+    gene_id: '10221',
     status: 'Approved',
     gene_symbol: 'ACER2',
     gene_name: 'alkaline ceramidase 2',
@@ -2222,7 +2222,7 @@ export default [
     omim_id: '613492'
   },
   {
-    gene_id: 'HGNC:10222',
+    gene_id: '10222',
     status: 'Approved',
     gene_symbol: 'ACER2P1',
     gene_name: 'ACER2 pseudogene 1',
@@ -2233,7 +2233,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10223',
+    gene_id: '10223',
     status: 'Approved',
     gene_symbol: 'ACER3',
     gene_name: 'alkaline ceramidase 3',
@@ -2244,7 +2244,7 @@ export default [
     omim_id: '617036'
   },
   {
-    gene_id: 'HGNC:10224',
+    gene_id: '10224',
     status: 'Approved',
     gene_symbol: 'ACHE',
     gene_name: 'acetylcholinesterase (Cartwright blood group)',
@@ -2255,7 +2255,7 @@ export default [
     omim_id: '100740'
   },
   {
-    gene_id: 'HGNC:10225',
+    gene_id: '10225',
     status: 'Approved',
     gene_symbol: 'ACIN1',
     gene_name: 'apoptotic chromatin condensation inducer 1',
@@ -2266,7 +2266,7 @@ export default [
     omim_id: '604562'
   },
   {
-    gene_id: 'HGNC:10226',
+    gene_id: '10226',
     status: 'Approved',
     gene_symbol: 'ACKR1',
     gene_name: 'atypical chemokine receptor 1 (Duffy blood group)',
@@ -2277,7 +2277,7 @@ export default [
     omim_id: '613665'
   },
   {
-    gene_id: 'HGNC:10227',
+    gene_id: '10227',
     status: 'Approved',
     gene_symbol: 'ACKR2',
     gene_name: 'atypical chemokine receptor 2',
@@ -2288,7 +2288,7 @@ export default [
     omim_id: '602648'
   },
   {
-    gene_id: 'HGNC:10228',
+    gene_id: '10228',
     status: 'Approved',
     gene_symbol: 'ACKR3',
     gene_name: 'atypical chemokine receptor 3',
@@ -2299,7 +2299,7 @@ export default [
     omim_id: '610376'
   },
   {
-    gene_id: 'HGNC:10229',
+    gene_id: '10229',
     status: 'Approved',
     gene_symbol: 'ACKR4',
     gene_name: 'atypical chemokine receptor 4',
@@ -2310,7 +2310,7 @@ export default [
     omim_id: '606065'
   },
   {
-    gene_id: 'HGNC:1023',
+    gene_id: '1023',
     status: 'Approved',
     gene_symbol: 'ACKR4P1',
     gene_name: 'ACKR4 pseudogene 1',
@@ -2321,7 +2321,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10230',
+    gene_id: '10230',
     status: 'Entry Withdrawn',
     gene_symbol: 'ACLS',
     gene_name: 'acrocallosal syndrome',
@@ -2332,7 +2332,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10231',
+    gene_id: '10231',
     status: 'Approved',
     gene_symbol: 'ACLY',
     gene_name: 'ATP citrate lyase',
@@ -2343,7 +2343,7 @@ export default [
     omim_id: '108728'
   },
   {
-    gene_id: 'HGNC:10232',
+    gene_id: '10232',
     status: 'Entry Withdrawn',
     gene_symbol: 'ACMG',
     gene_name: 'acromegaly',
@@ -2354,7 +2354,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10233',
+    gene_id: '10233',
     status: 'Approved',
     gene_symbol: 'ACMSD',
     gene_name: 'aminocarboxymuconate semialdehyde decarboxylase',
@@ -2365,7 +2365,7 @@ export default [
     omim_id: '608889'
   },
   {
-    gene_id: 'HGNC:10234',
+    gene_id: '10234',
     status: 'Approved',
     gene_symbol: 'ACNATP',
     gene_name: 'acyl-CoA:amino acid N-acyltransferase pseudogene',
@@ -2376,7 +2376,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10235',
+    gene_id: '10235',
     status: 'Approved',
     gene_symbol: 'ACO1',
     gene_name: 'aconitase 1',
@@ -2387,7 +2387,7 @@ export default [
     omim_id: '100880'
   },
   {
-    gene_id: 'HGNC:10236',
+    gene_id: '10236',
     status: 'Approved',
     gene_symbol: 'ACO2',
     gene_name: 'aconitase 2',
@@ -2398,7 +2398,7 @@ export default [
     omim_id: '100850'
   },
   {
-    gene_id: 'HGNC:10237',
+    gene_id: '10237',
     status: 'Approved',
     gene_symbol: 'ACOD1',
     gene_name: 'aconitate decarboxylase 1',
@@ -2409,7 +2409,7 @@ export default [
     omim_id: '615275'
   },
   {
-    gene_id: 'HGNC:10239',
+    gene_id: '10239',
     status: 'Approved',
     gene_symbol: 'ACOT1',
     gene_name: 'acyl-CoA thioesterase 1',
@@ -2420,7 +2420,7 @@ export default [
     omim_id: '614313'
   },
   {
-    gene_id: 'HGNC:1024',
+    gene_id: '1024',
     status: 'Approved',
     gene_symbol: 'ACOT2',
     gene_name: 'acyl-CoA thioesterase 2',
@@ -2431,7 +2431,7 @@ export default [
     omim_id: '609972'
   },
   {
-    gene_id: 'HGNC:10240',
+    gene_id: '10240',
     status: 'Approved',
     gene_symbol: 'ACOT4',
     gene_name: 'acyl-CoA thioesterase 4',
@@ -2442,7 +2442,7 @@ export default [
     omim_id: '614314'
   },
   {
-    gene_id: 'HGNC:10241',
+    gene_id: '10241',
     status: 'Approved',
     gene_symbol: 'ACOT6',
     gene_name: 'acyl-CoA thioesterase 6',
@@ -2453,7 +2453,7 @@ export default [
     omim_id: '614267'
   },
   {
-    gene_id: 'HGNC:10242',
+    gene_id: '10242',
     status: 'Approved',
     gene_symbol: 'ACOT7',
     gene_name: 'acyl-CoA thioesterase 7',
@@ -2464,7 +2464,7 @@ export default [
     omim_id: '602587'
   },
   {
-    gene_id: 'HGNC:10243',
+    gene_id: '10243',
     status: 'Approved',
     gene_symbol: 'ACOT8',
     gene_name: 'acyl-CoA thioesterase 8',
@@ -2475,7 +2475,7 @@ export default [
     omim_id: '608123'
   },
   {
-    gene_id: 'HGNC:10244',
+    gene_id: '10244',
     status: 'Approved',
     gene_symbol: 'ACOT9',
     gene_name: 'acyl-CoA thioesterase 9',
@@ -2486,7 +2486,7 @@ export default [
     omim_id: '300862'
   },
   {
-    gene_id: 'HGNC:10245',
+    gene_id: '10245',
     status: 'Approved',
     gene_symbol: 'ACOT11',
     gene_name: 'acyl-CoA thioesterase 11',
@@ -2497,7 +2497,7 @@ export default [
     omim_id: '606803'
   },
   {
-    gene_id: 'HGNC:10246',
+    gene_id: '10246',
     status: 'Approved',
     gene_symbol: 'ACOT12',
     gene_name: 'acyl-CoA thioesterase 12',
@@ -2508,7 +2508,7 @@ export default [
     omim_id: '614315'
   },
   {
-    gene_id: 'HGNC:10247',
+    gene_id: '10247',
     status: 'Approved',
     gene_symbol: 'ACOT13',
     gene_name: 'acyl-CoA thioesterase 13',
@@ -2519,7 +2519,7 @@ export default [
     omim_id: '615652'
   },
   {
-    gene_id: 'HGNC:10248',
+    gene_id: '10248',
     status: 'Approved',
     gene_symbol: 'ACOX1',
     gene_name: 'acyl-CoA oxidase 1',
@@ -2530,7 +2530,7 @@ export default [
     omim_id: '609751'
   },
   {
-    gene_id: 'HGNC:10249',
+    gene_id: '10249',
     status: 'Approved',
     gene_symbol: 'ACOX2',
     gene_name: 'acyl-CoA oxidase 2',
@@ -2541,7 +2541,7 @@ export default [
     omim_id: '601641'
   },
   {
-    gene_id: 'HGNC:10250',
+    gene_id: '10250',
     status: 'Approved',
     gene_symbol: 'ACOX3',
     gene_name: 'acyl-CoA oxidase 3, pristanoyl',
@@ -2552,7 +2552,7 @@ export default [
     omim_id: '603402'
   },
   {
-    gene_id: 'HGNC:10251',
+    gene_id: '10251',
     status: 'Approved',
     gene_symbol: 'ACOXL',
     gene_name: 'acyl-CoA oxidase like',
@@ -2563,7 +2563,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10252',
+    gene_id: '10252',
     status: 'Approved',
     gene_symbol: 'ACOXL-AS1',
     gene_name: 'ACOXL antisense RNA 1',
@@ -2574,7 +2574,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10253',
+    gene_id: '10253',
     status: 'Approved',
     gene_symbol: 'ACP1',
     gene_name: 'acid phosphatase 1',
@@ -2585,7 +2585,7 @@ export default [
     omim_id: '171500'
   },
   {
-    gene_id: 'HGNC:10254',
+    gene_id: '10254',
     status: 'Approved',
     gene_symbol: 'ACP2',
     gene_name: 'acid phosphatase 2, lysosomal',
@@ -2596,7 +2596,7 @@ export default [
     omim_id: '171650'
   },
   {
-    gene_id: 'HGNC:10256',
+    gene_id: '10256',
     status: 'Approved',
     gene_symbol: 'ACP3',
     gene_name: 'acid phosphatase 3',
@@ -2607,7 +2607,7 @@ export default [
     omim_id: '171790'
   },
   {
-    gene_id: 'HGNC:10257',
+    gene_id: '10257',
     status: 'Approved',
     gene_symbol: 'ACP4',
     gene_name: 'acid phosphatase 4',
@@ -2618,7 +2618,7 @@ export default [
     omim_id: '606362'
   },
   {
-    gene_id: 'HGNC:10258',
+    gene_id: '10258',
     status: 'Approved',
     gene_symbol: 'ACP5',
     gene_name: 'acid phosphatase 5, tartrate resistant',
@@ -2629,7 +2629,7 @@ export default [
     omim_id: '171640'
   },
   {
-    gene_id: 'HGNC:10259',
+    gene_id: '10259',
     status: 'Approved',
     gene_symbol: 'ACP6',
     gene_name: 'acid phosphatase 6, lysophosphatidic',
@@ -2640,7 +2640,7 @@ export default [
     omim_id: '611471'
   },
   {
-    gene_id: 'HGNC:10260',
+    gene_id: '10260',
     status: 'Approved',
     gene_symbol: 'ACP7',
     gene_name: 'acid phosphatase 7, tartrate resistant (putative)',
@@ -2651,7 +2651,7 @@ export default [
     omim_id: '610490'
   },
   {
-    gene_id: 'HGNC:10261',
+    gene_id: '10261',
     status: 'Approved',
     gene_symbol: 'ACR',
     gene_name: 'acrosin',
@@ -2662,7 +2662,7 @@ export default [
     omim_id: '102480'
   },
   {
-    gene_id: 'HGNC:10263',
+    gene_id: '10263',
     status: 'Approved',
     gene_symbol: 'ACRBP',
     gene_name: 'acrosin binding protein',
@@ -2673,7 +2673,7 @@ export default [
     omim_id: '608352'
   },
   {
-    gene_id: 'HGNC:1027',
+    gene_id: '1027',
     status: 'Approved',
     gene_symbol: 'ACRP1',
     gene_name: 'ACR pseudogene 1',
@@ -2684,7 +2684,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10270',
+    gene_id: '10270',
     status: 'Approved',
     gene_symbol: 'ACRV1',
     gene_name: 'acrosomal vesicle protein 1',
@@ -2695,7 +2695,7 @@ export default [
     omim_id: '102525'
   },
   {
-    gene_id: 'HGNC:10274',
+    gene_id: '10274',
     status: 'Approved',
     gene_symbol: 'ACSBG1',
     gene_name: 'acyl-CoA synthetase bubblegum family member 1',
@@ -2706,7 +2706,7 @@ export default [
     omim_id: '614362'
   },
   {
-    gene_id: 'HGNC:10276',
+    gene_id: '10276',
     status: 'Approved',
     gene_symbol: 'ACSBG2',
     gene_name: 'acyl-CoA synthetase bubblegum family member 2',
@@ -2717,7 +2717,7 @@ export default [
     omim_id: '614363'
   },
   {
-    gene_id: 'HGNC:10278',
+    gene_id: '10278',
     status: 'Approved',
     gene_symbol: 'ACSF2',
     gene_name: 'acyl-CoA synthetase family member 2',
@@ -2728,7 +2728,7 @@ export default [
     omim_id: '610465'
   },
   {
-    gene_id: 'HGNC:10282',
+    gene_id: '10282',
     status: 'Approved',
     gene_symbol: 'ACSF3',
     gene_name: 'acyl-CoA synthetase family member 3',
@@ -2739,7 +2739,7 @@ export default [
     omim_id: '614245'
   },
   {
-    gene_id: 'HGNC:10285',
+    gene_id: '10285',
     status: 'Approved',
     gene_symbol: 'ACSL1',
     gene_name: 'acyl-CoA synthetase long chain family member 1',
@@ -2750,7 +2750,7 @@ export default [
     omim_id: '152425'
   },
   {
-    gene_id: 'HGNC:10286',
+    gene_id: '10286',
     status: 'Approved',
     gene_symbol: 'ACSL3',
     gene_name: 'acyl-CoA synthetase long chain family member 3',
@@ -2761,7 +2761,7 @@ export default [
     omim_id: '602371'
   },
   {
-    gene_id: 'HGNC:10288',
+    gene_id: '10288',
     status: 'Approved',
     gene_symbol: 'ACSL3-AS1',
     gene_name: 'ACSL3 antisense RNA 1',
@@ -2772,7 +2772,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10289',
+    gene_id: '10289',
     status: 'Approved',
     gene_symbol: 'ACSL4',
     gene_name: 'acyl-CoA synthetase long chain family member 4',
@@ -2783,7 +2783,7 @@ export default [
     omim_id: '300157'
   },
   {
-    gene_id: 'HGNC:1029',
+    gene_id: '1029',
     status: 'Approved',
     gene_symbol: 'ACSL5',
     gene_name: 'acyl-CoA synthetase long chain family member 5',
@@ -2794,7 +2794,7 @@ export default [
     omim_id: '605677'
   },
   {
-    gene_id: 'HGNC:10290',
+    gene_id: '10290',
     status: 'Approved',
     gene_symbol: 'ACSL6',
     gene_name: 'acyl-CoA synthetase long chain family member 6',
@@ -2805,7 +2805,7 @@ export default [
     omim_id: '604443'
   },
   {
-    gene_id: 'HGNC:10291',
+    gene_id: '10291',
     status: 'Approved',
     gene_symbol: 'ACSL6-AS1',
     gene_name: 'ACSL6 antisense RNA 1',
@@ -2816,7 +2816,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10293',
+    gene_id: '10293',
     status: 'Approved',
     gene_symbol: 'ACSM1',
     gene_name: 'acyl-CoA synthetase medium chain family member 1',
@@ -2827,7 +2827,7 @@ export default [
     omim_id: '614357'
   },
   {
-    gene_id: 'HGNC:10294',
+    gene_id: '10294',
     status: 'Approved',
     gene_symbol: 'ACSM2A',
     gene_name: 'acyl-CoA synthetase medium chain family member 2A',
@@ -2838,7 +2838,7 @@ export default [
     omim_id: '614358'
   },
   {
-    gene_id: 'HGNC:10295',
+    gene_id: '10295',
     status: 'Approved',
     gene_symbol: 'ACSM2B',
     gene_name: 'acyl-CoA synthetase medium chain family member 2B',
@@ -2849,7 +2849,7 @@ export default [
     omim_id: '614359'
   },
   {
-    gene_id: 'HGNC:10296',
+    gene_id: '10296',
     status: 'Approved',
     gene_symbol: 'ACSM3',
     gene_name: 'acyl-CoA synthetase medium chain family member 3',
@@ -2860,7 +2860,7 @@ export default [
     omim_id: '145505'
   },
   {
-    gene_id: 'HGNC:10297',
+    gene_id: '10297',
     status: 'Approved',
     gene_symbol: 'ACSM4',
     gene_name: 'acyl-CoA synthetase medium chain family member 4',
@@ -2871,7 +2871,7 @@ export default [
     omim_id: '614360'
   },
   {
-    gene_id: 'HGNC:10298',
+    gene_id: '10298',
     status: 'Approved',
     gene_symbol: 'ACSM5',
     gene_name: 'acyl-CoA synthetase medium chain family member 5',
@@ -2882,7 +2882,7 @@ export default [
     omim_id: '614361'
   },
   {
-    gene_id: 'HGNC:10299',
+    gene_id: '10299',
     status: 'Approved',
     gene_symbol: 'ACSM5P1',
     gene_name: 'acyl-CoA synthetase medium chain family member 5 pseudogene 1',
@@ -2893,7 +2893,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:103',
+    gene_id: '103',
     status: 'Approved',
     gene_symbol: 'ACSM6',
     gene_name: 'acyl-CoA synthetase medium chain family member 6',
@@ -2904,7 +2904,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1030',
+    gene_id: '1030',
     status: 'Approved',
     gene_symbol: 'ACSS1',
     gene_name: 'acyl-CoA synthetase short chain family member 1',
@@ -2915,7 +2915,7 @@ export default [
     omim_id: '614355'
   },
   {
-    gene_id: 'HGNC:10300',
+    gene_id: '10300',
     status: 'Approved',
     gene_symbol: 'ACSS2',
     gene_name: 'acyl-CoA synthetase short chain family member 2',
@@ -2926,7 +2926,7 @@ export default [
     omim_id: '605832'
   },
   {
-    gene_id: 'HGNC:10301',
+    gene_id: '10301',
     status: 'Approved',
     gene_symbol: 'ACSS3',
     gene_name: 'acyl-CoA synthetase short chain family member 3',
@@ -2937,7 +2937,7 @@ export default [
     omim_id: '614356'
   },
   {
-    gene_id: 'HGNC:10302',
+    gene_id: '10302',
     status: 'Approved',
     gene_symbol: 'ACTA1',
     gene_name: 'actin alpha 1, skeletal muscle',
@@ -2948,7 +2948,7 @@ export default [
     omim_id: '102610'
   },
   {
-    gene_id: 'HGNC:10303',
+    gene_id: '10303',
     status: 'Approved',
     gene_symbol: 'ACTA2',
     gene_name: 'actin alpha 2, smooth muscle',
@@ -2959,7 +2959,7 @@ export default [
     omim_id: '102620'
   },
   {
-    gene_id: 'HGNC:10304',
+    gene_id: '10304',
     status: 'Approved',
     gene_symbol: 'ACTA2-AS1',
     gene_name: 'ACTA2 antisense RNA 1',
@@ -2970,7 +2970,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10305',
+    gene_id: '10305',
     status: 'Approved',
     gene_symbol: 'ACTB',
     gene_name: 'actin beta',
@@ -2981,7 +2981,7 @@ export default [
     omim_id: '102630'
   },
   {
-    gene_id: 'HGNC:10306',
+    gene_id: '10306',
     status: 'Approved',
     gene_symbol: 'ACTBL2',
     gene_name: 'actin beta like 2',
@@ -2992,7 +2992,7 @@ export default [
     omim_id: '614835'
   },
   {
-    gene_id: 'HGNC:10307',
+    gene_id: '10307',
     status: 'Approved',
     gene_symbol: 'ACTBP1',
     gene_name: 'ACTB pseudogene 1',
@@ -3003,7 +3003,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10308',
+    gene_id: '10308',
     status: 'Approved',
     gene_symbol: 'ACTBP2',
     gene_name: 'ACTB pseudogene 2',
@@ -3014,7 +3014,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1031',
+    gene_id: '1031',
     status: 'Approved',
     gene_symbol: 'ACTBP3',
     gene_name: 'ACTB pseudogene 3',
@@ -3025,7 +3025,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10310',
+    gene_id: '10310',
     status: 'Approved',
     gene_symbol: 'ACTBP4',
     gene_name: 'ACTB pseudogene 4',
@@ -3036,7 +3036,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10311',
+    gene_id: '10311',
     status: 'Entry Withdrawn',
     gene_symbol: 'ACTBP5',
     gene_name: 'actin, beta pseudogene 5',
@@ -3047,7 +3047,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10312',
+    gene_id: '10312',
     status: 'Approved',
     gene_symbol: 'ACTBP6',
     gene_name: 'ACTB pseudogene 6',
@@ -3058,7 +3058,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10313',
+    gene_id: '10313',
     status: 'Approved',
     gene_symbol: 'ACTBP7',
     gene_name: 'ACTB pseudogene 7',
@@ -3069,7 +3069,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10314',
+    gene_id: '10314',
     status: 'Approved',
     gene_symbol: 'ACTBP8',
     gene_name: 'ACTB pseudogene 8',
@@ -3080,7 +3080,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10315',
+    gene_id: '10315',
     status: 'Approved',
     gene_symbol: 'ACTBP9',
     gene_name: 'ACTB pseudogene 9',
@@ -3091,7 +3091,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10316',
+    gene_id: '10316',
     status: 'Approved',
     gene_symbol: 'ACTBP10',
     gene_name: 'ACTB pseudogene 10',
@@ -3102,7 +3102,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10317',
+    gene_id: '10317',
     status: 'Approved',
     gene_symbol: 'ACTBP11',
     gene_name: 'ACTB pseudogene 11',
@@ -3113,7 +3113,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10318',
+    gene_id: '10318',
     status: 'Approved',
     gene_symbol: 'ACTBP12',
     gene_name: 'ACTB pseudogene 12',
@@ -3124,7 +3124,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10319',
+    gene_id: '10319',
     status: 'Approved',
     gene_symbol: 'ACTBP14',
     gene_name: 'ACTB pseudogene 14',
@@ -3135,7 +3135,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10320',
+    gene_id: '10320',
     status: 'Approved',
     gene_symbol: 'ACTBP15',
     gene_name: 'ACTB pseudogene 15',
@@ -3146,7 +3146,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10321',
+    gene_id: '10321',
     status: 'Approved',
     gene_symbol: 'ACTC1',
     gene_name: 'actin alpha cardiac muscle 1',
@@ -3157,7 +3157,7 @@ export default [
     omim_id: '102540'
   },
   {
-    gene_id: 'HGNC:10322',
+    gene_id: '10322',
     status: 'Approved',
     gene_symbol: 'ACTE1P',
     gene_name: 'actin epsilon 1, pseudogene',
@@ -3168,7 +3168,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10323',
+    gene_id: '10323',
     status: 'Approved',
     gene_symbol: 'ACTG1',
     gene_name: 'actin gamma 1',
@@ -3179,7 +3179,7 @@ export default [
     omim_id: '102560'
   },
   {
-    gene_id: 'HGNC:10324',
+    gene_id: '10324',
     status: 'Approved',
     gene_symbol: 'ACTG1P1',
     gene_name: 'actin gamma 1 pseudogene 1',
@@ -3190,7 +3190,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10325',
+    gene_id: '10325',
     status: 'Approved',
     gene_symbol: 'ACTG1P2',
     gene_name: 'actin gamma 1 pseudogene 2',
@@ -3201,7 +3201,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10326',
+    gene_id: '10326',
     status: 'Approved',
     gene_symbol: 'ACTG1P3',
     gene_name: 'actin gamma 1 pseudogene 3',
@@ -3212,7 +3212,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10327',
+    gene_id: '10327',
     status: 'Approved',
     gene_symbol: 'ACTG1P4',
     gene_name: 'actin gamma 1 pseudogene 4',
@@ -3223,7 +3223,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10328',
+    gene_id: '10328',
     status: 'Approved',
     gene_symbol: 'ACTG1P6',
     gene_name: 'actin gamma 1 pseudogene 6',
@@ -3234,7 +3234,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10329',
+    gene_id: '10329',
     status: 'Approved',
     gene_symbol: 'ACTG1P7',
     gene_name: 'actin gamma 1 pseudogene 7',
@@ -3245,7 +3245,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1033',
+    gene_id: '1033',
     status: 'Approved',
     gene_symbol: 'ACTG1P8',
     gene_name: 'actin gamma 1 pseudogene 8',
@@ -3256,7 +3256,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10330',
+    gene_id: '10330',
     status: 'Approved',
     gene_symbol: 'ACTG1P9',
     gene_name: 'actin gamma 1 pseudogene 9',
@@ -3267,7 +3267,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10331',
+    gene_id: '10331',
     status: 'Approved',
     gene_symbol: 'ACTG1P10',
     gene_name: 'actin gamma 1 pseudogene 10',
@@ -3278,7 +3278,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10332',
+    gene_id: '10332',
     status: 'Approved',
     gene_symbol: 'ACTG1P11',
     gene_name: 'actin gamma 1 pseudogene 11',
@@ -3289,7 +3289,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10333',
+    gene_id: '10333',
     status: 'Approved',
     gene_symbol: 'ACTG1P12',
     gene_name: 'actin gamma 1 pseudogene 12',
@@ -3300,7 +3300,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10334',
+    gene_id: '10334',
     status: 'Approved',
     gene_symbol: 'ACTG1P13',
     gene_name: 'actin gamma 1 pseudogene 13',
@@ -3311,7 +3311,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10335',
+    gene_id: '10335',
     status: 'Approved',
     gene_symbol: 'ACTG1P14',
     gene_name: 'actin gamma 1 pseudogene 14',
@@ -3322,7 +3322,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10336',
+    gene_id: '10336',
     status: 'Approved',
     gene_symbol: 'ACTG1P15',
     gene_name: 'actin gamma 1 pseudogene 15',
@@ -3333,7 +3333,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10337',
+    gene_id: '10337',
     status: 'Approved',
     gene_symbol: 'ACTG1P16',
     gene_name: 'actin gamma 1 pseudogene 16',
@@ -3344,7 +3344,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10338',
+    gene_id: '10338',
     status: 'Approved',
     gene_symbol: 'ACTG1P17',
     gene_name: 'actin gamma 1 pseudogene 17',
@@ -3355,7 +3355,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10339',
+    gene_id: '10339',
     status: 'Approved',
     gene_symbol: 'ACTG1P18',
     gene_name: 'actin gamma 1 pseudogene 18',
@@ -3366,7 +3366,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1034',
+    gene_id: '1034',
     status: 'Approved',
     gene_symbol: 'ACTG1P19',
     gene_name: 'actin gamma 1 pseudogene 19',
@@ -3377,7 +3377,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10340',
+    gene_id: '10340',
     status: 'Approved',
     gene_symbol: 'ACTG1P20',
     gene_name: 'actin gamma 1 pseudogene 20',
@@ -3388,7 +3388,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10340',
+    gene_id: '10340',
     status: 'Approved',
     gene_symbol: 'ACTG1P21',
     gene_name: 'actin gamma 1 pseudogene 21',
@@ -3399,7 +3399,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10341',
+    gene_id: '10341',
     status: 'Approved',
     gene_symbol: 'ACTG1P22',
     gene_name: 'actin gamma 1 pseudogene 22',
@@ -3410,7 +3410,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10342',
+    gene_id: '10342',
     status: 'Approved',
     gene_symbol: 'ACTG1P23',
     gene_name: 'actin gamma 1 pseudogene 23',
@@ -3421,7 +3421,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10343',
+    gene_id: '10343',
     status: 'Approved',
     gene_symbol: 'ACTG1P24',
     gene_name: 'actin gamma 1 pseudogene 24',
@@ -3432,7 +3432,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10344',
+    gene_id: '10344',
     status: 'Approved',
     gene_symbol: 'ACTG1P25',
     gene_name: 'actin gamma 1 pseudogene 25',
@@ -3443,7 +3443,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10345',
+    gene_id: '10345',
     status: 'Approved',
     gene_symbol: 'ACTG2',
     gene_name: 'actin gamma 2, smooth muscle',
@@ -3454,7 +3454,7 @@ export default [
     omim_id: '102545'
   },
   {
-    gene_id: 'HGNC:10346',
+    gene_id: '10346',
     status: 'Entry Withdrawn',
     gene_symbol: 'ACTL4',
     gene_name: 'actin-like 4',
@@ -3465,7 +3465,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10347',
+    gene_id: '10347',
     status: 'Entry Withdrawn',
     gene_symbol: 'ACTL5',
     gene_name: 'actin-like 5',
@@ -3476,7 +3476,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10348',
+    gene_id: '10348',
     status: 'Approved',
     gene_symbol: 'ACTL6A',
     gene_name: 'actin like 6A',
@@ -3487,7 +3487,7 @@ export default [
     omim_id: '604958'
   },
   {
-    gene_id: 'HGNC:10349',
+    gene_id: '10349',
     status: 'Approved',
     gene_symbol: 'ACTL6B',
     gene_name: 'actin like 6B',
@@ -3498,7 +3498,7 @@ export default [
     omim_id: '612458'
   },
   {
-    gene_id: 'HGNC:1035',
+    gene_id: '1035',
     status: 'Approved',
     gene_symbol: 'ACTL7A',
     gene_name: 'actin like 7A',
@@ -3509,7 +3509,7 @@ export default [
     omim_id: '604303'
   },
   {
-    gene_id: 'HGNC:10350',
+    gene_id: '10350',
     status: 'Approved',
     gene_symbol: 'ACTL7B',
     gene_name: 'actin like 7B',
@@ -3520,7 +3520,7 @@ export default [
     omim_id: '604304'
   },
   {
-    gene_id: 'HGNC:10351',
+    gene_id: '10351',
     status: 'Approved',
     gene_symbol: 'ACTL8',
     gene_name: 'actin like 8',
@@ -3531,7 +3531,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10352',
+    gene_id: '10352',
     status: 'Approved',
     gene_symbol: 'ACTL9',
     gene_name: 'actin like 9',
@@ -3542,7 +3542,7 @@ export default [
     omim_id: '619251'
   },
   {
-    gene_id: 'HGNC:10353',
+    gene_id: '10353',
     status: 'Approved',
     gene_symbol: 'ACTL10',
     gene_name: 'actin like 10',
@@ -3553,7 +3553,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10354',
+    gene_id: '10354',
     status: 'Approved',
     gene_symbol: 'ACTL11P',
     gene_name: 'actin like 11, pseudogene',
@@ -3564,7 +3564,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10355',
+    gene_id: '10355',
     status: 'Approved',
     gene_symbol: 'ACTN1',
     gene_name: 'actinin alpha 1',
@@ -3575,7 +3575,7 @@ export default [
     omim_id: '102575'
   },
   {
-    gene_id: 'HGNC:10356',
+    gene_id: '10356',
     status: 'Approved',
     gene_symbol: 'ACTN1-DT',
     gene_name: 'ACTN1 divergent transcript',
@@ -3586,7 +3586,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10357',
+    gene_id: '10357',
     status: 'Approved',
     gene_symbol: 'ACTN2',
     gene_name: 'actinin alpha 2',
@@ -3597,7 +3597,7 @@ export default [
     omim_id: '102573'
   },
   {
-    gene_id: 'HGNC:10358',
+    gene_id: '10358',
     status: 'Approved',
     gene_symbol: 'ACTN3',
     gene_name: 'actinin alpha 3',
@@ -3608,7 +3608,7 @@ export default [
     omim_id: '102574'
   },
   {
-    gene_id: 'HGNC:10359',
+    gene_id: '10359',
     status: 'Approved',
     gene_symbol: 'ACTN4',
     gene_name: 'actinin alpha 4',
@@ -3619,7 +3619,7 @@ export default [
     omim_id: '604638'
   },
   {
-    gene_id: 'HGNC:1036',
+    gene_id: '1036',
     status: 'Approved',
     gene_symbol: 'ACTN4P1',
     gene_name: 'actinin alpha 4 pseudogene 1',
@@ -3630,7 +3630,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10360',
+    gene_id: '10360',
     status: 'Approved',
     gene_symbol: 'ACTN4P2',
     gene_name: 'actinin alpha 4 pseudogene 2',
@@ -3641,7 +3641,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10361',
+    gene_id: '10361',
     status: 'Approved',
     gene_symbol: 'ACTP1',
     gene_name: 'actin family pseudogene 1',
@@ -3652,7 +3652,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10362',
+    gene_id: '10362',
     status: 'Approved',
     gene_symbol: 'ACTR1A',
     gene_name: 'actin related protein 1A',
@@ -3663,7 +3663,7 @@ export default [
     omim_id: '605143'
   },
   {
-    gene_id: 'HGNC:10363',
+    gene_id: '10363',
     status: 'Approved',
     gene_symbol: 'ACTR1AP1',
     gene_name: 'ACTR1A pseudogene 1',
@@ -3674,7 +3674,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10364',
+    gene_id: '10364',
     status: 'Approved',
     gene_symbol: 'ACTR1B',
     gene_name: 'actin related protein 1B',
@@ -3685,7 +3685,7 @@ export default [
     omim_id: '605144'
   },
   {
-    gene_id: 'HGNC:10365',
+    gene_id: '10365',
     status: 'Approved',
     gene_symbol: 'ACTR2',
     gene_name: 'actin related protein 2',
@@ -3696,7 +3696,7 @@ export default [
     omim_id: '604221'
   },
   {
-    gene_id: 'HGNC:10366',
+    gene_id: '10366',
     status: 'Approved',
     gene_symbol: 'ACTR3',
     gene_name: 'actin related protein 3',
@@ -3707,7 +3707,7 @@ export default [
     omim_id: '604222'
   },
   {
-    gene_id: 'HGNC:10367',
+    gene_id: '10367',
     status: 'Approved',
     gene_symbol: 'ACTR3-AS1',
     gene_name: 'ACTR3 antisense RNA 1',
@@ -3718,7 +3718,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10368',
+    gene_id: '10368',
     status: 'Approved',
     gene_symbol: 'ACTR3B',
     gene_name: 'actin related protein 3B',
@@ -3729,7 +3729,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10369',
+    gene_id: '10369',
     status: 'Approved',
     gene_symbol: 'ACTR3BP1',
     gene_name: 'ACTR3B pseudogene 1',
@@ -3740,7 +3740,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1037',
+    gene_id: '1037',
     status: 'Approved',
     gene_symbol: 'ACTR3BP2',
     gene_name: 'ACTR3B pseudogene 2',
@@ -3751,7 +3751,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10371',
+    gene_id: '10371',
     status: 'Approved',
     gene_symbol: 'ACTR3BP3',
     gene_name: 'ACTR3B pseudogene 3',
@@ -3762,7 +3762,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10372',
+    gene_id: '10372',
     status: 'Approved',
     gene_symbol: 'ACTR3BP4',
     gene_name: 'ACTR3B pseudogene 4',
@@ -3773,7 +3773,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10373',
+    gene_id: '10373',
     status: 'Approved',
     gene_symbol: 'ACTR3BP5',
     gene_name: 'ACTR3B pseudogene 5',
@@ -3784,7 +3784,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10374',
+    gene_id: '10374',
     status: 'Approved',
     gene_symbol: 'ACTR3BP6',
     gene_name: 'ACTR3B pseudogene 6',
@@ -3795,7 +3795,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10375',
+    gene_id: '10375',
     status: 'Approved',
     gene_symbol: 'ACTR3BP7',
     gene_name: 'ACTR3B pseudogene 7',
@@ -3806,7 +3806,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10376',
+    gene_id: '10376',
     status: 'Approved',
     gene_symbol: 'ACTR3C',
     gene_name: 'actin related protein 3C',
@@ -3817,7 +3817,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10377',
+    gene_id: '10377',
     status: 'Approved',
     gene_symbol: 'ACTR3P1',
     gene_name: 'ACTR3 pseudogene 1',
@@ -3828,7 +3828,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10378',
+    gene_id: '10378',
     status: 'Approved',
     gene_symbol: 'ACTR3P2',
     gene_name: 'ACTR3 pseudogene 2',
@@ -3839,7 +3839,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10379',
+    gene_id: '10379',
     status: 'Approved',
     gene_symbol: 'ACTR3P3',
     gene_name: 'ACTR3 pseudogene 3',
@@ -3850,7 +3850,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10380',
+    gene_id: '10380',
     status: 'Approved',
     gene_symbol: 'ACTR5',
     gene_name: 'actin related protein 5',
@@ -3861,7 +3861,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10381',
+    gene_id: '10381',
     status: 'Approved',
     gene_symbol: 'ACTR6',
     gene_name: 'actin related protein 6',
@@ -3872,7 +3872,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10382',
+    gene_id: '10382',
     status: 'Approved',
     gene_symbol: 'ACTR6P1',
     gene_name: 'ACTR6 pseudogene 1',
@@ -3883,7 +3883,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10383',
+    gene_id: '10383',
     status: 'Approved',
     gene_symbol: 'ACTR8',
     gene_name: 'actin related protein 8',
@@ -3894,7 +3894,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10384',
+    gene_id: '10384',
     status: 'Approved',
     gene_symbol: 'ACTR10',
     gene_name: 'actin related protein 10',
@@ -3905,7 +3905,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10385',
+    gene_id: '10385',
     status: 'Approved',
     gene_symbol: 'ACTRT1',
     gene_name: 'actin related protein T1',
@@ -3916,7 +3916,7 @@ export default [
     omim_id: '300487'
   },
   {
-    gene_id: 'HGNC:10386',
+    gene_id: '10386',
     status: 'Approved',
     gene_symbol: 'ACTRT1P1',
     gene_name: 'ACTRT1 pseudogene 1',
@@ -3927,7 +3927,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10387',
+    gene_id: '10387',
     status: 'Approved',
     gene_symbol: 'ACTRT2',
     gene_name: 'actin related protein T2',
@@ -3938,7 +3938,7 @@ export default [
     omim_id: '608535'
   },
   {
-    gene_id: 'HGNC:10388',
+    gene_id: '10388',
     status: 'Approved',
     gene_symbol: 'ACTRT3',
     gene_name: 'actin related protein T3',
@@ -3949,7 +3949,7 @@ export default [
     omim_id: '608534'
   },
   {
-    gene_id: 'HGNC:10389',
+    gene_id: '10389',
     status: 'Approved',
     gene_symbol: 'ACVR1',
     gene_name: 'activin A receptor type 1',
@@ -3960,7 +3960,7 @@ export default [
     omim_id: '102576'
   },
   {
-    gene_id: 'HGNC:10396',
+    gene_id: '10396',
     status: 'Approved',
     gene_symbol: 'ACVR1B',
     gene_name: 'activin A receptor type 1B',
@@ -3971,7 +3971,7 @@ export default [
     omim_id: '601300'
   },
   {
-    gene_id: 'HGNC:10397',
+    gene_id: '10397',
     status: 'Approved',
     gene_symbol: 'ACVR1C',
     gene_name: 'activin A receptor type 1C',
@@ -3982,7 +3982,7 @@ export default [
     omim_id: '608981'
   },
   {
-    gene_id: 'HGNC:10398',
+    gene_id: '10398',
     status: 'Approved',
     gene_symbol: 'ACVR2A',
     gene_name: 'activin A receptor type 2A',
@@ -3993,7 +3993,7 @@ export default [
     omim_id: '102581'
   },
   {
-    gene_id: 'HGNC:10399',
+    gene_id: '10399',
     status: 'Approved',
     gene_symbol: 'ACVR2B',
     gene_name: 'activin A receptor type 2B',
@@ -4004,7 +4004,7 @@ export default [
     omim_id: '602730'
   },
   {
-    gene_id: 'HGNC:104',
+    gene_id: '104',
     status: 'Approved',
     gene_symbol: 'ACVR2B-AS1',
     gene_name: 'ACVR2B antisense RNA 1',
@@ -4015,7 +4015,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1040',
+    gene_id: '1040',
     status: 'Approved',
     gene_symbol: 'ACVRL1',
     gene_name: 'activin A receptor like type 1',
@@ -4026,7 +4026,7 @@ export default [
     omim_id: '601284'
   },
   {
-    gene_id: 'HGNC:10400',
+    gene_id: '10400',
     status: 'Approved',
     gene_symbol: 'ACY1',
     gene_name: 'aminoacylase 1',
@@ -4037,7 +4037,7 @@ export default [
     omim_id: '104620'
   },
   {
-    gene_id: 'HGNC:10401',
+    gene_id: '10401',
     status: 'Approved',
     gene_symbol: 'ACY3',
     gene_name: 'aminoacylase 3',
@@ -4048,7 +4048,7 @@ export default [
     omim_id: '614413'
   },
   {
-    gene_id: 'HGNC:10402',
+    gene_id: '10402',
     status: 'Approved',
     gene_symbol: 'ACYP1',
     gene_name: 'acylphosphatase 1',
@@ -4059,7 +4059,7 @@ export default [
     omim_id: '600875'
   },
   {
-    gene_id: 'HGNC:10403',
+    gene_id: '10403',
     status: 'Approved',
     gene_symbol: 'ACYP2',
     gene_name: 'acylphosphatase 2',
@@ -4070,7 +4070,7 @@ export default [
     omim_id: '102595'
   },
   {
-    gene_id: 'HGNC:10404',
+    gene_id: '10404',
     status: 'Entry Withdrawn',
     gene_symbol: 'AD5',
     gene_name: 'Alzheimer disease 5',
@@ -4081,7 +4081,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10405',
+    gene_id: '10405',
     status: 'Approved',
     gene_symbol: 'ADA',
     gene_name: 'adenosine deaminase',
@@ -4092,7 +4092,7 @@ export default [
     omim_id: '608958'
   },
   {
-    gene_id: 'HGNC:10406',
+    gene_id: '10406',
     status: 'Approved',
     gene_symbol: 'ADA2',
     gene_name: 'adenosine deaminase 2',
@@ -4103,7 +4103,7 @@ export default [
     omim_id: '607575'
   },
   {
-    gene_id: 'HGNC:10407',
+    gene_id: '10407',
     status: 'Approved',
     gene_symbol: 'ADAD1',
     gene_name: 'adenosine deaminase domain containing 1',
@@ -4114,7 +4114,7 @@ export default [
     omim_id: '614130'
   },
   {
-    gene_id: 'HGNC:10408',
+    gene_id: '10408',
     status: 'Approved',
     gene_symbol: 'ADAD1P1',
     gene_name: 'adenosine deaminase domain containing 1 pseudogene 1',
@@ -4125,7 +4125,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10409',
+    gene_id: '10409',
     status: 'Approved',
     gene_symbol: 'ADAD1P2',
     gene_name: 'adenosine deaminase domain containing 1 pseudogene 2',
@@ -4136,7 +4136,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1041',
+    gene_id: '1041',
     status: 'Approved',
     gene_symbol: 'ADAD2',
     gene_name: 'adenosine deaminase domain containing 2',
@@ -4147,7 +4147,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10410',
+    gene_id: '10410',
     status: 'Approved',
     gene_symbol: 'ADAL',
     gene_name: 'adenosine deaminase like',
@@ -4158,7 +4158,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10411',
+    gene_id: '10411',
     status: 'Approved',
     gene_symbol: 'ADAM1A',
     gene_name: 'ADAM metallopeptidase domain 1A (pseudogene)',
@@ -4169,7 +4169,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10412',
+    gene_id: '10412',
     status: 'Approved',
     gene_symbol: 'ADAM1B',
     gene_name: 'ADAM metallopeptidase domain 1B (pseudogene)',
@@ -4180,7 +4180,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10413',
+    gene_id: '10413',
     status: 'Approved',
     gene_symbol: 'ADAM2',
     gene_name: 'ADAM metallopeptidase domain 2',
@@ -4191,7 +4191,7 @@ export default [
     omim_id: '601533'
   },
   {
-    gene_id: 'HGNC:10414',
+    gene_id: '10414',
     status: 'Approved',
     gene_symbol: 'ADAM3A',
     gene_name: 'ADAM metallopeptidase domain 3A (pseudogene)',
@@ -4202,7 +4202,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10415',
+    gene_id: '10415',
     status: 'Approved',
     gene_symbol: 'ADAM3B',
     gene_name: 'ADAM metallopeptidase domain 3B (pseudogene)',
@@ -4213,7 +4213,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10416',
+    gene_id: '10416',
     status: 'Approved',
     gene_symbol: 'ADAM5',
     gene_name: 'ADAM metallopeptidase domain 5 (pseudogene)',
@@ -4224,7 +4224,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10417',
+    gene_id: '10417',
     status: 'Approved',
     gene_symbol: 'ADAM6',
     gene_name: 'ADAM metallopeptidase domain 6 (pseudogene)',
@@ -4235,7 +4235,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10418',
+    gene_id: '10418',
     status: 'Approved',
     gene_symbol: 'ADAM7',
     gene_name: 'ADAM metallopeptidase domain 7',
@@ -4246,7 +4246,7 @@ export default [
     omim_id: '607310'
   },
   {
-    gene_id: 'HGNC:10419',
+    gene_id: '10419',
     status: 'Approved',
     gene_symbol: 'ADAM8',
     gene_name: 'ADAM metallopeptidase domain 8',
@@ -4257,7 +4257,7 @@ export default [
     omim_id: '602267'
   },
   {
-    gene_id: 'HGNC:10420',
+    gene_id: '10420',
     status: 'Approved',
     gene_symbol: 'ADAM9',
     gene_name: 'ADAM metallopeptidase domain 9',
@@ -4268,7 +4268,7 @@ export default [
     omim_id: '602713'
   },
   {
-    gene_id: 'HGNC:10421',
+    gene_id: '10421',
     status: 'Approved',
     gene_symbol: 'ADAM10',
     gene_name: 'ADAM metallopeptidase domain 10',
@@ -4279,7 +4279,7 @@ export default [
     omim_id: '602192'
   },
   {
-    gene_id: 'HGNC:10422',
+    gene_id: '10422',
     status: 'Approved',
     gene_symbol: 'ADAM11',
     gene_name: 'ADAM metallopeptidase domain 11',
@@ -4290,7 +4290,7 @@ export default [
     omim_id: '155120'
   },
   {
-    gene_id: 'HGNC:10423',
+    gene_id: '10423',
     status: 'Approved',
     gene_symbol: 'ADAM12',
     gene_name: 'ADAM metallopeptidase domain 12',
@@ -4301,7 +4301,7 @@ export default [
     omim_id: '602714'
   },
   {
-    gene_id: 'HGNC:10424',
+    gene_id: '10424',
     status: 'Entry Withdrawn',
     gene_symbol: 'ADAM12-OT1',
     gene_name: 'ADAM12 overlapping transcript 1 (non-protein coding)',
@@ -4312,7 +4312,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10425',
+    gene_id: '10425',
     status: 'Approved',
     gene_symbol: 'ADAM15',
     gene_name: 'ADAM metallopeptidase domain 15',
@@ -4323,7 +4323,7 @@ export default [
     omim_id: '605548'
   },
   {
-    gene_id: 'HGNC:10426',
+    gene_id: '10426',
     status: 'Approved',
     gene_symbol: 'ADAM17',
     gene_name: 'ADAM metallopeptidase domain 17',
@@ -4334,7 +4334,7 @@ export default [
     omim_id: '603639'
   },
   {
-    gene_id: 'HGNC:10427',
+    gene_id: '10427',
     status: 'Approved',
     gene_symbol: 'ADAM18',
     gene_name: 'ADAM metallopeptidase domain 18',
@@ -4345,7 +4345,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10428',
+    gene_id: '10428',
     status: 'Approved',
     gene_symbol: 'ADAM19',
     gene_name: 'ADAM metallopeptidase domain 19',
@@ -4356,7 +4356,7 @@ export default [
     omim_id: '603640'
   },
   {
-    gene_id: 'HGNC:10429',
+    gene_id: '10429',
     status: 'Approved',
     gene_symbol: 'ADAM20',
     gene_name: 'ADAM metallopeptidase domain 20',
@@ -4367,7 +4367,7 @@ export default [
     omim_id: '603712'
   },
   {
-    gene_id: 'HGNC:1043',
+    gene_id: '1043',
     status: 'Approved',
     gene_symbol: 'ADAM20P1',
     gene_name: 'ADAM metallopeptidase domain 20 pseudogene 1',
@@ -4378,7 +4378,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10430',
+    gene_id: '10430',
     status: 'Approved',
     gene_symbol: 'ADAM20P2',
     gene_name: 'ADAM metallopeptidase domain 20 pseudogene 2',
@@ -4389,7 +4389,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10431',
+    gene_id: '10431',
     status: 'Approved',
     gene_symbol: 'ADAM20P3',
     gene_name: 'ADAM metallopeptidase domain 20 pseudogene 3',
@@ -4400,7 +4400,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10432',
+    gene_id: '10432',
     status: 'Approved',
     gene_symbol: 'ADAM21',
     gene_name: 'ADAM metallopeptidase domain 21',
@@ -4411,7 +4411,7 @@ export default [
     omim_id: '603713'
   },
   {
-    gene_id: 'HGNC:10433',
+    gene_id: '10433',
     status: 'Approved',
     gene_symbol: 'ADAM21P1',
     gene_name: 'ADAM metallopeptidase domain 21 pseudogene 1',
@@ -4422,7 +4422,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10434',
+    gene_id: '10434',
     status: 'Approved',
     gene_symbol: 'ADAM22',
     gene_name: 'ADAM metallopeptidase domain 22',
@@ -4433,7 +4433,7 @@ export default [
     omim_id: '603709'
   },
   {
-    gene_id: 'HGNC:10435',
+    gene_id: '10435',
     status: 'Approved',
     gene_symbol: 'ADAM23',
     gene_name: 'ADAM metallopeptidase domain 23',
@@ -4444,7 +4444,7 @@ export default [
     omim_id: '603710'
   },
   {
-    gene_id: 'HGNC:10436',
+    gene_id: '10436',
     status: 'Approved',
     gene_symbol: 'ADAM24P',
     gene_name: 'ADAM metallopeptidase domain 24, pseudogene',
@@ -4455,7 +4455,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10437',
+    gene_id: '10437',
     status: 'Approved',
     gene_symbol: 'ADAM28',
     gene_name: 'ADAM metallopeptidase domain 28',
@@ -4466,7 +4466,7 @@ export default [
     omim_id: '606188'
   },
   {
-    gene_id: 'HGNC:10438',
+    gene_id: '10438',
     status: 'Approved',
     gene_symbol: 'ADAM29',
     gene_name: 'ADAM metallopeptidase domain 29',
@@ -4477,7 +4477,7 @@ export default [
     omim_id: '604778'
   },
   {
-    gene_id: 'HGNC:10439',
+    gene_id: '10439',
     status: 'Approved',
     gene_symbol: 'ADAM30',
     gene_name: 'ADAM metallopeptidase domain 30',
@@ -4488,7 +4488,7 @@ export default [
     omim_id: '604779'
   },
   {
-    gene_id: 'HGNC:1044',
+    gene_id: '1044',
     status: 'Approved',
     gene_symbol: 'ADAM32',
     gene_name: 'ADAM metallopeptidase domain 32',
@@ -4499,7 +4499,7 @@ export default [
     omim_id: '618602'
   },
   {
-    gene_id: 'HGNC:10440',
+    gene_id: '10440',
     status: 'Approved',
     gene_symbol: 'ADAM33',
     gene_name: 'ADAM metallopeptidase domain 33',
@@ -4510,7 +4510,7 @@ export default [
     omim_id: '607114'
   },
   {
-    gene_id: 'HGNC:10441',
+    gene_id: '10441',
     status: 'Approved',
     gene_symbol: 'ADAMDEC1',
     gene_name: 'ADAM like decysin 1',
@@ -4521,7 +4521,7 @@ export default [
     omim_id: '606393'
   },
   {
-    gene_id: 'HGNC:10442',
+    gene_id: '10442',
     status: 'Approved',
     gene_symbol: 'ADAMTS1',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 1',
@@ -4532,7 +4532,7 @@ export default [
     omim_id: '605174'
   },
   {
-    gene_id: 'HGNC:10443',
+    gene_id: '10443',
     status: 'Approved',
     gene_symbol: 'ADAMTS2',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 2',
@@ -4543,7 +4543,7 @@ export default [
     omim_id: '604539'
   },
   {
-    gene_id: 'HGNC:10445',
+    gene_id: '10445',
     status: 'Approved',
     gene_symbol: 'ADAMTS3',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 3',
@@ -4554,7 +4554,7 @@ export default [
     omim_id: '605011'
   },
   {
-    gene_id: 'HGNC:10446',
+    gene_id: '10446',
     status: 'Approved',
     gene_symbol: 'ADAMTS4',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 4',
@@ -4565,7 +4565,7 @@ export default [
     omim_id: '603876'
   },
   {
-    gene_id: 'HGNC:10447',
+    gene_id: '10447',
     status: 'Approved',
     gene_symbol: 'ADAMTS5',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 5',
@@ -4576,7 +4576,7 @@ export default [
     omim_id: '605007'
   },
   {
-    gene_id: 'HGNC:10448',
+    gene_id: '10448',
     status: 'Approved',
     gene_symbol: 'ADAMTS6',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 6',
@@ -4587,7 +4587,7 @@ export default [
     omim_id: '605008'
   },
   {
-    gene_id: 'HGNC:10449',
+    gene_id: '10449',
     status: 'Approved',
     gene_symbol: 'ADAMTS7',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 7',
@@ -4598,7 +4598,7 @@ export default [
     omim_id: '605009'
   },
   {
-    gene_id: 'HGNC:10450',
+    gene_id: '10450',
     status: 'Approved',
     gene_symbol: 'ADAMTS7P1',
     gene_name: 'ADAMTS7 pseudogene 1',
@@ -4609,7 +4609,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10451',
+    gene_id: '10451',
     status: 'Approved',
     gene_symbol: 'ADAMTS7P3',
     gene_name: 'ADAMTS7 pseudogene 3',
@@ -4620,7 +4620,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10452',
+    gene_id: '10452',
     status: 'Approved',
     gene_symbol: 'ADAMTS7P4',
     gene_name: 'ADAMTS7 pseudogene 4',
@@ -4631,7 +4631,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10453',
+    gene_id: '10453',
     status: 'Approved',
     gene_symbol: 'ADAMTS8',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 8',
@@ -4642,7 +4642,7 @@ export default [
     omim_id: '605175'
   },
   {
-    gene_id: 'HGNC:10454',
+    gene_id: '10454',
     status: 'Approved',
     gene_symbol: 'ADAMTS9',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 9',
@@ -4653,7 +4653,7 @@ export default [
     omim_id: '605421'
   },
   {
-    gene_id: 'HGNC:10455',
+    gene_id: '10455',
     status: 'Approved',
     gene_symbol: 'ADAMTS9-AS1',
     gene_name: 'ADAMTS9 antisense RNA 1',
@@ -4664,7 +4664,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10456',
+    gene_id: '10456',
     status: 'Approved',
     gene_symbol: 'ADAMTS9-AS2',
     gene_name: 'ADAMTS9 antisense RNA 2',
@@ -4675,7 +4675,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10457',
+    gene_id: '10457',
     status: 'Approved',
     gene_symbol: 'ADAMTS10',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 10',
@@ -4686,7 +4686,7 @@ export default [
     omim_id: '608990'
   },
   {
-    gene_id: 'HGNC:10458',
+    gene_id: '10458',
     status: 'Approved',
     gene_symbol: 'ADAMTS12',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 12',
@@ -4697,7 +4697,7 @@ export default [
     omim_id: '606184'
   },
   {
-    gene_id: 'HGNC:1046',
+    gene_id: '1046',
     status: 'Approved',
     gene_symbol: 'ADAMTS13',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 13',
@@ -4708,7 +4708,7 @@ export default [
     omim_id: '604134'
   },
   {
-    gene_id: 'HGNC:10461',
+    gene_id: '10461',
     status: 'Approved',
     gene_symbol: 'ADAMTS14',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 14',
@@ -4719,7 +4719,7 @@ export default [
     omim_id: '607506'
   },
   {
-    gene_id: 'HGNC:10462',
+    gene_id: '10462',
     status: 'Approved',
     gene_symbol: 'ADAMTS15',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 15',
@@ -4730,7 +4730,7 @@ export default [
     omim_id: '607509'
   },
   {
-    gene_id: 'HGNC:10464',
+    gene_id: '10464',
     status: 'Approved',
     gene_symbol: 'ADAMTS16',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 16',
@@ -4741,7 +4741,7 @@ export default [
     omim_id: '607510'
   },
   {
-    gene_id: 'HGNC:10464',
+    gene_id: '10464',
     status: 'Approved',
     gene_symbol: 'ADAMTS16-DT',
     gene_name: 'ADAMTS16 divergent transcript',
@@ -4752,7 +4752,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10466',
+    gene_id: '10466',
     status: 'Approved',
     gene_symbol: 'ADAMTS17',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 17',
@@ -4763,7 +4763,7 @@ export default [
     omim_id: '607511'
   },
   {
-    gene_id: 'HGNC:10467',
+    gene_id: '10467',
     status: 'Approved',
     gene_symbol: 'ADAMTS18',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 18',
@@ -4774,7 +4774,7 @@ export default [
     omim_id: '607512'
   },
   {
-    gene_id: 'HGNC:10468',
+    gene_id: '10468',
     status: 'Approved',
     gene_symbol: 'ADAMTS19',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 19',
@@ -4785,7 +4785,7 @@ export default [
     omim_id: '607513'
   },
   {
-    gene_id: 'HGNC:10469',
+    gene_id: '10469',
     status: 'Approved',
     gene_symbol: 'ADAMTS19-AS1',
     gene_name: 'ADAMTS19 antisense RNA 1',
@@ -4796,7 +4796,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1047',
+    gene_id: '1047',
     status: 'Approved',
     gene_symbol: 'ADAMTS20',
     gene_name: 'ADAM metallopeptidase with thrombospondin type 1 motif 20',
@@ -4807,7 +4807,7 @@ export default [
     omim_id: '611681'
   },
   {
-    gene_id: 'HGNC:10471',
+    gene_id: '10471',
     status: 'Approved',
     gene_symbol: 'ADAMTSL1',
     gene_name: 'ADAMTS like 1',
@@ -4818,7 +4818,7 @@ export default [
     omim_id: '609198'
   },
   {
-    gene_id: 'HGNC:10472',
+    gene_id: '10472',
     status: 'Approved',
     gene_symbol: 'ADAMTSL2',
     gene_name: 'ADAMTS like 2',
@@ -4829,7 +4829,7 @@ export default [
     omim_id: '612277'
   },
   {
-    gene_id: 'HGNC:10473',
+    gene_id: '10473',
     status: 'Approved',
     gene_symbol: 'ADAMTSL3',
     gene_name: 'ADAMTS like 3',
@@ -4840,7 +4840,7 @@ export default [
     omim_id: '609199'
   },
   {
-    gene_id: 'HGNC:10474',
+    gene_id: '10474',
     status: 'Approved',
     gene_symbol: 'ADAMTSL4',
     gene_name: 'ADAMTS like 4',
@@ -4851,7 +4851,7 @@ export default [
     omim_id: '610113'
   },
   {
-    gene_id: 'HGNC:10475',
+    gene_id: '10475',
     status: 'Approved',
     gene_symbol: 'ADAMTSL4-AS1',
     gene_name: 'ADAMTSL4 antisense RNA 1',
@@ -4862,7 +4862,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10476',
+    gene_id: '10476',
     status: 'Approved',
     gene_symbol: 'ADAMTSL4-AS2',
     gene_name: 'ADAMTSL4 antisense RNA 2',
@@ -4873,7 +4873,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10477',
+    gene_id: '10477',
     status: 'Approved',
     gene_symbol: 'ADAMTSL5',
     gene_name: 'ADAMTS like 5',
@@ -4884,7 +4884,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10478',
+    gene_id: '10478',
     status: 'Approved',
     gene_symbol: 'ADAP1',
     gene_name: 'ArfGAP with dual PH domains 1',
@@ -4895,7 +4895,7 @@ export default [
     omim_id: '608114'
   },
   {
-    gene_id: 'HGNC:10479',
+    gene_id: '10479',
     status: 'Approved',
     gene_symbol: 'ADAP2',
     gene_name: 'ArfGAP with dual PH domains 2',
@@ -4906,7 +4906,7 @@ export default [
     omim_id: '608635'
   },
   {
-    gene_id: 'HGNC:1048',
+    gene_id: '1048',
     status: 'Approved',
     gene_symbol: 'ADAR',
     gene_name: 'adenosine deaminase RNA specific',
@@ -4917,7 +4917,7 @@ export default [
     omim_id: '146920'
   },
   {
-    gene_id: 'HGNC:10480',
+    gene_id: '10480',
     status: 'Approved',
     gene_symbol: 'ADARB1',
     gene_name: 'adenosine deaminase RNA specific B1',
@@ -4928,7 +4928,7 @@ export default [
     omim_id: '601218'
   },
   {
-    gene_id: 'HGNC:10481',
+    gene_id: '10481',
     status: 'Approved',
     gene_symbol: 'ADARB2',
     gene_name: 'adenosine deaminase RNA specific B2 (inactive)',
@@ -4939,7 +4939,7 @@ export default [
     omim_id: '602065'
   },
   {
-    gene_id: 'HGNC:10482',
+    gene_id: '10482',
     status: 'Approved',
     gene_symbol: 'ADARB2-AS1',
     gene_name: 'ADARB2 antisense RNA 1',
@@ -4950,7 +4950,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10483',
+    gene_id: '10483',
     status: 'Approved',
     gene_symbol: 'ADAT1',
     gene_name: 'adenosine deaminase tRNA specific 1',
@@ -4961,7 +4961,7 @@ export default [
     omim_id: '604230'
   },
   {
-    gene_id: 'HGNC:10484',
+    gene_id: '10484',
     status: 'Approved',
     gene_symbol: 'ADAT2',
     gene_name: 'adenosine deaminase tRNA specific 2',
@@ -4972,7 +4972,7 @@ export default [
     omim_id: '615388'
   },
   {
-    gene_id: 'HGNC:10485',
+    gene_id: '10485',
     status: 'Approved',
     gene_symbol: 'ADAT3',
     gene_name: 'adenosine deaminase tRNA specific 3',
@@ -4983,7 +4983,7 @@ export default [
     omim_id: '615302'
   },
   {
-    gene_id: 'HGNC:10486',
+    gene_id: '10486',
     status: 'Approved',
     gene_symbol: 'ADCK1',
     gene_name: 'aarF domain containing kinase 1',
@@ -4994,7 +4994,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10487',
+    gene_id: '10487',
     status: 'Approved',
     gene_symbol: 'ADCK2',
     gene_name: 'aarF domain containing kinase 2',
@@ -5005,7 +5005,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10488',
+    gene_id: '10488',
     status: 'Approved',
     gene_symbol: 'ADCK5',
     gene_name: 'aarF domain containing kinase 5',
@@ -5016,7 +5016,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10489',
+    gene_id: '10489',
     status: 'Approved',
     gene_symbol: 'ADCP1',
     gene_name: 'adenosine deaminase complexing protein 1',
@@ -5027,7 +5027,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1049',
+    gene_id: '1049',
     status: 'Approved',
     gene_symbol: 'ADCY1',
     gene_name: 'adenylate cyclase 1',
@@ -5038,7 +5038,7 @@ export default [
     omim_id: '103072'
   },
   {
-    gene_id: 'HGNC:10490',
+    gene_id: '10490',
     status: 'Approved',
     gene_symbol: 'ADCY2',
     gene_name: 'adenylate cyclase 2',
@@ -5049,7 +5049,7 @@ export default [
     omim_id: '103071'
   },
   {
-    gene_id: 'HGNC:10491',
+    gene_id: '10491',
     status: 'Approved',
     gene_symbol: 'ADCY3',
     gene_name: 'adenylate cyclase 3',
@@ -5060,7 +5060,7 @@ export default [
     omim_id: '600291'
   },
   {
-    gene_id: 'HGNC:10492',
+    gene_id: '10492',
     status: 'Approved',
     gene_symbol: 'ADCY4',
     gene_name: 'adenylate cyclase 4',
@@ -5071,7 +5071,7 @@ export default [
     omim_id: '600292'
   },
   {
-    gene_id: 'HGNC:10493',
+    gene_id: '10493',
     status: 'Approved',
     gene_symbol: 'ADCY5',
     gene_name: 'adenylate cyclase 5',
@@ -5082,7 +5082,7 @@ export default [
     omim_id: '600293'
   },
   {
-    gene_id: 'HGNC:10494',
+    gene_id: '10494',
     status: 'Approved',
     gene_symbol: 'ADCY6',
     gene_name: 'adenylate cyclase 6',
@@ -5093,7 +5093,7 @@ export default [
     omim_id: '600294'
   },
   {
-    gene_id: 'HGNC:10495',
+    gene_id: '10495',
     status: 'Approved',
     gene_symbol: 'ADCY6-DT',
     gene_name: 'ADCY6 divergent transcript',
@@ -5104,7 +5104,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10496',
+    gene_id: '10496',
     status: 'Approved',
     gene_symbol: 'ADCY7',
     gene_name: 'adenylate cyclase 7',
@@ -5115,7 +5115,7 @@ export default [
     omim_id: '600385'
   },
   {
-    gene_id: 'HGNC:10497',
+    gene_id: '10497',
     status: 'Approved',
     gene_symbol: 'ADCY8',
     gene_name: 'adenylate cyclase 8',
@@ -5126,7 +5126,7 @@ export default [
     omim_id: '103070'
   },
   {
-    gene_id: 'HGNC:10498',
+    gene_id: '10498',
     status: 'Approved',
     gene_symbol: 'ADCY9',
     gene_name: 'adenylate cyclase 9',
@@ -5137,7 +5137,7 @@ export default [
     omim_id: '603302'
   },
   {
-    gene_id: 'HGNC:10499',
+    gene_id: '10499',
     status: 'Approved',
     gene_symbol: 'ADCY10',
     gene_name: 'adenylate cyclase 10',
@@ -5148,7 +5148,7 @@ export default [
     omim_id: '605205'
   },
   {
-    gene_id: 'HGNC:105',
+    gene_id: '105',
     status: 'Approved',
     gene_symbol: 'ADCY10P1',
     gene_name: 'ADCY10 pseudogene 1',
@@ -5159,7 +5159,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1050',
+    gene_id: '1050',
     status: 'Approved',
     gene_symbol: 'ADCYAP1',
     gene_name: 'adenylate cyclase activating polypeptide 1',
@@ -5170,7 +5170,7 @@ export default [
     omim_id: '102980'
   },
   {
-    gene_id: 'HGNC:10500',
+    gene_id: '10500',
     status: 'Approved',
     gene_symbol: 'ADCYAP1R1',
     gene_name: 'ADCYAP receptor type I',
@@ -5181,7 +5181,7 @@ export default [
     omim_id: '102981'
   },
   {
-    gene_id: 'HGNC:10504',
+    gene_id: '10504',
     status: 'Approved',
     gene_symbol: 'ADD1',
     gene_name: 'adducin 1',
@@ -5192,7 +5192,7 @@ export default [
     omim_id: '102680'
   },
   {
-    gene_id: 'HGNC:10505',
+    gene_id: '10505',
     status: 'Approved',
     gene_symbol: 'ADD2',
     gene_name: 'adducin 2',
@@ -5203,7 +5203,7 @@ export default [
     omim_id: '102681'
   },
   {
-    gene_id: 'HGNC:10506',
+    gene_id: '10506',
     status: 'Approved',
     gene_symbol: 'ADD3',
     gene_name: 'adducin 3',
@@ -5214,7 +5214,7 @@ export default [
     omim_id: '601568'
   },
   {
-    gene_id: 'HGNC:10507',
+    gene_id: '10507',
     status: 'Approved',
     gene_symbol: 'ADD3-AS1',
     gene_name: 'ADD3 antisense RNA 1',
@@ -5225,7 +5225,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10508',
+    gene_id: '10508',
     status: 'Entry Withdrawn',
     gene_symbol: 'ADFN',
     gene_name: 'albinism-deafness syndrome',
@@ -5236,7 +5236,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10509',
+    gene_id: '10509',
     status: 'Approved',
     gene_symbol: 'ADGB',
     gene_name: 'androglobin',
@@ -5247,7 +5247,7 @@ export default [
     omim_id: '614630'
   },
   {
-    gene_id: 'HGNC:1051',
+    gene_id: '1051',
     status: 'Approved',
     gene_symbol: 'ADGRA1',
     gene_name: 'adhesion G protein-coupled receptor A1',
@@ -5258,7 +5258,7 @@ export default [
     omim_id: '612302'
   },
   {
-    gene_id: 'HGNC:10510',
+    gene_id: '10510',
     status: 'Approved',
     gene_symbol: 'ADGRA1-AS1',
     gene_name: 'ADGRA1 antisense RNA 1',
@@ -5269,7 +5269,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10511',
+    gene_id: '10511',
     status: 'Approved',
     gene_symbol: 'ADGRA2',
     gene_name: 'adhesion G protein-coupled receptor A2',
@@ -5280,7 +5280,7 @@ export default [
     omim_id: '606823'
   },
   {
-    gene_id: 'HGNC:10512',
+    gene_id: '10512',
     status: 'Approved',
     gene_symbol: 'ADGRA3',
     gene_name: 'adhesion G protein-coupled receptor A3',
@@ -5291,7 +5291,7 @@ export default [
     omim_id: '612303'
   },
   {
-    gene_id: 'HGNC:10513',
+    gene_id: '10513',
     status: 'Approved',
     gene_symbol: 'ADGRB1',
     gene_name: 'adhesion G protein-coupled receptor B1',
@@ -5302,7 +5302,7 @@ export default [
     omim_id: '602682'
   },
   {
-    gene_id: 'HGNC:10514',
+    gene_id: '10514',
     status: 'Approved',
     gene_symbol: 'ADGRB2',
     gene_name: 'adhesion G protein-coupled receptor B2',
@@ -5313,7 +5313,7 @@ export default [
     omim_id: '602683'
   },
   {
-    gene_id: 'HGNC:10515',
+    gene_id: '10515',
     status: 'Approved',
     gene_symbol: 'ADGRB3',
     gene_name: 'adhesion G protein-coupled receptor B3',
@@ -5324,7 +5324,7 @@ export default [
     omim_id: '602684'
   },
   {
-    gene_id: 'HGNC:10516',
+    gene_id: '10516',
     status: 'Approved',
     gene_symbol: 'ADGRD1',
     gene_name: 'adhesion G protein-coupled receptor D1',
@@ -5335,7 +5335,7 @@ export default [
     omim_id: '613639'
   },
   {
-    gene_id: 'HGNC:10517',
+    gene_id: '10517',
     status: 'Approved',
     gene_symbol: 'ADGRD1-AS1',
     gene_name: 'ADGRD1 antisense RNA 1',
@@ -5346,7 +5346,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10518',
+    gene_id: '10518',
     status: 'Approved',
     gene_symbol: 'ADGRD2',
     gene_name: 'adhesion G protein-coupled receptor D2',
@@ -5357,7 +5357,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10519',
+    gene_id: '10519',
     status: 'Approved',
     gene_symbol: 'ADGRE1',
     gene_name: 'adhesion G protein-coupled receptor E1',
@@ -5368,7 +5368,7 @@ export default [
     omim_id: '600493'
   },
   {
-    gene_id: 'HGNC:1052',
+    gene_id: '1052',
     status: 'Approved',
     gene_symbol: 'ADGRE2',
     gene_name: 'adhesion G protein-coupled receptor E2',
@@ -5379,7 +5379,7 @@ export default [
     omim_id: '606100'
   },
   {
-    gene_id: 'HGNC:10520',
+    gene_id: '10520',
     status: 'Approved',
     gene_symbol: 'ADGRE3',
     gene_name: 'adhesion G protein-coupled receptor E3',
@@ -5390,7 +5390,7 @@ export default [
     omim_id: '606101'
   },
   {
-    gene_id: 'HGNC:10521',
+    gene_id: '10521',
     status: 'Approved',
     gene_symbol: 'ADGRE4P',
     gene_name: 'adhesion G protein-coupled receptor E4, pseudogene',
@@ -5401,7 +5401,7 @@ export default [
     omim_id: '612305'
   },
   {
-    gene_id: 'HGNC:10522',
+    gene_id: '10522',
     status: 'Approved',
     gene_symbol: 'ADGRE5',
     gene_name: 'adhesion G protein-coupled receptor E5',
@@ -5412,7 +5412,7 @@ export default [
     omim_id: '601211'
   },
   {
-    gene_id: 'HGNC:10523',
+    gene_id: '10523',
     status: 'Approved',
     gene_symbol: 'ADGRF1',
     gene_name: 'adhesion G protein-coupled receptor F1',
@@ -5423,7 +5423,7 @@ export default [
     omim_id: '617430'
   },
   {
-    gene_id: 'HGNC:10524',
+    gene_id: '10524',
     status: 'Approved',
     gene_symbol: 'ADGRF2',
     gene_name: 'adhesion G protein-coupled receptor F2',
@@ -5434,7 +5434,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10525',
+    gene_id: '10525',
     status: 'Approved',
     gene_symbol: 'ADGRF3',
     gene_name: 'adhesion G protein-coupled receptor F3',
@@ -5445,7 +5445,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10526',
+    gene_id: '10526',
     status: 'Approved',
     gene_symbol: 'ADGRF4',
     gene_name: 'adhesion G protein-coupled receptor F4',
@@ -5456,7 +5456,7 @@ export default [
     omim_id: '614268'
   },
   {
-    gene_id: 'HGNC:10527',
+    gene_id: '10527',
     status: 'Approved',
     gene_symbol: 'ADGRF5',
     gene_name: 'adhesion G protein-coupled receptor F5',
@@ -5467,7 +5467,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:10528',
+    gene_id: '10528',
     status: 'Approved',
     gene_symbol: 'ADGRF5-AS1',
     gene_name: 'ADGRF5 antisense RNA 1',
@@ -5478,7 +5478,7 @@ export default [
     omim_id: ''
   },
   {
-    gene_id: 'HGNC:1053',
+    gene_id: '1053',
     status: 'Approved',
     gene_symbol: 'ADGRF5P1',
     gene_name: 'adhesion G protein-coupled receptor F5 pseudogene 1',
