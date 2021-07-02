@@ -4,9 +4,10 @@ import { knex, returnId, orderedFor } from '@gqlapp/database-server-ts';
 import { has } from 'lodash';
 import Drug from '@gqlapp/drug-server-ts/sql';
 import Cell from '@gqlapp/cell-server-ts/sql';
+import Disease from '@gqlapp/disease-server-ts/sql';
 
 // Give the knex object to objection.
-const eager = '[drug_interactions, cell_specific_markers]';
+const eager = '[drug_interactions, cell_specific_markers, disease_interactions]';
 
 Model.knex(knex);
 
@@ -35,6 +36,14 @@ export default class Gene extends Model {
         join: {
           from: 'gene.gene_id',
           to: 'cell.gene_id'
+        }
+      },
+      disease_interactions: {
+        relation: Model.HasManyRelation,
+        modelClass: Disease,
+        join: {
+          from: 'gene.gene_id',
+          to: 'disease.gene_id'
         }
       }
     };
