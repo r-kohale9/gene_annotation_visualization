@@ -1,3 +1,4 @@
+import disease from '@gqlapp/disease-client-react';
 import drug from '@gqlapp/drug-client-react';
 import cell from '@gqlapp/cell-client-react';
 import gene from '@gqlapp/gene-client-react';
@@ -23,6 +24,7 @@ const pagination = require('@gqlapp/pagination-client-react').default;
 const user = require('@gqlapp/user-client-react').default;
 
 const modules = new ClientModule(
+  disease,
   drug,
   cell,
   gene,

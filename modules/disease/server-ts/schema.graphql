@@ -1,0 +1,110 @@
+# Entity
+type Disease {
+  id: Int
+  geneId: String
+  diseaseId: String
+  geneSymbol: String
+  dsi: String
+  dpi: String
+  diseaseName: String
+  diseaseType: String
+  diseaseClass: String
+  diseaseSemanticType: String
+  score: String
+  ei: String
+  yearInitial: String
+  yearFinal: String
+  nofPmids: String
+  nofSnps: String
+  source: String
+}
+
+type Diseases {
+  totalCount: Int
+  edges: [DiseaseEdges]
+  pageInfo: DiseasePageInfo
+}
+
+type DiseaseEdges {
+  node: Disease
+  cursor: Int
+}
+
+type DiseasePageInfo {
+  endCursor: Int
+  hasNextPage: Boolean
+}
+
+extend type Query {
+  disease(id: Int!): Disease
+  diseases(
+    limit: Int
+    after: Int
+    orderBy: OrderByDiseaseInput
+    filter: FilterDiseaseInput
+  ): Diseases
+}
+
+input FilterDiseaseInput {
+  searchText: String
+  isActive: Boolean
+}
+
+input OrderByDiseaseInput {
+  column: String
+  order: String
+}
+
+extend type Mutation {
+  addDisease(input: AddDiseaseInput!): Disease
+  editDisease(input: EditDiseaseInput!): Disease
+  deleteDisease(id: Int!): Disease
+}
+
+input AddDiseaseInput {
+  geneId: String
+  diseaseId: String
+  geneSymbol: String
+  dsi: String
+  dpi: String
+  diseaseName: String
+  diseaseType: String
+  diseaseClass: String
+  diseaseSemanticType: String
+  score: String
+  ei: String
+  yearInitial: String
+  yearFinal: String
+  nofPmids: String
+  nofSnps: String
+  source: String
+}
+
+input EditDiseaseInput {
+  id: Int!
+  geneId: String
+  diseaseId: String
+  geneSymbol: String
+  dsi: String
+  dpi: String
+  diseaseName: String
+  diseaseType: String
+  diseaseClass: String
+  diseaseSemanticType: String
+  score: String
+  ei: String
+  yearInitial: String
+  yearFinal: String
+  nofPmids: String
+  nofSnps: String
+  source: String
+}
+
+extend type Subscription {
+  diseaseUpdated(filter: FilterDiseaseInput): UpdateDiseasePayload
+}
+
+type UpdateDiseasePayload {
+  mutation: String!
+  node: Disease
+}

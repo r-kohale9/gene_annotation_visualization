@@ -57,6 +57,7 @@
     "@gqlapp/cell-server-ts": "^1.0.0",
     "@gqlapp/core-common": "^0.1.0",
     "@gqlapp/database-server-ts": "^0.1.0",
+    "@gqlapp/disease-server-ts": "^1.0.0",
     "@gqlapp/drug-server-ts": "^1.0.0",
     "@gqlapp/gene-server-ts": "^1.0.0",
     "@gqlapp/home-server-ts": "^1.0.0",

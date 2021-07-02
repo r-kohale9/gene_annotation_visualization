@@ -47,6 +47,7 @@
     "@gqlapp/contact-client-react": "^0.1.0",
     "@gqlapp/core-client-react": "^0.1.0",
     "@gqlapp/counter-client-react": "^0.1.0",
+    "@gqlapp/disease-client-react": "^1.0.0",
     "@gqlapp/drug-client-react": "^1.0.0",
     "@gqlapp/forms-client-react": "^0.1.0",
     "@gqlapp/gene-client-react": "^1.0.0",

@@ -1,3 +1,4 @@
+import disease from '@gqlapp/disease-server-ts';
 import drug from '@gqlapp/drug-server-ts';
 import cell from '@gqlapp/cell-server-ts';
 import gene from '@gqlapp/gene-server-ts';
@@ -24,6 +25,7 @@ import ServerModule from '@gqlapp/module-server-ts';
 const user = require('@gqlapp/user-server-ts').default;
 
 const modules: ServerModule = new ServerModule(
+  disease,
   drug,
   cell,
   gene,
