@@ -3,15 +3,15 @@ exports.up = function(knex, Promise) {
     knex.schema.createTable('gene', table => {
       table.increments();
       table.string('gene_id');
-      table.string('omim_id');
-      table.string('ensembl_id');
-      table.string('gene_symbol');
-      table.string('cosmic_symbol');
-      table.string('gene_name');
       table.string('status');
+      table.string('gene_symbol');
+      table.string('gene_name');
+      table.string('cosmic_symbol');
       table.string('ref_seq_accession');
+      table.string('ensembl_id');
       table.string('chromosome_location');
-      table.timestamps(false, true);
+      table.string('omim_id');
+      // table.timestamps(false, true);
     })
   ]);
 };
