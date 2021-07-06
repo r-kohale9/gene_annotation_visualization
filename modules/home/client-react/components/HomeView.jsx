@@ -89,41 +89,90 @@ class HomeView extends React.Component {
     const elements = [
       {
         data: { id: 'gene', label: 'The Gene' },
-        position: { x: width / 2 - 30, y: height / 4 }
+        position: { x: width / 2, y: height / 4 }
       },
       {
-        data: { id: 'one', label: 'Node 1' },
+        data: {
+          id: 'pathway',
+          label: 'Pathway',
+          width: 100,
+          background: '#3EC0C1'
+        },
         position: { x: width / 2 - 200, y: height / 2 }
       },
       {
-        data: { id: 'two', label: 'Node 2' },
-        position: { x: width / 2 - 50, y: height / 2 }
+        data: {
+          id: 'disease',
+          label: 'Disease',
+          width: 100,
+          background: '#ACD257'
+        },
+        position: { x: width / 2 - 70, y: height / 2 }
       },
       {
-        data: { id: 'three', label: 'Node 3' },
-        position: { x: width / 2 + 50, y: height / 2 + 200 }
+        data: {
+          id: 'single_cell',
+          label: 'Single Cell',
+          width: 100,
+          background: '#EB7B77'
+        },
+        position: { x: width / 2 + 70, y: height / 2 }
+      },
+      {
+        data: {
+          id: 'drug_interaction',
+          label: 'Drug Interaction',
+          width: 150,
+          background: '#9C6795'
+        },
+        position: { x: width / 2 + 200, y: height / 2 }
+      },
+      {
+        data: {
+          id: 'single_cell_node',
+          label: 'Kupffer Cell\nBTO_0000685',
+          width: 200,
+          background: '#9C6795'
+        },
+        position: { x: width / 2 + 70, y: height / 2 + 200 }
       },
       {
         data: {
           source: 'gene',
-          target: 'one',
-          label: 'Gene to one',
+          target: 'pathway',
+          label: 'Gene to pathway',
           type: 'DB2'
         }
       },
       {
         data: {
           source: 'gene',
-          target: 'two',
-          label: 'Gene to two',
+          target: 'disease',
+          label: 'Gene to disease',
           type: 'DB2'
         }
       },
       {
         data: {
-          source: 'two',
-          target: 'three',
-          label: 'Gene to three',
+          source: 'gene',
+          target: 'single_cell',
+          label: 'Gene to single_cell',
+          type: 'DB2'
+        }
+      },
+      {
+        data: {
+          source: 'gene',
+          target: 'drug_interaction',
+          label: 'Gene to drug_interaction',
+          type: 'DB2'
+        }
+      },
+      {
+        data: {
+          source: 'single_cell',
+          target: 'single_cell_node',
+          label: 'single_cell to single_cell_node',
           type: 'DB2'
         }
       }
@@ -132,13 +181,13 @@ class HomeView extends React.Component {
       {
         selector: 'node',
         style: {
-          'background-color': 'rgb(64, 169, 243)',
+          'background-color': 'data(background)',
           label: 'data(label)',
           'text-valign': 'center',
           'text-halign': 'center',
-          shape: 'rectangle',
-          width: 50,
-          'z-index': 1
+          width: 'data(width)',
+          'z-index': 1,
+          shape: 'round-rectangle'
         }
       },
       {
@@ -162,10 +211,10 @@ class HomeView extends React.Component {
         selector: "edge[type='DB2']",
         style: {
           width: 2,
-          'line-color': '#bbb',
-          'target-arrow-color': '#bbb',
+          'line-color': '#DDA448',
+          'target-arrow-color': '#DDA448',
           'target-arrow-shape': 'triangle',
-          'source-arrow-color': '#bbb',
+          'source-arrow-color': '#DDA448',
           // "source-arrow-shape": "triangle",
           'curve-style': 'taxi'
         }
@@ -175,13 +224,25 @@ class HomeView extends React.Component {
         style: {
           shape: 'round-rectangle',
           width: 150,
-          'background-color': 'red',
+          'background-color': '#BB342F',
           color: 'white'
+        }
+      },
+      {
+        selector: '#single_cell_node',
+        style: {
+          shape: 'round-rectangle',
+          width: 'data(width)',
+          height: '50',
+          'background-color': '#BB342F',
+          color: 'white',
+          'text-wrap': 'wrap'
         }
       },
       {
         selector: 'node.highlight',
         style: {
+          shape: 'round-rectangle',
           'background-color': 'rgb(0, 117, 186)',
           color: '#fff',
           'border-color': 'rgb(101, 196, 255)',
@@ -192,6 +253,7 @@ class HomeView extends React.Component {
       {
         selector: 'edge.highlight',
         style: {
+          shape: 'round-rectangle',
           'line-color': 'rgb(134, 134, 134)',
           width: '4px'
         }
