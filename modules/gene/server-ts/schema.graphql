@@ -33,7 +33,7 @@ type GenePageInfo {
 }
 
 extend type Query {
-  gene(id: Int!): Gene
+  gene(id: Int, geneId: String, geneSymbol: String): Gene
   genes(
     limit: Int
     after: Int
@@ -44,6 +44,10 @@ extend type Query {
 
 input FilterGeneInput {
   searchText: String
+  geneId: String
+  geneSymbol: String
+  geneName: String
+
   isActive: Boolean
 }
 

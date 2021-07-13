@@ -28,8 +28,8 @@ export default (pubsub: any) => ({
         }
       };
     },
-    async gene(obj: any, { id }: any, { Gene }: any) {
-      const gene = await Gene.gene(id);
+    async gene(obj: any, { id, geneId, geneSymbol }: any, { Gene }: any) {
+      const gene = await Gene.gene(id, geneId, geneSymbol);
       return gene;
     }
   },

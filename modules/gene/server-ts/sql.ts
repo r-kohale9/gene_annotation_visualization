@@ -51,7 +51,7 @@ export default class Gene extends Model {
 
   public async genes(limit: number, after: any, orderBy: any, filter: any) {
     const queryBuilder = Gene.query()
-      .withGraphFetched(eager)
+      // .withGraphFetched(eager)
       .orderBy('id', 'desc');
     if (orderBy && orderBy.column) {
       const column = orderBy.column;
@@ -69,13 +69,28 @@ export default class Gene extends Model {
           this.where('gene.is_active', filter.isActive);
         });
       }
+      if (has(filter, 'geneId') && filter.geneId !== '') {
+        queryBuilder.where(function() {
+          this.where('gene.gene_id', filter.geneId);
+        });
+      }
+      if (has(filter, 'geneSymbol') && filter.geneSymbol !== '') {
+        queryBuilder.where(function() {
+          this.where('gene.gene_symbol', filter.geneSymbol);
+        });
+      }
+      if (has(filter, 'geneName') && filter.geneName !== '') {
+        queryBuilder.where(function() {
+          this.where('gene.gene_name', filter.geneName);
+        });
+      }
       if (has(filter, 'searchText') && filter.searchText !== '') {
         queryBuilder
           .from('gene')
           .groupBy('gene.id')
           .where(function() {
-            this.where(raw('LOWER(??) LIKE LOWER(?)', ['gene.title', `%${filter.searchText}%`])).orWhere(
-              raw('LOWER(??) LIKE LOWER(?)', ['gene.description', `%${filter.searchText}%`])
+            this.where(raw('LOWER(??) LIKE LOWER(?)', ['gene.gene_symbol', `%${filter.searchText}%`])).orWhere(
+              raw('LOWER(??) LIKE LOWER(?)', ['gene.gene_name', `%${filter.searchText}%`])
             );
           });
       }
@@ -102,14 +117,31 @@ export default class Gene extends Model {
     }
     return { geneItems: res, total };
   }
-  public async gene(id: number) {
-    // const res =
-    return camelizeKeys(
-      await Gene.query()
-        .findById(id)
-        .withGraphFetched(eager)
-        .orderBy('id', 'desc')
-    );
+  public async gene(id: number, geneId: number, geneSymbol: number) {
+    let res = {};
+    if (id) {
+      res = camelizeKeys(
+        await Gene.query()
+          .findById(id)
+          .withGraphFetched(eager)
+          .orderBy('id', 'desc')
+      );
+    } else if (geneId) {
+      res = camelizeKeys(
+        await Gene.query()
+          .withGraphFetched(eager)
+          .where('gene_id', geneId)
+          .orderBy('id', 'desc')
+      )[0];
+    } else if (geneSymbol) {
+      res = camelizeKeys(
+        await Gene.query()
+          .withGraphFetched(eager)
+          .where('gene_symbol', geneSymbol)
+          .orderBy('id', 'desc')
+      )[0];
+    }
+    return res;
   }
 
   public async addGene(params: any) {
