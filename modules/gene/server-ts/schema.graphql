@@ -14,6 +14,7 @@ type Gene {
   drugInteractions: [Drug]
   cellSpecificMarkers: [Cell]
   diseaseInteractions: [Disease]
+  pathways: [Pathway]
 }
 
 type Genes {
