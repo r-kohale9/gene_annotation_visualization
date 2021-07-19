@@ -1,0 +1,77 @@
+# Entity
+type Pathway {
+  id: Int
+  pathwayName: String
+  source: String
+  pathwayId: String
+  pathway: String
+  geneSymbol: String
+}
+
+type Pathways {
+  totalCount: Int
+  edges: [PathwayEdges]
+  pageInfo: PathwayPageInfo
+}
+
+type PathwayEdges {
+  node: Pathway
+  cursor: Int
+}
+
+type PathwayPageInfo {
+  endCursor: Int
+  hasNextPage: Boolean
+}
+
+extend type Query {
+  pathway(id: Int!): Pathway
+  pathways(
+    limit: Int
+    after: Int
+    orderBy: OrderByPathwayInput
+    filter: FilterPathwayInput
+  ): Pathways
+}
+
+input FilterPathwayInput {
+  searchText: String
+  isActive: Boolean
+}
+
+input OrderByPathwayInput {
+  column: String
+  order: String
+}
+
+extend type Mutation {
+  addPathway(input: AddPathwayInput!): Pathway
+  editPathway(input: EditPathwayInput!): Pathway
+  deletePathway(id: Int!): Pathway
+}
+
+input AddPathwayInput {
+  pathwayName: String
+  source: String
+  pathwayId: String
+  pathway: String
+  geneSymbol: String
+}
+
+input EditPathwayInput {
+  id: Int!
+  pathwayName: String
+  source: String
+  pathwayId: String
+  pathway: String
+  geneSymbol: String
+}
+
+extend type Subscription {
+  pathwayUpdated(filter: FilterPathwayInput): UpdatePathwayPayload
+}
+
+type UpdatePathwayPayload {
+  mutation: String!
+  node: Pathway
+}
