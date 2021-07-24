@@ -1,6 +1,5 @@
 export default [
   {
-    id: 7597,
     species_type: 'Human',
     tissue_type: 'Fetal kidney',
     uberon_ontology_id: 'UBERON_0002120',
@@ -21,7 +20,6 @@ export default [
     company: 'NA'
   },
   {
-    id: 7596,
     species_type: 'Human',
     tissue_type: 'Umbilical cord blood',
     uberon_ontology_id: 'UBERON_0012168',
@@ -42,7 +40,6 @@ export default [
     company: 'NA'
   },
   {
-    id: 7595,
     species_type: 'Human',
     tissue_type: 'Fetal gonad',
     uberon_ontology_id: 'NA',
@@ -63,7 +60,6 @@ export default [
     company: 'NA'
   },
   {
-    id: 7167,
     species_type: 'Human',
     tissue_type: 'Fetal kidney',
     uberon_ontology_id: 'UBERON_0002120',
@@ -84,7 +80,6 @@ export default [
     company: 'NA'
   },
   {
-    id: 7166,
     species_type: 'Human',
     tissue_type: 'Liver',
     uberon_ontology_id: 'UBERON_0002107',
@@ -105,7 +100,6 @@ export default [
     company: 'NA'
   },
   {
-    id: 13455,
     species_type: 'Human',
     tissue_type: 'Fetal kidney',
     uberon_ontology_id: 'UBERON_0002120',
@@ -126,7 +120,6 @@ export default [
     company: 'NA'
   },
   {
-    id: 13454,
     species_type: 'Human',
     tissue_type: 'Pancreatic islet',
     uberon_ontology_id: 'UBERON_0000006',
@@ -147,7 +140,6 @@ export default [
     company: 'NA'
   },
   {
-    id: 13453,
     species_type: 'Human',
     tissue_type: 'Embryonic prefrontal cortex',
     uberon_ontology_id: 'NA',
@@ -168,7 +160,6 @@ export default [
     company: 'NA'
   },
   {
-    id: 13452,
     species_type: 'Human',
     tissue_type: 'Embryonic prefrontal cortex',
     uberon_ontology_id: 'NA',
@@ -189,7 +180,6 @@ export default [
     company: 'NA'
   },
   {
-    id: 13451,
     species_type: 'Human',
     tissue_type: 'Hippocampus',
     uberon_ontology_id: 'UBERON_0002421',
@@ -207,7 +197,6 @@ export default [
     company: 'NA'
   },
   {
-    id: 16972,
     species_type: 'Human',
     tissue_type: 'Lung',
     uberon_ontology_id: 'UBERON_0002048',
@@ -228,7 +217,6 @@ export default [
     company: 'NA'
   },
   {
-    id: 3575,
     species_type: 'Human',
     tissue_type: 'Fetal gonad',
     uberon_ontology_id: 'NA',
@@ -249,7 +237,6 @@ export default [
     company: 'NA'
   },
   {
-    id: 3574,
     species_type: 'Human',
     tissue_type: 'Fetal gonad',
     uberon_ontology_id: 'NA',
@@ -269,4 +256,4 @@ export default [
     pmid: 28457750,
     company: 'NA'
   }
-];
+]

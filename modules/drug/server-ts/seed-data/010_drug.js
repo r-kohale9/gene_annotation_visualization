@@ -1,6 +1,5 @@
 export default [
   {
-    id: 32480,
     gene_name: 'ZRSR2',
     genea_claim_name: 'ZRSR2',
     entrez_id: 8233,
@@ -14,7 +13,6 @@ export default [
     pmid: ''
   },
   {
-    id: 66851,
     gene_name: 'ZFP36L2',
     genea_claim_name: 'ZFP36L2',
     entrez_id: 678,
@@ -28,7 +26,6 @@ export default [
     pmid: 10367403
   },
   {
-    id: 15387,
     gene_name: 'TYMP',
     genea_claim_name: 'TYMP',
     entrez_id: 1890,
@@ -42,7 +39,6 @@ export default [
     pmid: 11205264
   },
   {
-    id: 17447,
     gene_name: 'TYMP',
     genea_claim_name: 'TYMP',
     entrez_id: 1890,
@@ -56,7 +52,6 @@ export default [
     pmid: 16685374
   },
   {
-    id: 19706,
     gene_name: 'TYMP',
     genea_claim_name: 'TYMP',
     entrez_id: 1890,
@@ -70,7 +65,6 @@ export default [
     pmid: 24167597
   },
   {
-    id: 29201,
     gene_name: 'TYMP',
     genea_claim_name: 'TYMP',
     entrez_id: 1890,
@@ -84,7 +78,6 @@ export default [
     pmid: 24167597
   },
   {
-    id: 31338,
     gene_name: 'TYMP',
     genea_claim_name: 'ECGF1',
     entrez_id: 1890,
@@ -98,7 +91,6 @@ export default [
     pmid: ''
   },
   {
-    id: 56262,
     gene_name: 'TYMP',
     genea_claim_name: 'TYMP',
     entrez_id: 1890,
@@ -112,7 +104,6 @@ export default [
     pmid: 12711006
   },
   {
-    id: 63561,
     gene_name: 'TYMP',
     genea_claim_name: 'TYMP',
     entrez_id: 1890,
@@ -126,7 +117,6 @@ export default [
     pmid: 15269287
   },
   {
-    id: 75594,
     gene_name: 'TYMP',
     genea_claim_name: 'BE0002193',
     entrez_id: 1890,
@@ -140,7 +130,6 @@ export default [
     pmid: ''
   },
   {
-    id: 75830,
     gene_name: 'TYMP',
     genea_claim_name: 'Thymidine phosphorylase',
     entrez_id: 1890,
@@ -154,7 +143,6 @@ export default [
     pmid: ''
   },
   {
-    id: 91572,
     gene_name: 'TYMP',
     genea_claim_name: 'TYMP',
     entrez_id: 1890,
@@ -168,7 +156,6 @@ export default [
     pmid: 11956613
   },
   {
-    id: 51959,
     gene_name: 'TTC37',
     genea_claim_name: 'TTC37',
     entrez_id: 9652,
@@ -182,7 +169,6 @@ export default [
     pmid: 29407288
   },
   {
-    id: 91195,
     gene_name: 'TRAPPC6B',
     genea_claim_name: 'BE0004276',
     entrez_id: 122553,
@@ -195,4 +181,4 @@ export default [
     interaction_group_score: '',
     pmid: 10592235
   }
-];
+]

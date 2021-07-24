@@ -1,6 +1,5 @@
 export default [
   {
-    id: 170230,
     pathway_name: 'COPII-MEDIATED VESICLE TRANSPORT',
     source: 'REACTOME',
     pathway_id: 'R-HSA-204005.4',
@@ -8,7 +7,6 @@ export default [
     gene_symbol: 'TRAPPC6B'
   },
   {
-    id: 170229,
     pathway_name: 'RAB GEFS EXCHANGE GTP FOR GDP ON RABS',
     source: 'REACTOME',
     pathway_id: 'R-HSA-8876198.3',
@@ -16,7 +14,6 @@ export default [
     gene_symbol: 'TRAPPC6B'
   },
   {
-    id: 170228,
     pathway_name: 'ASPARAGINE N-LINKED GLYCOSYLATION',
     source: 'REACTOME DATABASE ID RELEASE 75',
     pathway_id: 446203,
@@ -24,7 +21,6 @@ export default [
     gene_symbol: 'TRAPPC6B'
   },
   {
-    id: 170227,
     pathway_name: 'ER TO GOLGI ANTEROGRADE TRANSPORT',
     source: 'REACTOME DATABASE ID RELEASE 75',
     pathway_id: 199977,
@@ -32,7 +28,6 @@ export default [
     gene_symbol: 'TRAPPC6B'
   },
   {
-    id: 170226,
     pathway_name: 'MEMBRANE TRAFFICKING',
     source: 'REACTOME',
     pathway_id: 'R-HSA-199991.6',
@@ -40,7 +35,6 @@ export default [
     gene_symbol: 'TRAPPC6B'
   },
   {
-    id: 170225,
     pathway_name: 'VESICLE-MEDIATED TRANSPORT',
     source: 'REACTOME DATABASE ID RELEASE 75',
     pathway_id: 5653656,
@@ -48,7 +42,6 @@ export default [
     gene_symbol: 'TRAPPC6B'
   },
   {
-    id: 170224,
     pathway_name: 'RAB REGULATION OF TRAFFICKING',
     source: 'REACTOME DATABASE ID RELEASE 75',
     pathway_id: 9007101,
@@ -56,7 +49,6 @@ export default [
     gene_symbol: 'TRAPPC6B'
   },
   {
-    id: 170223,
     pathway_name: 'TRANSPORT TO THE GOLGI AND SUBSEQUENT MODIFICATION',
     source: 'REACTOME',
     pathway_id: 'R-HSA-948021.2',
@@ -64,7 +56,6 @@ export default [
     gene_symbol: 'TRAPPC6B'
   },
   {
-    id: 170222,
     pathway_name: 'METABOLISM OF PROTEINS',
     source: 'REACTOME DATABASE ID RELEASE 75',
     pathway_id: 392499,
@@ -72,7 +63,6 @@ export default [
     gene_symbol: 'TRAPPC6B'
   },
   {
-    id: 171533,
     pathway_name: 'DEADENYLATION-DEPENDENT MRNA DECAY',
     source: 'REACTOME',
     pathway_id: 'R-HSA-429914.2',
@@ -80,7 +70,6 @@ export default [
     gene_symbol: 'TTC37'
   },
   {
-    id: 171532,
     pathway_name: 'METABOLISM OF RNA',
     source: 'REACTOME',
     pathway_id: 'R-HSA-8953854.4',
@@ -88,7 +77,6 @@ export default [
     gene_symbol: 'TTC37'
   },
   {
-    id: 171531,
     pathway_name: "MRNA DECAY BY 3' TO 5' EXORIBONUCLEASE",
     source: 'REACTOME',
     pathway_id: 'R-HSA-429958.2',
@@ -96,7 +84,6 @@ export default [
     gene_symbol: 'TTC37'
   },
   {
-    id: 171530,
     pathway_name: 'HALLMARK_UNFOLDED_PROTEIN_RESPONSE',
     source: 'MSIGDB_C2',
     pathway_id: 'HALLMARK_UNFOLDED_PROTEIN_RESPONSE',
@@ -104,7 +91,6 @@ export default [
     gene_symbol: 'TTC37'
   },
   {
-    id: 172517,
     pathway_name: 'BIOMARKERS FOR PYRIMIDINE METABOLISM DISORDERS',
     source: 'WIKIPATHWAYS_20210210',
     pathway_id: 'WP4584',
@@ -112,7 +98,6 @@ export default [
     gene_symbol: 'TYMP'
   },
   {
-    id: 172516,
     pathway_name: 'PYRIMIDINE METABOLISM AND RELATED DISEASES',
     source: 'WIKIPATHWAYS_20210210',
     pathway_id: 'WP4225',
@@ -120,7 +105,6 @@ export default [
     gene_symbol: 'TYMP'
   },
   {
-    id: 172515,
     pathway_name: 'FLUOROPYRIMIDINE ACTIVITY',
     source: 'WIKIPATHWAYS_20210210',
     pathway_id: 'WP1601',
@@ -128,7 +112,6 @@ export default [
     gene_symbol: 'TYMP'
   },
   {
-    id: 172514,
     pathway_name: 'BLADDER CANCER',
     source: 'WIKIPATHWAYS_20210210',
     pathway_id: 'WP2828',
@@ -136,7 +119,6 @@ export default [
     gene_symbol: 'TYMP'
   },
   {
-    id: 172513,
     pathway_name: 'PYRIMIDINE METABOLISM',
     source: 'WIKIPATHWAYS_20210210',
     pathway_id: 'WP4022',
@@ -144,7 +126,6 @@ export default [
     gene_symbol: 'TYMP'
   },
   {
-    id: 172512,
     pathway_name: 'PYRIMIDINE SALVAGE',
     source: 'REACTOME',
     pathway_id: 'R-HSA-73614.3',
@@ -152,7 +133,6 @@ export default [
     gene_symbol: 'TYMP'
   },
   {
-    id: 172511,
     pathway_name: 'NUCLEOTIDE SALVAGE',
     source: 'REACTOME DATABASE ID RELEASE 75',
     pathway_id: 8956321,
@@ -160,7 +140,6 @@ export default [
     gene_symbol: 'TYMP'
   },
   {
-    id: 172510,
     pathway_name: 'NUCLEOBASE CATABOLISM',
     source: 'REACTOME DATABASE ID RELEASE 75',
     pathway_id: 8956319,
@@ -168,7 +147,6 @@ export default [
     gene_symbol: 'TYMP'
   },
   {
-    id: 172509,
     pathway_name: 'PYRIMIDINE CATABOLISM',
     source: 'REACTOME',
     pathway_id: 'R-HSA-73621.2',
@@ -176,7 +154,6 @@ export default [
     gene_symbol: 'TYMP'
   },
   {
-    id: 172508,
     pathway_name: 'NUCLEOTIDE METABOLISM',
     source: 'REACTOME DATABASE ID RELEASE 75',
     pathway_id: 15869,
@@ -184,7 +161,6 @@ export default [
     gene_symbol: 'TYMP'
   },
   {
-    id: 172507,
     pathway_name: 'METABOLISM',
     source: 'REACTOME DATABASE ID RELEASE 75',
     pathway_id: 1430728,
@@ -192,7 +168,6 @@ export default [
     gene_symbol: 'TYMP'
   },
   {
-    id: 172506,
     pathway_name: 'SALVAGE PATHWAYS OF PYRIMIDINE DEOXYRIBONUCLEOTIDES',
     source: 'HUMANCYC',
     pathway_id: 'PWY0-181',
@@ -200,7 +175,6 @@ export default [
     gene_symbol: 'TYMP'
   },
   {
-    id: 181542,
     pathway_name: 'TYROBP CAUSAL NETWORK',
     source: 'WIKIPATHWAYS_20210210',
     pathway_id: 'WP3945',
@@ -208,7 +182,6 @@ export default [
     gene_symbol: 'ZFP36L2'
   },
   {
-    id: 181541,
     pathway_name: 'PREIMPLANTATION EMBRYO',
     source: 'WIKIPATHWAYS_20210210',
     pathway_id: 'WP3527',
@@ -216,7 +189,6 @@ export default [
     gene_symbol: 'ZFP36L2'
   },
   {
-    id: 182737,
     pathway_name: 'U12 DEPENDENT SPLICING',
     source: 'REACTOME DATABASE ID RELEASE 75',
     pathway_id: 72165,
@@ -224,7 +196,6 @@ export default [
     gene_symbol: 'ZRSR2'
   },
   {
-    id: 182736,
     pathway_name: 'METABOLISM OF RNA',
     source: 'REACTOME',
     pathway_id: 'R-HSA-8953854.4',
@@ -232,7 +203,6 @@ export default [
     gene_symbol: 'ZRSR2'
   },
   {
-    id: 182735,
     pathway_name: 'PROCESSING OF CAPPED INTRON-CONTAINING PRE-MRNA',
     source: 'REACTOME',
     pathway_id: 'R-HSA-72203.3',
@@ -240,7 +210,6 @@ export default [
     gene_symbol: 'ZRSR2'
   },
   {
-    id: 182734,
     pathway_name: 'MRNA SPLICING',
     source: 'REACTOME DATABASE ID RELEASE 75',
     pathway_id: 72172,
@@ -248,11 +217,10 @@ export default [
     gene_symbol: 'ZRSR2'
   },
   {
-    id: 182733,
     pathway_name: 'MRNA SPLICING',
     source: 'PANTHER PATHWAY',
     pathway_id: 'P00058',
     pathway: 'mRNA splicing',
     gene_symbol: 'ZRSR2'
   }
-];
+]

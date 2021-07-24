@@ -1,6 +1,5 @@
 export default [
   {
-    id: 65361,
     gene_id: 23066,
     gene_symbol: 'CAND2',
     dsi: 0.792,
@@ -19,7 +18,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 65362,
     gene_id: 23066,
     gene_symbol: 'CAND2',
     dsi: 0.792,
@@ -38,7 +36,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 65363,
     gene_id: 23066,
     gene_symbol: 'CAND2',
     dsi: 0.792,
@@ -57,7 +54,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 65364,
     gene_id: 23066,
     gene_symbol: 'CAND2',
     dsi: 0.792,
@@ -76,7 +72,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 66661,
     gene_id: 23639,
     gene_symbol: 'LRRC6',
     dsi: 0.659,
@@ -95,7 +90,6 @@ export default [
     source: 'ORPHANET'
   },
   {
-    id: 66662,
     gene_id: 23639,
     gene_symbol: 'LRRC6',
     dsi: 0.659,
@@ -114,7 +108,6 @@ export default [
     source: 'CTD_human;GENOMICS_ENGLAND;UNIPROT'
   },
   {
-    id: 66663,
     gene_id: 23639,
     gene_symbol: 'LRRC6',
     dsi: 0.659,
@@ -133,7 +126,6 @@ export default [
     source: 'ORPHANET'
   },
   {
-    id: 66664,
     gene_id: 23639,
     gene_symbol: 'LRRC6',
     dsi: 0.659,
@@ -152,13 +144,13 @@ export default [
     source: 'GENOMICS_ENGLAND;ORPHANET'
   },
   {
-    id: 66665,
     gene_id: 23639,
     gene_symbol: 'LRRC6',
     dsi: 0.659,
     dpi: 0.538,
     disease_id: 'C4551906',
-    disease_name: 'Ciliary Dyskinesia, Primary, 1, With Or Without Situs Inversus',
+    disease_name:
+      'Ciliary Dyskinesia, Primary, 1, With Or Without Situs Inversus',
     disease_type: 'disease',
     disease_class: 'C16;C08;C09;C14',
     disease_semantic_type: 'Disease or Syndrome',
@@ -171,7 +163,6 @@ export default [
     source: 'ORPHANET'
   },
   {
-    id: 24644,
     gene_id: 3148,
     gene_symbol: 'HMGB2',
     dsi: 0.615,
@@ -190,7 +181,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 24645,
     gene_id: 3148,
     gene_symbol: 'HMGB2',
     dsi: 0.615,
@@ -209,7 +199,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 24646,
     gene_id: 3148,
     gene_symbol: 'HMGB2',
     dsi: 0.615,
@@ -228,7 +217,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 24647,
     gene_id: 3148,
     gene_symbol: 'HMGB2',
     dsi: 0.615,
@@ -247,7 +235,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 24648,
     gene_id: 3148,
     gene_symbol: 'HMGB2',
     dsi: 0.615,
@@ -266,7 +253,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 9501,
     gene_id: 1108,
     gene_symbol: 'CHD4',
     dsi: 0.593,
@@ -285,7 +271,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 9502,
     gene_id: 1108,
     gene_symbol: 'CHD4',
     dsi: 0.593,
@@ -304,7 +289,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 9503,
     gene_id: 1108,
     gene_symbol: 'CHD4',
     dsi: 0.593,
@@ -323,7 +307,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 9504,
     gene_id: 1108,
     gene_symbol: 'CHD4',
     dsi: 0.593,
@@ -342,7 +325,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 9505,
     gene_id: 1108,
     gene_symbol: 'CHD4',
     dsi: 0.593,
@@ -361,7 +343,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 9506,
     gene_id: 1108,
     gene_symbol: 'CHD4',
     dsi: 0.593,
@@ -380,7 +361,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 9507,
     gene_id: 1108,
     gene_symbol: 'CHD4',
     dsi: 0.593,
@@ -399,7 +379,6 @@ export default [
     source: 'CTD_human'
   },
   {
-    id: 9508,
     gene_id: 1108,
     gene_symbol: 'CHD4',
     dsi: 0.593,
@@ -418,7 +397,6 @@ export default [
     source: 'GENOMICS_ENGLAND;UNIPROT'
   },
   {
-    id: 65239,
     gene_id: 23019,
     gene_symbol: 'CNOT1',
     dsi: 0.674,
@@ -436,4 +414,4 @@ export default [
     nof_snps: 0,
     source: 'GENOMICS_ENGLAND'
   }
-];
+]
