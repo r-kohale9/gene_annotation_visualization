@@ -1,0 +1,25 @@
+# GraphQL queries
+query geneQuery($geneId: String) {
+  gene(geneId: $geneId) {
+    id
+    geneName
+    drugInteractions {
+      id
+      drugName
+      drugClaimName
+    }
+    cellSpecificMarkers {
+      id
+      geneSymbol
+      cellName
+    }
+    diseaseInteractions {
+      id
+      diseaseName
+    }
+    pathways {
+      id
+      pathwayName
+    }
+  }
+}

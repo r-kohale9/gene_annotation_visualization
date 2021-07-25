@@ -14,11 +14,11 @@ const I18nProvider = ({ i18n, children }: any) => {
 const langPicker =
   settings.i18n.enabled && settings.i18n.langPickerRender
     ? new ClientModule({
-        navItemRight: [
-          <MenuItem key="languagePicker" className="menu-center">
-            <LanguagePicker i18n={i18next} />
-          </MenuItem>
-        ]
+        // navItemRight: [
+        //   <MenuItem key="languagePicker" className="menu-center">
+        //     <LanguagePicker i18n={i18next} />
+        //   </MenuItem>
+        // ]
       })
     : undefined;
 

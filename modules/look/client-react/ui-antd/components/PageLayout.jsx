@@ -12,12 +12,11 @@ const { Header, Content, Footer } = Layout;
 
 class PageLayout extends React.Component {
   render() {
-    const { children, navBar } = this.props;
-
+    const { children, navBar, isHome } = this.props;
     return (
       <Layout>
         {navBar !== false && (
-          <Header className="no-print">
+          <Header className={`no-print ${isHome ? 'home-header' : ''}`}>
             <NavBar />
           </Header>
         )}
@@ -26,7 +25,7 @@ class PageLayout extends React.Component {
             <style type="text/css">{styles._getCss()}</style>
           </Helmet>
         )}
-        <Content id="content" style={{ background: '#fff', padding: 24 }}>
+        <Content id="content" style={{ background: '#fff', padding: isHome ? 0 : 24 }}>
           {children}
         </Content>
         <Footer className="no-print" style={{ textAlign: 'center' }}>

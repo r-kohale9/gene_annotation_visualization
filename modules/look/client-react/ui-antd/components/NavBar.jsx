@@ -38,7 +38,7 @@ class NavBar extends React.Component {
                 {settings.app.name}
               </NavLink>
             </MenuItem>
-            {ref.modules.navItems}
+            {/* {ref.modules.navItems} */}
           </Menu>
         </Col>
         <Col span={10}>

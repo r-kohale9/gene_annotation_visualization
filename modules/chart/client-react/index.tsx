@@ -8,18 +8,18 @@ import { Route, NavLink } from 'react-router-dom';
 import { MenuItem } from '@gqlapp/look-client-react';
 import resources from './locales';
 
-const NavLinkWithI18n = translate('home')(({ t }: { t: TranslateFunction }) => (
-  <NavLink to="/" className="nav-link" activeClassName="active">
-    {t('home:navLink')}
-  </NavLink>
-));
+// const NavLinkWithI18n = translate('chart')(({ t }: { t: TranslateFunction }) => (
+//   <NavLink to="/chart" className="nav-link" activeClassName="active">
+//     {t('chart:navLink')}
+//   </NavLink>
+// ));
 
 export default new ClientModule({
-  route: [<Route exact path="/" component={loadable(() => import('./containers/Home').then(c => c.default))} />],
+  route: [<Route exact path="/chart/:geneId" component={loadable(() => import('./containers/Chart').then(c => c.default))} />],
   // navItem: [
-  //   <MenuItem key="/">
+  //   <MenuItem key="/chart">
   //     <NavLinkWithI18n />
   //   </MenuItem>
   // ],
-  localization: [{ ns: 'home', resources }]
+  localization: [{ ns: 'chart', resources }]
 });
