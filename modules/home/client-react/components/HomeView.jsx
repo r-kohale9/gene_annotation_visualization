@@ -1,18 +1,19 @@
 import React from 'react';
+import { Spin } from 'antd'
 // import CytoscapeComponent from "react-cytoscapejs";
 
 var CytoscapeComponent = <h1>Loading</h1>;
 var Cytoscape = <h1>Loading</h1>;
 var COSEBilkent = <h1>Loading</h1>;
 
-let options = {
+const layoutOptions = {
   name: 'concentric',
 
   fit: true, // whether to fit the viewport to the graph
   padding: 30, // the padding on fit
-  startAngle: (3 / 2) * Math.PI, // where nodes start in radians
+  startAngle: 3 / 2 * Math.PI, // where nodes start in radians
   sweep: undefined, // how many radians should be between the first and last node (defaults to full circle)
-  clockwise: true, // whether the layout should go clockwise (true) or counterclockwise/anticlockwise (false)
+  // clockwise: true, // whether the layout should go clockwise (true) or counterclockwise/anticlockwise (false)
   equidistant: false, // whether levels have an equal radial distance betwen them, may cause bounding box overflow
   minNodeSpacing: 10, // min spacing between outside of nodes (used for radius adjustment)
   boundingBox: undefined, // constrain layout bounds; { x1, y1, x2, y2 } or { x1, y1, w, h }
@@ -21,26 +22,56 @@ let options = {
   height: undefined, // height of layout area (overrides container height)
   width: undefined, // width of layout area (overrides container width)
   spacingFactor: undefined, // Applies a multiplicative factor (>0) to expand or compress the overall area that the nodes take up
-  concentric: function(node) {
-    // returns numeric value for each node, placing higher nodes in levels towards the centre
-    return node.degree();
+  concentric: function (node) {
+    // console.log('node', node.data('level'))
+    return node.data("level");
   },
-  levelWidth: function(nodes) {
-    // the variation of concentric values in each level
-    return nodes.maxDegree() / 4;
-  },
+  // levelWidth: function( nodes ){ // the variation of concentric values in each level
+  // return nodes.maxDegree() / 4;
+  // },
   animate: false, // whether to transition the node positions
   animationDuration: 500, // duration of animation in ms if enabled
   animationEasing: undefined, // easing of animation if enabled
-  animateFilter: function(node, i) {
-    return true;
-  }, // a function that determines whether the node should be animated.  All nodes animated by default on animate enabled.  Non-animated nodes are positioned immediately when the layout starts
+  animateFilter: function (node, i) { return true; }, // a function that determines whether the node should be animated.  All nodes animated by default on animate enabled.  Non-animated nodes are positioned immediately when the layout starts
   ready: undefined, // callback on layoutready
   stop: undefined, // callback on layoutstop
-  transform: function(node, position) {
-    return position;
-  } // transform a given node position. Useful for changing flow direction in discrete layouts
+  transform: function (node, position) { return position; } // transform a given node position. Useful for changing flow direction in discrete layouts
 };
+
+function longestWord(string) {
+  var str = string.split(" ");
+  var longest = 0;
+  var word = null;
+  for (var i = 0; i < str.length; i++) {
+    if (longest < str[i].length) {
+      longest = str[i].length;
+      word = str[i];
+    }
+  }
+  return word;
+}
+
+function chunk(str) {
+  // var ret = [];
+  // var i;
+  // var len;
+  // var prevIndex = 0;
+  // for(i = 0, len = str.length; i <= len; i += 1) {
+  //     if(str[i] == ' ' || i == len){
+  //       const substring = str.substr(prevIndex, i)
+  //       ret.push(substring);
+  //       prevIndex += substring.length;
+  //     }
+  // }
+  // console.log('chunk', ret);
+
+  const modifiedString = str ? str.replace(/\s+/g, '\n') : '';
+  const spaceCount = str ? str.split(/\s+/g).length - 1 : '';
+  const longestWordStr = str ? longestWord(str) : '';
+  const longestWordLength = longestWordStr ? longestWordStr.length : 0;
+  return { modifiedString, spaceCount, longestWordLength }
+};
+
 
 class HomeView extends React.Component {
   constructor(props) {
@@ -58,9 +89,9 @@ class HomeView extends React.Component {
     CytoscapeComponent = require('react-cytoscapejs');
     Cytoscape = require('cytoscape');
     COSEBilkent = require('cytoscape-cose-bilkent');
-    // Cytoscape.use(COSEBilkent);
+    Cytoscape.use(COSEBilkent);
 
-    this.setState({ mounted: true, width: vw, height: vh }, function() {
+    this.setState({ mounted: true, width: vw, height: vh }, function () {
       if (this.cy) {
         this.cy.resize();
         this.cy.fit();
@@ -86,17 +117,24 @@ class HomeView extends React.Component {
 
   render() {
     const { width, height } = this.state;
-    const elements = [
+    const { gene } = this.props;
+    var elements = [
+      gene && gene.geneName ?
+        { data: { id: 'gene', label: chunk(gene.geneName).modifiedString , level: 1, width: chunk(gene.geneName).longestWordLength * 30 + 50, height: chunk(gene.geneName).spaceCount * 50 + 30 }, }
+        : {
+          data: { id: 'gene', label: 'The Gene', level: 1, width: '300', height: 200 },
+
+          // position: { x: width / 2, y: height / 2 }
+        },
       {
-        data: { id: 'gene', label: 'The Gene' },
-        position: { x: width / 2, y: height / 4 }
-      },
-      {
+        layout: 'concentric',
         data: {
           id: 'pathway',
           label: 'Pathway',
           width: 100,
-          background: '#3EC0C1'
+          height: 50,
+          background: '#3EC0C1',
+          level: 2
         },
         position: { x: width / 2 - 200, y: height / 2 }
       },
@@ -105,43 +143,41 @@ class HomeView extends React.Component {
           id: 'disease',
           label: 'Disease',
           width: 100,
-          background: '#ACD257'
+          height: 50,
+          background: '#8dc515',
+          level: 2
         },
-        position: { x: width / 2 - 70, y: height / 2 }
+        position: { x: width / 2, y: height / 2 - 200 }
       },
       {
         data: {
           id: 'single_cell',
           label: 'Single Cell',
           width: 100,
-          background: '#EB7B77'
+          height: 50,
+          background: '#EB7B77',
+          level: 2
         },
-        position: { x: width / 2 + 70, y: height / 2 }
+        position: { x: width / 2 + 200, y: height / 2 }
       },
       {
         data: {
           id: 'drug_interaction',
           label: 'Drug Interaction',
           width: 150,
-          background: '#9C6795'
+          height: 50,
+          background: '#9C6795',
+          level: 2
         },
-        position: { x: width / 2 + 200, y: height / 2 }
+        position: { x: width / 2, y: height / 2 + 200 }
       },
-      {
-        data: {
-          id: 'single_cell_node',
-          label: 'Kupffer Cell\nBTO_0000685',
-          width: 200,
-          background: '#9C6795'
-        },
-        position: { x: width / 2 + 70, y: height / 2 + 200 }
-      },
+
       {
         data: {
           source: 'gene',
           target: 'pathway',
           label: 'Gene to pathway',
-          type: 'DB2'
+          // type: 'DB2'
         }
       },
       {
@@ -149,7 +185,7 @@ class HomeView extends React.Component {
           source: 'gene',
           target: 'disease',
           label: 'Gene to disease',
-          type: 'DB2'
+          // type: 'DB2'
         }
       },
       {
@@ -157,7 +193,7 @@ class HomeView extends React.Component {
           source: 'gene',
           target: 'single_cell',
           label: 'Gene to single_cell',
-          type: 'DB2'
+          // type: 'DB2'
         }
       },
       {
@@ -165,17 +201,10 @@ class HomeView extends React.Component {
           source: 'gene',
           target: 'drug_interaction',
           label: 'Gene to drug_interaction',
-          type: 'DB2'
+          // type: 'DB2'
         }
       },
-      {
-        data: {
-          source: 'single_cell',
-          target: 'single_cell_node',
-          label: 'single_cell to single_cell_node',
-          type: 'DB2'
-        }
-      }
+
     ];
     const stylesheet = [
       {
@@ -186,8 +215,10 @@ class HomeView extends React.Component {
           'text-valign': 'center',
           'text-halign': 'center',
           width: 'data(width)',
+          height: 'data(height)',
           'z-index': 1,
-          shape: 'round-rectangle'
+          shape: 'round-rectangle',
+          'text-wrap': 'wrap'
         }
       },
       {
@@ -208,7 +239,7 @@ class HomeView extends React.Component {
         }
       },
       {
-        selector: "edge[type='DB2']",
+        selector: "edge",
         style: {
           width: 2,
           'line-color': '#DDA448',
@@ -216,15 +247,22 @@ class HomeView extends React.Component {
           'target-arrow-shape': 'triangle',
           'source-arrow-color': '#DDA448',
           // "source-arrow-shape": "triangle",
-          'curve-style': 'taxi'
+          'curve-style': 'straight',
         }
       },
       {
         selector: '#gene',
         style: {
           shape: 'round-rectangle',
-          width: 150,
+          // width: 150,
+          'font-size':'30px',
           'background-color': '#BB342F',
+          color: 'white'
+        }
+      },
+      {
+        selector: '#disease',
+        style: {
           color: 'white'
         }
       },
@@ -260,21 +298,128 @@ class HomeView extends React.Component {
       }
     ];
 
+    const populateGraph = (geneData) => {
+      const { pathways, cellSpecificMarkers, diseaseInteractions, drugInteractions } = geneData;
+      pathways && pathways.map((pathway, key) => {
+        const { modifiedString, spaceCount, longestWordLength } = chunk(pathway.pathwayName)
+        elements.push({
+
+          data: {
+            id: `pathway-element-${pathway.id}`,
+            label: modifiedString,
+            width: (longestWordLength * 10 + 40),
+            height: (spaceCount * 20 + 20),
+            background: '#9C6795',
+            level: 1
+          },
+          // position: { x: width / 2 - 600, y: height / 2 + 200 * (key + 1) }
+        });
+        elements.push({
+          data: {
+            source: 'pathway',
+            target: `pathway-element-${pathway.id}`,
+            label: `pathway to ${pathway.id}`,
+            // type: 'DB2'
+          }
+        })
+      });
+      cellSpecificMarkers && cellSpecificMarkers.map((cellSpecificMarker, key) => {
+        const { modifiedString, spaceCount, longestWordLength } = chunk(cellSpecificMarker.cellName)
+        elements.push({
+          data: {
+            id: `cellSpecificMarker-element-${cellSpecificMarker.id}`,
+            label: modifiedString,
+            width: (longestWordLength * 10 + 40),
+            height: (spaceCount * 20 + 20),
+            background: '#9C6795',
+            level: 1
+          },
+          // position: { x: width / 2 - 600, y: height / 2 + 200 * (key + 1) }
+        });
+        elements.push({
+          data: {
+            source: 'single_cell',
+            target: `cellSpecificMarker-element-${cellSpecificMarker.id}`,
+            label: `cellSpecificMarker to ${cellSpecificMarker.id}`,
+            // type: 'DB2'
+          }
+        })
+      })
+      diseaseInteractions && diseaseInteractions.map((diseaseInteraction, key) => {
+        const { modifiedString, spaceCount, longestWordLength } = chunk(diseaseInteraction.diseaseName)
+        elements.push({
+          data: {
+            id: `diseaseInteraction-element-${diseaseInteraction.id}`,
+            label: modifiedString,
+            width: (longestWordLength * 10 + 40),
+            height: (spaceCount * 20 + 20),
+            background: '#9C6795',
+            level: 1
+          },
+          // position: { x: width / 2 - 600, y: height / 2 + 200 * (key + 1) }
+        });
+        elements.push({
+          data: {
+            source: 'disease',
+            target: `diseaseInteraction-element-${diseaseInteraction.id}`,
+            label: `diseaseInteraction to ${diseaseInteraction.id}`,
+            // type: 'DB2'
+          }
+        })
+      });
+      drugInteractions && drugInteractions.map((drugInteraction, key) => {
+        const { modifiedString, spaceCount, longestWordLength } = drugInteraction.drugName !== '' ? chunk(drugInteraction.drugName) : chunk(drugInteraction.drugClaimName)
+        elements.push({
+          data: {
+            id: `drugInteraction-element-${drugInteraction.id}`,
+            label: modifiedString,
+            width: (longestWordLength * 10 + 40),
+            height: (spaceCount * 20 + 20),
+            background: '#9C6795',
+            level: 1
+          },
+          // position: { x: width / 2 - 600, y: height / 2 + 200 * (key + 1) }
+        });
+        elements.push({
+          data: {
+            source: 'drug_interaction',
+            target: `drugInteraction-element-${drugInteraction.id}`,
+            label: `drugInteraction to ${drugInteraction.id}`,
+            // type: 'DB2'
+          }
+        })
+      });
+      // this.cy && this.cy.elements().id('pathway').layout({name:'concentric'}).run()
+    }
+    !this.props.loading && this.state.mounted && gene && populateGraph(gene);
+    console.log('geneData', gene, this.cy);
     const layout = { name: 'concentric' };
     // this.cy && this.cy.layout(options);
     return (
       <div style={{ height: '100vh', width: '100vw' }}>
-        {this.state.mounted && (
+        {this.state.mounted && !this.props.loading ? (
           <CytoscapeComponent
             cy={cy => {
               this.cy = cy;
             }}
             stylesheet={stylesheet}
             elements={elements}
-            layout={{ name: 'preset' }}
+            layout={{
+              name: 'breadthfirst',
+              directed: true,
+              circle: true,
+              spacingFactor:0.7,
+              grid:true,
+              // concentric: function (node) {
+              //   return node.degree();
+              // },
+              // levelWidth: function (nodes) {
+              //   return 2;
+              // }
+            }}
             style={{ width: this.state.width, height: this.state.height }}
           />
-        )}
+        ) : <div style={{ display: 'grid', placeItems: 'center', height: '100%', width: '100%' }}><Spin /></div>}
       </div>
     );
   }
