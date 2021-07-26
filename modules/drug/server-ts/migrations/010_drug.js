@@ -3,7 +3,7 @@ exports.up = function(knex, Promise) {
     knex.schema.createTable('drug', table => {
       table.increments();
       table.string('gene_name');
-      table.string('gene_claim_name');
+      table.string('genea_claim_name');
       table.string('entrez_id');
       table.string('interaction_claim_source');
       table.string('interaction_type');

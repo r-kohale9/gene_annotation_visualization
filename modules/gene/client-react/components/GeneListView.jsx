@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { translate } from "@gqlapp/i18n-client-react";
-import { Spin, Input, Divider } from "antd";
+import { Spin, Input, Divider, Empty } from "antd";
 import { Table, Button, PageLayout } from "@gqlapp/look-client-react";
 
 const { Search } = Input;
@@ -70,7 +70,7 @@ const GeneListView = ({
   //   return onOrderBy({ column: name, order });
   // };
 
-  const handleSearch = (value)=>{
+  const handleSearch = (value) => {
     history.push(`/gene/list?searchQuery=${value}`);
   }
   const columns = [
@@ -132,7 +132,8 @@ const GeneListView = ({
           <Search
             placeholder="Search another query.."
             onSearch={handleSearch}
-            style={{ width: 200 }}
+            size='large'
+            style={{ width: 250 }}
           />
           <Divider />
           {/* {errors &&
@@ -141,9 +142,9 @@ const GeneListView = ({
                 {error.message}
               </div>
             ))} */}
-          <Table dataSource={genes.edges} columns={columns} />
+          {genes.edges && genes.edges.length !== 0 ? (<Table dataSource={genes.edges} columns={columns} />) : <Empty description='No genes found' />}
           <br />
-          <Button onClick={fetchMoreData}>Load More</Button>
+          {genes.pageInfo.hasNextPage && (<Button onClick={fetchMoreData}>Load More</Button>)}
         </>
       )}
     </PageLayout>
