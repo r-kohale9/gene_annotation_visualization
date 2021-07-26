@@ -1,0 +1,30 @@
+# GraphQL queries
+query geneQuery(
+  $limit: Int!
+  $after: Int!
+  $orderBy: OrderByGeneInput
+  $filter: FilterGeneInput
+) {
+  genes(limit: $limit, after: $after, orderBy: $orderBy, filter: $filter) {
+    totalCount
+    pageInfo {
+      endCursor
+      hasNextPage
+    }
+    edges {
+      cursor
+      node {
+        id
+        geneId
+        omimId
+        ensemblId
+        geneSymbol
+        cosmicSymbol
+        geneName
+        status
+        refSeqAccession
+        chromosomeLocation
+      }
+    }
+  }
+}

@@ -60,7 +60,7 @@ export default class Gene extends Model {
 
   public async genes(limit: number, after: any, orderBy: any, filter: any) {
     const queryBuilder = Gene.query()
-      // .withGraphFetched(eager)
+      .withGraphFetched(eager)
       .orderBy('id', 'desc');
     if (orderBy && orderBy.column) {
       const column = orderBy.column;
@@ -104,7 +104,7 @@ export default class Gene extends Model {
           });
       }
     }
-
+    queryBuilder.groupBy('gene.id')
     const allGeneItems = camelizeKeys(await queryBuilder);
 
     const total = allGeneItems.length;
@@ -124,6 +124,7 @@ export default class Gene extends Model {
     } else {
       res = camelizeKeys(await queryBuilder.groupBy('gene.id'));
     }
+    console.log('ressssssss', res);
     return { geneItems: res, total };
   }
   public async gene(id: number, geneId: number, geneSymbol: number) {
