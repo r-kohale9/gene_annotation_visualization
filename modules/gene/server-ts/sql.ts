@@ -3,12 +3,13 @@ import { camelizeKeys, decamelizeKeys, decamelize } from 'humps';
 import { knex, returnId, orderedFor } from '@gqlapp/database-server-ts';
 import { has } from 'lodash';
 import Drug from '@gqlapp/drug-server-ts/sql';
-import Cell from '@gqlapp/cell-server-ts/sql';
+import Cell, { Tissue } from '@gqlapp/cell-server-ts/sql';
 import Disease from '@gqlapp/disease-server-ts/sql';
 import Pathway from '@gqlapp/pathway-server-ts/sql';
 
 // Give the knex object to objection.
-const eager = '[drug_interactions, cell_specific_markers, disease_interactions, pathways]';
+const eager =
+  '[drug_interactions, tissue_type.[cell_specific_markers] cell_specific_markers, disease_interactions, pathways]';
 
 Model.knex(knex);
 
@@ -29,6 +30,14 @@ export default class Gene extends Model {
         join: {
           from: 'gene.gene_symbol',
           to: 'drug.gene_name'
+        }
+      },
+      tissue_type: {
+        relation: Model.HasManyRelation,
+        modelClass: Tissue,
+        join: {
+          from: 'gene.gene_id',
+          to: 'tissue.gene_id'
         }
       },
       cell_specific_markers: {
@@ -104,7 +113,7 @@ export default class Gene extends Model {
           });
       }
     }
-    queryBuilder.groupBy('gene.id')
+    queryBuilder.groupBy('gene.id');
     const allGeneItems = camelizeKeys(await queryBuilder);
 
     const total = allGeneItems.length;

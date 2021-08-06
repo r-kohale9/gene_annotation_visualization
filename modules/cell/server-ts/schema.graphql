@@ -18,6 +18,13 @@ type Cell {
   company: String
 }
 
+type Tissue {
+  id: Int
+  geneId: String
+  tissueType: String
+  cellSpecificMarkers: [Cell]
+}
+
 type Cells {
   totalCount: Int
   edges: [CellEdges]

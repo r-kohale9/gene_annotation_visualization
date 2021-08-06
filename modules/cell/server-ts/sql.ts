@@ -96,3 +96,26 @@ export default class Cell extends Model {
       .del();
   }
 }
+
+export class Tissue extends Model {
+  static get tableName() {
+    return 'tissue';
+  }
+
+  static get idColumn() {
+    return 'id';
+  }
+
+  static get relationMappings() {
+    return {
+      cell_specific_markers: {
+        relation: Model.HasManyRelation,
+        modelClass: Cell,
+        join: {
+          from: ['tissue.tissue_type', 'tissue.gene_id'],
+          to: ['cell.tissue_type', 'cell.gene_id']
+        }
+      }
+    };
+  }
+}

@@ -12,6 +12,7 @@ type Gene {
   chromosomeLocation: String
 
   drugInteractions: [Drug]
+  tissueType: [Tissue]
   cellSpecificMarkers: [Cell]
   diseaseInteractions: [Disease]
   pathways: [Pathway]
