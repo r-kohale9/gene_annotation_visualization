@@ -5,6 +5,7 @@ import { Spin } from 'antd';
 var CytoscapeComponent = <h1>Loading</h1>;
 var Cytoscape = <h1>Loading</h1>;
 var COSEBilkent = <h1>Loading</h1>;
+var fcose = <h1>Loading</h1>
 
 const layoutOptions = {
   name: 'concentric',
@@ -22,7 +23,7 @@ const layoutOptions = {
   height: undefined, // height of layout area (overrides container height)
   width: undefined, // width of layout area (overrides container width)
   spacingFactor: undefined, // Applies a multiplicative factor (>0) to expand or compress the overall area that the nodes take up
-  concentric: function(node) {
+  concentric: function (node) {
     // console.log('node', node.data('level'))
     return node.data('level');
   },
@@ -32,12 +33,12 @@ const layoutOptions = {
   animate: false, // whether to transition the node positions
   animationDuration: 500, // duration of animation in ms if enabled
   animationEasing: undefined, // easing of animation if enabled
-  animateFilter: function(node, i) {
+  animateFilter: function (node, i) {
     return true;
   }, // a function that determines whether the node should be animated.  All nodes animated by default on animate enabled.  Non-animated nodes are positioned immediately when the layout starts
   ready: undefined, // callback on layoutready
   stop: undefined, // callback on layoutstop
-  transform: function(node, position) {
+  transform: function (node, position) {
     return position;
   } // transform a given node position. Useful for changing flow direction in discrete layouts
 };
@@ -92,9 +93,11 @@ class ChartView extends React.Component {
     CytoscapeComponent = require('react-cytoscapejs');
     Cytoscape = require('cytoscape');
     COSEBilkent = require('cytoscape-cose-bilkent');
+    let fcose = require('cytoscape-fcose');
+    Cytoscape.use(fcose)
     Cytoscape.use(COSEBilkent);
 
-    this.setState({ mounted: true, width: vw, height: vh }, function() {
+    this.setState({ mounted: true, width: vw, height: vh }, function () {
       if (this.cy) {
         this.cy.resize();
         this.cy.fit();
@@ -124,19 +127,19 @@ class ChartView extends React.Component {
     var elements = [
       gene && gene.geneName
         ? {
-            data: {
-              id: 'gene',
-              label: chunk(gene.geneName).modifiedString,
-              level: 1,
-              width: chunk(gene.geneName).longestWordLength * 30 + 50,
-              height: chunk(gene.geneName).spaceCount * 50 + 30
-            }
+          data: {
+            id: 'gene',
+            label: chunk(gene.geneName).modifiedString,
+            level: 1,
+            width: chunk(gene.geneName).longestWordLength * 30 + 50,
+            height: chunk(gene.geneName).spaceCount * 50 + 30
           }
+        }
         : {
-            data: { id: 'gene', label: 'The Gene', level: 1, width: '300', height: 200 }
+          data: { id: 'gene', label: 'The Gene', level: 1, width: '300', height: 200 }
 
-            // position: { x: width / 2, y: height / 2 }
-          },
+          // position: { x: width / 2, y: height / 2 }
+        },
       {
         layout: 'concentric',
         data: {
@@ -155,18 +158,18 @@ class ChartView extends React.Component {
           label: 'Disease',
           width: 100,
           height: 50,
-          background: '#8dc515',
+          background: '#73a703',
           level: 2
         },
         position: { x: width / 2, y: height / 2 - 200 }
       },
       {
         data: {
-          id: 'single_cell',
-          label: 'Single Cell',
+          id: 'tissue_type',
+          label: 'Tissue Types',
           width: 100,
           height: 50,
-          background: '#EB7B77',
+          background: '#e44640',
           level: 2
         },
         position: { x: width / 2 + 200, y: height / 2 }
@@ -202,8 +205,8 @@ class ChartView extends React.Component {
       {
         data: {
           source: 'gene',
-          target: 'single_cell',
-          label: 'Gene to single_cell'
+          target: 'tissue_type',
+          label: 'Gene to tissue_type'
           // type: 'DB2'
         }
       },
@@ -266,18 +269,12 @@ class ChartView extends React.Component {
           shape: 'round-rectangle',
           // width: 150,
           'font-size': '30px',
-          'background-color': '#BB342F',
+          'background-color': '#0a0a0a',
           color: 'white'
         }
       },
       {
-        selector: '#disease',
-        style: {
-          color: 'white'
-        }
-      },
-      {
-        selector: '#single_cell_node',
+        selector: '#tissue_type_node',
         style: {
           shape: 'round-rectangle',
           width: 'data(width)',
@@ -309,7 +306,7 @@ class ChartView extends React.Component {
     ];
 
     const populateGraph = geneData => {
-      const { pathways, cellSpecificMarkers, diseaseInteractions, drugInteractions } = geneData;
+      const { pathways, tissueType, diseaseInteractions, drugInteractions } = geneData;
       pathways &&
         pathways.map((pathway, key) => {
           const { modifiedString, spaceCount, longestWordLength } = chunk(pathway.pathwayName);
@@ -319,7 +316,7 @@ class ChartView extends React.Component {
               label: modifiedString,
               width: longestWordLength * 10 + 40,
               height: spaceCount * 20 + 20,
-              background: '#9C6795',
+              background: '#8ddbdb',
               level: 1
             }
             // position: { x: width / 2 - 600, y: height / 2 + 200 * (key + 1) }
@@ -333,28 +330,51 @@ class ChartView extends React.Component {
             }
           });
         });
-      cellSpecificMarkers &&
-        cellSpecificMarkers.map((cellSpecificMarker, key) => {
-          const { modifiedString, spaceCount, longestWordLength } = chunk(cellSpecificMarker.cellName);
+      tissueType &&
+        tissueType.map((tissueTy, key) => {
+          const { modifiedString, spaceCount, longestWordLength } = chunk(tissueTy.tissueType);
           elements.push({
             data: {
-              id: `cellSpecificMarker-element-${cellSpecificMarker.id}`,
+              id: `tissueTy-element-${tissueTy.id}`,
               label: modifiedString,
               width: longestWordLength * 10 + 40,
               height: spaceCount * 20 + 20,
-              background: '#9C6795',
+              background: '#EB7B77',
               level: 1
             }
             // position: { x: width / 2 - 600, y: height / 2 + 200 * (key + 1) }
           });
           elements.push({
             data: {
-              source: 'single_cell',
-              target: `cellSpecificMarker-element-${cellSpecificMarker.id}`,
-              label: `cellSpecificMarker to ${cellSpecificMarker.id}`
+              source: 'tissue_type',
+              target: `tissueTy-element-${tissueTy.id}`,
+              label: `tissueTy to ${tissueTy.id}`
               // type: 'DB2'
             }
           });
+          const cellSpecificMarkers = tissueTy && tissueTy.cellSpecificMarkers;
+          cellSpecificMarkers && cellSpecificMarkers.map((cellSpecific, key) => {
+            const { modifiedString: modString, spaceCount: spaceCou, longestWordLength: longestWord } = chunk(cellSpecific.cellName);
+            elements.push({
+              data: {
+                id: `cellSpecific-element-${cellSpecific.id}`,
+                label: modString,
+                width: longestWord * 10 + 40,
+                height: spaceCou * 20 + 20,
+                background: '#eb9a97',
+                level: 1
+              }
+              // position: { x: width / 2 - 600, y: height / 2 + 200 * (key + 1) }
+            });
+            elements.push({
+              data: {
+                source: `tissueTy-element-${tissueTy.id}`,
+                target: `cellSpecific-element-${cellSpecific.id}`,
+                label: `cellSpecific to ${cellSpecific.id}`
+                // type: 'DB2'
+              }
+            });
+          })
         });
       diseaseInteractions &&
         diseaseInteractions.map((diseaseInteraction, key) => {
@@ -365,7 +385,7 @@ class ChartView extends React.Component {
               label: modifiedString,
               width: longestWordLength * 10 + 40,
               height: spaceCount * 20 + 20,
-              background: '#9C6795',
+              background: '#b1da5b',
               level: 1
             }
             // position: { x: width / 2 - 600, y: height / 2 + 200 * (key + 1) }
@@ -389,7 +409,7 @@ class ChartView extends React.Component {
               label: modifiedString,
               width: longestWordLength * 10 + 40,
               height: spaceCount * 20 + 20,
-              background: '#9C6795',
+              background: '#daaed4',
               level: 1
             }
             // position: { x: width / 2 - 600, y: height / 2 + 200 * (key + 1) }
@@ -419,17 +439,18 @@ class ChartView extends React.Component {
             stylesheet={stylesheet}
             elements={elements}
             layout={{
-              name: 'breadthfirst',
-              directed: true,
-              circle: true,
-              spacingFactor: 0.7,
-              grid: true
-              // concentric: function (node) {
-              //   return node.degree();
-              // },
-              // levelWidth: function (nodes) {
-              //   return 2;
-              // }
+              name: 'fcose',
+              quality: "default",
+              // idealEdgeLength:50,
+              randomize: true,
+              animate: true,
+              animationDuration: 1000,
+              animationEasing: undefined,
+              fit: true,
+              padding: 30,
+              nestingFactor: 0.1,
+              gravityRangeCompound: 1.5,
+              gravityCompound: 1.0
             }}
             style={{ width: this.state.width, height: this.state.height }}
           />

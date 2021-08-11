@@ -13,6 +13,11 @@ query geneQuery($geneId: String) {
       geneSymbol
       cellName
     }
+    tissueType{
+      id
+      geneId
+      tissueType
+    }
     diseaseInteractions {
       id
       diseaseName

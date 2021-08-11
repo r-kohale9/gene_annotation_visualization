@@ -8,10 +8,16 @@ query geneQuery($geneId: String) {
       drugName
       drugClaimName
     }
-    cellSpecificMarkers {
+    
+    tissueType{
+      id
+      geneId
+      tissueType
+      cellSpecificMarkers {
       id
       geneSymbol
       cellName
+    }
     }
     diseaseInteractions {
       id
