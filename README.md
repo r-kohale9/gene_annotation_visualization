@@ -1,5 +1,5 @@
 
-# Apollo 
+# Gene Annotatin visualizer
 <!-- 
 [![Backers on Open Collective](https://opencollective.com/apollo-universal-starter-kit/backers/badge.svg)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/apollo-universal-starter-kit/sponsors/badge.svg)](#sponsors)
@@ -84,7 +84,7 @@ To learn more about the features and modules available in Apollo Universal Start
 | [single]     | A single-package Apollo v2 version of the kit                       |
 | [apollo1]    | The Apollo v1 version of the kit                                    |
 | [cli-crud]   | This kit version features a CLI to generate CRUD implementations    |
-
+-->
 ## First Run of Apollo Universal Starter Kit
 
 Verify if you use Node.js 6.x or higher (Node.js ^10 is recommended) before running the starter kit.
@@ -98,7 +98,7 @@ cd apollo-universal-starter-kit
 
 **NOTE**: The master branch is not recommended for development. Use it at your own risk.
 
-**NOTE**: If you're going to use Windows to develop with Apollo Universal Starter Kit, you need to additionally enable
+**NOTE**: If you're going to use Windows to develop with Gene Annotation visualizer, you need to additionally enable
 symlinks _before_ you run the project.
 
 For Windows 10:
@@ -108,13 +108,7 @@ For Windows 10:
 * Click the **For Developers** tab
 * In the **Use developer features** window, switch to **Developer Mode**
 
-**NOTE**: You can remove the unnecessary stacks from Apollo Universal Starter Kit by using the CLI. Consult a
-[respective CLI section]. Alternatively, you can use the capabilities of your operating system. For example, by running
-the command below, you can remove all Scala server files:
 
-```bash
-find . -name server-scala | xargs rm -rf
-```
 
 If you don't need the ready-made modules, you can also remove them using the [custom CLI].
 
@@ -182,7 +176,7 @@ gene_annotation_visualization
 │       └── server-ts             # Core functionality for Express server
 └── tools                         # All build and CLI-related files
 ```
-
+<!-- 
 
 ## Apollo Universal Starter Kit Documentation
 
