@@ -1,8 +1,7 @@
 
 # Gene Annotatin visualizer
 
-![image](https://user-images.githubusercontent.com/85678384/129558827-809fbcc0-1011-44d7-8e0e-e4545f56f632.png)
-
+![image](https://user-images.githubusercontent.com/85678384/129559175-f0a86496-be3e-4e66-95e0-8ddb5b682651.png)
 ## First Run of Apollo Universal Starter Kit
 
 Verify if you use Node.js 6.x or higher (Node.js ^10 is recommended) before running the starter kit.
