@@ -103,13 +103,13 @@ gene_annotation_visualization
 4. Api Client endpoint: [Apollo Client]
 
 ### Backend
-1. Nodejs: [NodeJs]
-2. Objection.js: [ObjectionJs]
-3. knex.js: [KnexJs]
+1. Framework: [ExpressJs]
+2. ORM Wrapper: [ObjectionJs]
+3. ORM: [KnexJs]
 4. Api: [Apollo Graphql]
 
 
-[NodeJs]: https://nodejs.org/docs/latest-v12.x/api/
+[ExpressJs]: https://expressjs.com/
 [ObjectionJs]: https://vincit.github.io/objection.js/guide/getting-started.html
 [KnexJs]: https://knexjs.org/
 [Apollo Graphql]: https://www.apollographql.com/docs/apollo-server/
