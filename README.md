@@ -1,8 +1,7 @@
 
 # Gene Annotatin visualizer
 
-![image](https://user-images.githubusercontent.com/85678384/129558614-c98f3a0f-934b-47a5-be68-3300be8d5139.png)
-
+![image](https://user-images.githubusercontent.com/85678384/129558827-809fbcc0-1011-44d7-8e0e-e4545f56f632.png)
 
 ## First Run of Apollo Universal Starter Kit
 
