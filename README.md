@@ -104,11 +104,12 @@ gene_annotation_visualization
 
 ### Backend
 1. Framework: [ExpressJs]
-2. ORM Wrapper: [ObjectionJs]
-3. ORM: [KnexJs]
+2. ORM: [ObjectionJs]
+3. SQL query builder: [KnexJs]
 4. Api: [Apollo Graphql]
+5. Database: [Mysql]
 
-
+[Mysql]: https://www.mysql.com/
 [ExpressJs]: https://expressjs.com/
 [ObjectionJs]: https://vincit.github.io/objection.js/guide/getting-started.html
 [KnexJs]: https://knexjs.org/
