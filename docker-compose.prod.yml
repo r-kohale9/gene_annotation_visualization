@@ -20,7 +20,7 @@ services:
     command: >
        sh -c '
        NODE_ENV=development yarn &&
-       (test -f prod-db.sqlite3 || yarn seed) &&
+       (test -f prod-db.sqlite3 || yarn seed-prod) &&
        yarn build &&
        yarn start
        '

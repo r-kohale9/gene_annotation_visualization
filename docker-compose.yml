@@ -19,7 +19,7 @@ services:
     command: >
        sh -c '
        yarn &&
-       (test -f dev-db.sqlite3 || yarn seed) &&
+       (test -f dev-db.sqlite3 || yarn seed-dev) &&
        exec yarn watch
        '
     ports:
