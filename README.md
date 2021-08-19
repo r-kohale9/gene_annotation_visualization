@@ -1,6 +1,7 @@
 
-# Gene Annotatin visualizer
+# Gene Annotatin visualizer 
 
+![image](https://user-images.githubusercontent.com/85678384/129559175-f0a86496-be3e-4e66-95e0-8ddb5b682651.png)
 ## First Run of Apollo Universal Starter Kit
 
 Verify if you use Node.js 6.x or higher (Node.js ^10 is recommended) before running the starter kit.
@@ -106,13 +107,14 @@ gene_annotation_visualization
 4. Api Client endpoint: [Apollo Client]
 
 ### Backend
-1. Nodejs: [NodeJs]
-2. Objection.js: [ObjectionJs]
-3. knex.js: [KnexJs]
+1. Framework: [ExpressJs]
+2. ORM: [ObjectionJs]
+3. SQL query builder: [KnexJs]
 4. Api: [Apollo Graphql]
+5. Database: [Mysql]
 
-
-[NodeJs]: https://nodejs.org/docs/latest-v12.x/api/
+[Mysql]: https://www.mysql.com/
+[ExpressJs]: https://expressjs.com/
 [ObjectionJs]: https://vincit.github.io/objection.js/guide/getting-started.html
 [KnexJs]: https://knexjs.org/
 [Apollo Graphql]: https://www.apollographql.com/docs/apollo-server/
