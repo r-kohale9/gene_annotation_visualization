@@ -22,6 +22,7 @@
     "cli": "node tools/cli",
     "stripe:setup": "lerna run --scope=server stripe:setup",
     "seed": "lerna run --scope=server seed --stream",
+    "seed-prod": "cd packages/server/db/ && node cell.js && cp dev-db-Without-cell.sqlite3 dev-db.sqlite3 && sqlite3 dev-db.sqlite3 \".mode csv\" \".import cell.csv cell\" && mv dev-db.sqlite3 ../ && rm -rf cell.csv && cd ../../..",
     "migrate": "lerna run --scope=server migrate",
     "rollback": "lerna run --scope=server rollback",
     "exp": "yarn --cwd packages/mobile exp",
