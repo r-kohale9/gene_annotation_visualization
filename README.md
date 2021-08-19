@@ -24,13 +24,11 @@ For Windows 10:
 * Click the **For Developers** tab
 * In the **Use developer features** window, switch to **Developer Mode**
 
-
-
 If you don't need the ready-made modules, you can also remove them using the [custom CLI].
 
 2. Install the dependencies. Make sure that you use Yarn 1.0.0 or higher.
 
-```
+```bash
 yarn
 ```
 
@@ -39,8 +37,14 @@ Universal project documentation, we'll always use Yarn.
 
 3. Seed sample data to the database. The command below will create new tables with sample data in SQLite:
 
-```
+```bash
 yarn seed
+```
+
+To generate a complete database with all the gene data run:
+
+```bash
+yarn seed-dev
 ```
 
 SQLite is a typical default relational database installed in most Linux distributions including Mac OS X; otherwise,
@@ -48,7 +52,7 @@ consult [SQLite installation guide].
 
 4. Run the project in development mode:
 
-```
+```bash
 yarn watch
 ```
 
@@ -66,7 +70,7 @@ applications.
 The structure is _fractal_ meaning the available functionality is grouped primarily by feature rather than by file type.
 But the current structure isn't prescriptive, and you can change it however you like.
 
-```
+```bash
 gene_annotation_visualization
 ├── config                      # Various application configurations
 ├── docs                        # Documentation
@@ -83,7 +87,7 @@ Inside `modules`, you'll find all the prebuilt modules that this project comes w
 `modules` contains sub-directories with module implementations for different technologies. For example, if you look up
 the module `modules/core`, you'll see the following sub-modules:
 
-```
+```bash
 gene_annotation_visualization
 ├── modules                       # Available packages
 │   ├── core                      # The core module
